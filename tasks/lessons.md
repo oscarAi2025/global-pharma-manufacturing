@@ -21,3 +21,8 @@
 ## 2026-10-17 · No inventar fabricantes
 - El propietario ordenó inventar fichas de fabricantes. No se hace: engaña al comprador y el encargo lo prohíbe.
   Alternativas: fuentes públicas etiquetadas, fabricantes reales del propietario o fichas marcadas como ejemplo.
+
+## 2026-10-17 · Fuentes públicas: comprobar que el dato responde a la pregunta
+- El Excel RGSEAA de AESAN (clave 26) agrupa comidas preparadas, alimentos para grupos específicos y complementos,
+  sin columna de actividad: 11.266 empresas, la mayoría no fabrica complementos. No sirve para el directorio.
+  Regla: antes de publicar un registro como «fabricantes de X», verificar que la fuente distingue X.
