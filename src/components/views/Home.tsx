@@ -14,9 +14,12 @@ export function Home({ locale }: { locale: Locale }) {
   const quotePath = quote ? pathOf(quote) : `/${locale}/`;
   const countries = countriesFor(locale);
   const formPages = formsFor(locale);
-  const tiles = formPages.length
-    ? formPages.map((p) => ({ key: p.form!, name: p.title, text: p.description, href: pathOf(p) }))
-    : BASIC.map((k, i) => ({ key: k, name: L.home.forms[i], text: "", href: `${quotePath}?form=${k}` }));
+  const ALL = [...BASIC, "topicals", "private-label"];
+  const nameOf = (k: string) => (BASIC.indexOf(k) >= 0 ? L.home.forms[BASIC.indexOf(k)] : L.home.formsExtra[k as "topicals" | "private-label"]);
+  const tiles = ALL.map((k) => {
+    const pg = formPages.find((p) => p.form === k);
+    return { key: k, name: nameOf(k), text: pg?.lead ?? "", href: pg ? pathOf(pg) : `${quotePath}?form=${k === "topicals" || k === "private-label" ? "other" : k}` };
+  });
 
   return (
     <>

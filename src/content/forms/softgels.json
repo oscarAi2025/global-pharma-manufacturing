@@ -1,0 +1,210 @@
+{
+  "key": "softgels",
+  "sources": [
+    {"label": "Directive 2002/46/EC on food supplements, Article 2 (copy on legislation.gov.uk)", "url": "https://www.legislation.gov.uk/eudr/2002/46/article/2"},
+    {"label": "Chavarría-Rojas M. et al. Gelatin and non-gelatin soft gel capsules: a review. Journal of Excipients and Food Chemicals 12(2):19–29 (2021), peer-reviewed", "url": "https://jefc.scholasticahq.com/article/25162.pdf"},
+    {"label": "Aenova — Pharmaceutical softgel capsules, white paper (contract manufacturer, general process description)", "url": "https://aenova-group.com/content/Aenova_Whitepaper_Pharmaceutical_Softgel_Capsules.pdf"},
+    {"label": "EMA — Gelatin for use in pharmaceuticals: explanatory note on the TSE note for guidance (EMEA/CPMP/4306/00, 2000)", "url": "https://ema.europa.eu/system/files/documents/scientific-guideline/wc500003721_en.pdf"},
+    {"label": "eCFR — 21 CFR Part 111, CGMP for dietary supplements (§ 111.70 specifications, § 111.75 identity testing)", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111"},
+    {"label": "FDA — ICH Q4B Annex 7(R2): Dissolution Test general chapter (Ph. Eur. 2.9.3, JP 6.10, USP <711>)", "url": "https://fda.gov/media/73122/download"},
+    {"label": "FDA — ICH Q4B Annex 6: Uniformity of Dosage Units general chapter (Ph. Eur. 2.9.40, JP 6.02, USP <905>)", "url": "https://www.fda.gov/files/drugs/published/Q4B-Annex-6--Uniformity-of-Dosage-Units-General-Chapter.pdf"},
+    {"label": "FDA — ICH Q4B Annex 4C: Microbiological examination of non-sterile products, acceptance criteria (Ph. Eur. 5.1.4, JP, USP <1111>)", "url": "https://fda.gov/media/71291/download"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "softgel-contract-manufacturing",
+      "title": "Softgel contract manufacturing",
+      "metaTitle": "Softgel Contract Manufacturing: Shells, Fills, Tests",
+      "description": "Contract manufacturing of softgels: rotary die process, gelatin and plant-based shells, fill limits, rupture and dissolution tests and what to send for a quote.",
+      "lead": "Softgels carry oils, solutions and suspensions in a sealed one-piece shell. Whether your fill is compatible with the shell is the first question any manufacturer will ask; this page explains why and what else it needs to quote.",
+      "body": [
+        {"kind": "h2", "text": "What it is and when it fits"},
+        {"kind": "p", "text": "A softgel (soft capsule) is a plasticised shell, usually gelatin, that is formed, filled and sealed in one continuous operation. It is the natural format for oils and other liquid or semi-solid fills: vegetable oils, medium-chain triglycerides, low-molecular-weight PEGs, non-aqueous suspensions and water-free self-emulsifying systems. One manufacturer's white paper also positions softgels for poorly soluble actives in lipid-based formulations. Capsules are among the dose forms named in the EU [food supplements definition](https://www.legislation.gov.uk/eudr/2002/46/article/2), and softgels are also used for medicines, which follow medicines rules and need a marketing authorisation."},
+        {"kind": "h2", "text": "How it is manufactured"},
+        {"kind": "steps", "items": [
+          {"title": "Prepare the gel mass", "text": "Gelatin, plasticiser (glycerin is the most common, then sorbitol and propylene glycol), water and any colourant or opacifier are dissolved hot; the review notes the gelatin solution is heated above 50 °C."},
+          {"title": "Prepare the fill", "text": "Actives and excipients are mixed into the vehicle; suspensions need a stabiliser such as beeswax, paraffin or high-molecular-weight PEG."},
+          {"title": "Cast the ribbons", "text": "The gel mass is cast on cooling drums into two ribbons, lubricated with oil before the dies. One manufacturer cites a ribbon thickness of 0.6 to 1.1 mm in production."},
+          {"title": "Encapsulate on a rotary die", "text": "The ribbons pass between two counter-rotating dies; a pump injects the fill into the cavities and the dies seal and cut each capsule with heat and pressure."},
+          {"title": "Wash and dry", "text": "Capsules are rinsed to remove lubricant, tumble-dried with air below 35 °C, then tray-dried at 21–24 °C and 20–30% relative humidity for hours to several days, until residual moisture is below 8% by weight."},
+          {"title": "Inspect, test and pack", "text": "Capsules are sorted, cleaned and inspected, tested against specification and packed, often in moisture-barrier packs such as Alu/Alu or Aclar blisters or glass bottles."}
+        ]},
+        {"kind": "h2", "text": "Shell and fill constraints"},
+        {"kind": "list", "items": [
+          "Water in the fill: the review sets fill water content below 5% by weight.",
+          "Temperature: the fill should flow well below 35 °C, and one manufacturer states it should not melt above 35 °C.",
+          "Hydrophilic fills: water-soluble components can migrate between fill and shell and leave capsules brittle or tacky; lipophilic fills generally do not interact with the shell.",
+          "Cross-linking: aldehydes and other reactive groups, plus heat, humidity, UV light and impurities, can cross-link gelatin and slow dissolution.",
+          "pH and salts: gelatin needs a suitable pH range and fills should not be too acidic, to limit gelatin hydrolysis; starch-based shells tolerate alkaline fills and salts better but are a poor barrier to humidity and oxygen.",
+          "Fill size: one manufacturer quotes oral fill volumes from 0.1 mL to 1.2 mL."
+        ]},
+        {"kind": "table", "head": ["Shell option", "What the sources say"], "rows": [
+          ["Bovine or porcine gelatin", "Standard choice; obtained by acid (type A) or alkaline (type B) processing of collagen; kosher or halal certified gelatin is available"],
+          ["Fish gelatin", "Alternative for religious or dietary restrictions, limited by supply and cost"],
+          ["HPMC-based", "Less hygroscopic than gelatin, which reduces moisture transfer to the fill"],
+          ["Starch / carrageenan", "Plant-based; compatible with alkaline fills; weaker moisture and oxygen barrier"]
+        ]},
+        {"kind": "note", "text": "Non-gelatin softgels remain rare in pharmaceutical use, according to the manufacturer white paper. For medicines sold in the EU, gelatin sourcing is also assessed for TSE risk: EMA's explanatory note links acceptable bone sourcing to country risk categories and to the extraction process used."},
+        {"kind": "h2", "text": "Quality tests usually required"},
+        {"kind": "table", "head": ["Test", "Reference", "Note"], "rows": [
+          ["Rupture test", "USP method cited in the review: apparatus 2, 50 rpm, 500 mL", "Capsules should rupture within 15 minutes"],
+          ["Dissolution", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (ICH Q4B Annex 7)", "Enzyme-containing media, used for cross-linked gelatin, fall outside the harmonised text"],
+          ["Uniformity of dosage units", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (ICH Q4B Annex 6)", "Weight variation and content uniformity are standard in-process and release checks"],
+          ["Microbiological quality", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B Annex 4C)", "Acceptance criteria for non-sterile products"],
+          ["Identity, purity, strength, composition", "21 CFR 111.70 for US supplements", "Plus limits on contaminants; for fish oils, ask how oxidation is controlled"]
+        ]},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Intended status (supplement, medicine or other) and the countries of sale",
+          "Full fill formula per capsule: actives, vehicle, antioxidants, and the supplier or grade of each oil",
+          "Fill weight or volume per capsule, size and shape if defined, and capsules per serving",
+          "Shell preference: bovine, porcine or fish gelatin, or plant-based; halal or kosher needs; colour and opacity",
+          "Known sensitivities: oxygen, light, heat, water",
+          "Packaging: bottle or blister type, count per pack",
+          "First order quantity and annual forecast per SKU",
+          "Existing specifications, certificates of analysis or stability data",
+          "Certifications your sales channel requires, target date and delivery destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the softgel; we identify contract manufacturers whose encapsulation lines, shell options and authorisations fit it and coordinate their quotes. It is free for buyers: manufacturers pay us a commission when they win the order. We never share your formula, company details or documents with a manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "Can any liquid go into a softgel?", "a": "No. Fills should be essentially water-free (below 5% water in the cited review), flow below 35 °C and avoid components that migrate into or cross-link the shell. Oils and lipophilic fills are the easiest; hydrophilic fills need more development."},
+        {"q": "Are plant-based softgels available?", "a": "Yes, based on starch with carrageenan or on HPMC, but non-gelatin softgels remain rare in pharmaceutical use and their barrier properties differ from gelatin. Ask for them explicitly so we shortlist manufacturers with that capability."},
+        {"q": "Why does drying matter for the quote?", "a": "Softgels are dried in stages over hours to several days under controlled temperature and humidity until residual moisture is below 8%. That ties up equipment and space, so it affects capacity and lead time."},
+        {"q": "Do softgels need a disintegration test?", "a": "Softgels can be assessed with a rupture test: the review cites a USP method in which capsules should rupture within 15 minutes. Dissolution may also apply, depending on the product and market."},
+        {"q": "What documentation should I expect on the gelatin?", "a": "Ask for the gelatin type and animal source and, for halal or kosher products, the certificates. For medicines sold in the EU, the manufacturer should also be able to document TSE risk control for the gelatin."}
+      ]
+    },
+    "es": {
+      "slug": "fabricacion-capsulas-blandas",
+      "title": "Fabricación de cápsulas blandas (softgels) por contrato",
+      "metaTitle": "Fabricación de cápsulas blandas (softgels) a terceros",
+      "description": "Fabricación por contrato de cápsulas blandas: proceso de matriz rotativa, cubiertas de gelatina o vegetales, límites del contenido, ensayos y qué enviar.",
+      "lead": "Las cápsulas blandas contienen aceites, soluciones y suspensiones en una cubierta sellada de una sola pieza. Lo primero que preguntará cualquier fabricante es si su contenido es compatible con la cubierta; aquí explicamos por qué y qué más necesita para cotizar.",
+      "body": [
+        {"kind": "h2", "text": "Qué es y cuándo conviene"},
+        {"kind": "p", "text": "Una cápsula blanda (softgel) es una cubierta plastificada, normalmente de gelatina, que se forma, se llena y se sella en una única operación continua. Es el formato natural para aceites y otros contenidos líquidos o semisólidos: aceites vegetales, triglicéridos de cadena media, PEG de bajo peso molecular, suspensiones no acuosas y sistemas autoemulsionables sin agua. El documento técnico de un fabricante la recomienda también para activos poco solubles en formulaciones lipídicas. Las cápsulas figuran entre las formas de dosificación de la [definición europea de complemento alimenticio](https://www.legislation.gov.uk/eudr/2002/46/article/2), y las cápsulas blandas se usan también en medicamentos, que siguen las normas del medicamento y requieren autorización de comercialización."},
+        {"kind": "h2", "text": "Cómo se fabrica"},
+        {"kind": "steps", "items": [
+          {"title": "Preparar la masa de gelatina", "text": "Gelatina, plastificante (la glicerina es el más habitual, seguida del sorbitol y el propilenglicol), agua y, si procede, colorante u opacificante se disuelven en caliente; la revisión indica que la solución de gelatina se calienta por encima de 50 °C."},
+          {"title": "Preparar el contenido", "text": "Activos y excipientes se incorporan al vehículo; las suspensiones necesitan un estabilizante como cera de abejas, parafina o PEG de alto peso molecular."},
+          {"title": "Formar las láminas", "text": "La masa se extiende sobre tambores de enfriamiento en dos láminas, que se lubrican con aceite antes de las matrices. Un fabricante indica un espesor de lámina de 0,6 a 1,1 mm en producción."},
+          {"title": "Encapsular en matriz rotativa", "text": "Las láminas pasan entre dos matrices que giran en sentido contrario; una bomba inyecta el contenido en las cavidades y las matrices sellan y cortan cada cápsula con calor y presión."},
+          {"title": "Lavar y secar", "text": "Se lavan para retirar el lubricante, se secan en bombo con aire por debajo de 35 °C y después en bandejas a 21–24 °C y 20–30 % de humedad relativa, durante horas o varios días, hasta una humedad residual inferior al 8 % en peso."},
+          {"title": "Inspeccionar, analizar y envasar", "text": "Se clasifican, limpian e inspeccionan, se analizan frente a la especificación y se envasan, a menudo en envases barrera frente a la humedad como blísteres Alu/Alu o de Aclar o frascos de vidrio."}
+        ]},
+        {"kind": "h2", "text": "Limitaciones de cubierta y contenido"},
+        {"kind": "list", "items": [
+          "Agua en el contenido: la revisión fija un contenido de agua inferior al 5 % en peso.",
+          "Temperatura: el contenido debe fluir bien por debajo de 35 °C, y un fabricante indica que no debe fundir por encima de 35 °C.",
+          "Contenidos hidrófilos: los componentes hidrosolubles pueden migrar entre contenido y cubierta y dejar las cápsulas quebradizas o pegajosas; los lipófilos, en general, no interactúan con la cubierta.",
+          "Reticulación: los aldehídos y otros grupos reactivos, además del calor, la humedad, la luz UV y las impurezas, pueden reticular la gelatina y ralentizar la disolución.",
+          "pH y sales: la gelatina necesita un intervalo de pH adecuado y el contenido no debe ser demasiado ácido, para limitar su hidrólisis; las cubiertas de almidón toleran mejor contenidos alcalinos y sales, pero son peor barrera frente a humedad y oxígeno.",
+          "Tamaño: un fabricante cita volúmenes de llenado orales de 0,1 mL a 1,2 mL."
+        ]},
+        {"kind": "table", "head": ["Opción de cubierta", "Qué dicen las fuentes"], "rows": [
+          ["Gelatina bovina o porcina", "Opción estándar; se obtiene por proceso ácido (tipo A) o alcalino (tipo B) del colágeno; existe gelatina con certificación kosher o halal"],
+          ["Gelatina de pescado", "Alternativa por motivos religiosos o dietéticos, limitada por disponibilidad y coste"],
+          ["Base de HPMC", "Menos higroscópica que la gelatina, lo que reduce la transferencia de humedad al contenido"],
+          ["Almidón / carragenano", "Origen vegetal; compatible con contenidos alcalinos; peor barrera frente a humedad y oxígeno"]
+        ]},
+        {"kind": "note", "text": "Según el documento técnico del fabricante, las cápsulas blandas sin gelatina siguen siendo raras en uso farmacéutico. En medicamentos para la UE, el origen de la gelatina se evalúa además por riesgo de EET: la nota explicativa de la EMA vincula el origen aceptable del hueso a categorías de riesgo por país y al proceso de extracción utilizado."},
+        {"kind": "h2", "text": "Ensayos de calidad habituales"},
+        {"kind": "table", "head": ["Ensayo", "Referencia", "Observación"], "rows": [
+          ["Ensayo de ruptura", "Método USP citado en la revisión: aparato 2, 50 rpm, 500 mL", "Las cápsulas deben romperse en 15 minutos"],
+          ["Disolución", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (ICH Q4B anexo 7)", "Los medios con enzimas, usados para gelatina reticulada, quedan fuera del texto armonizado"],
+          ["Uniformidad de unidades de dosificación", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (ICH Q4B anexo 6)", "Variación de peso y uniformidad de contenido son controles habituales en proceso y en liberación"],
+          ["Calidad microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B anexo 4C)", "Criterios de aceptación para productos no estériles"],
+          ["Identidad, pureza, potencia, composición", "21 CFR 111.70 para suplementos en EE. UU.", "Además de límites de contaminantes; con aceites de pescado, pregunte cómo se controla la oxidación"]
+        ]},
+        {"kind": "h2", "text": "Qué enviar al fabricante para una cotización precisa"},
+        {"kind": "list", "items": [
+          "Estatus previsto (complemento, medicamento u otro) y países de venta",
+          "Fórmula completa del contenido por cápsula: activos, vehículo, antioxidantes y proveedor o calidad de cada aceite",
+          "Peso o volumen de llenado por cápsula, tamaño y forma si están definidos, y cápsulas por toma",
+          "Preferencia de cubierta: gelatina bovina, porcina o de pescado, o vegetal; requisitos halal o kosher; color y opacidad",
+          "Sensibilidades conocidas: oxígeno, luz, calor, agua",
+          "Envase: tipo de frasco o blíster, unidades por envase",
+          "Cantidad del primer pedido y previsión anual por referencia",
+          "Especificaciones, certificados de análisis o datos de estabilidad existentes",
+          "Certificaciones que exige su canal de venta, fecha objetivo y destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Usted describe la cápsula blanda; nosotros identificamos fabricantes por contrato cuyas líneas de encapsulado, opciones de cubierta y autorizaciones encajan y coordinamos sus cotizaciones. Para el comprador es gratuito: el fabricante nos paga una comisión cuando gana el pedido. No compartimos su fórmula, los datos de su empresa ni sus documentos con ningún fabricante sin su permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Cualquier líquido sirve para una cápsula blanda?", "a": "No. El contenido debe ser prácticamente anhidro (menos del 5 % de agua según la revisión citada), fluir por debajo de 35 °C y evitar componentes que migren a la cubierta o la reticulen. Los aceites y contenidos lipófilos son los más sencillos; los hidrófilos requieren más desarrollo."},
+        {"q": "¿Hay cápsulas blandas de origen vegetal?", "a": "Sí, a base de almidón con carragenano o de HPMC, pero las cápsulas blandas sin gelatina siguen siendo raras en uso farmacéutico y su efecto barrera es distinto del de la gelatina. Pídalas expresamente para preseleccionar fabricantes con esa capacidad."},
+        {"q": "¿Por qué el secado influye en la cotización?", "a": "Las cápsulas blandas se secan por etapas durante horas o varios días, con temperatura y humedad controladas, hasta quedar por debajo del 8 % de humedad residual. Eso ocupa equipos y espacio, y afecta a la capacidad y al plazo."},
+        {"q": "¿Necesitan ensayo de disgregación?", "a": "Pueden evaluarse con un ensayo de ruptura: la revisión cita un método USP en el que las cápsulas deben romperse en 15 minutos. Según el producto y el mercado, también puede aplicarse disolución."},
+        {"q": "¿Qué documentación debo esperar sobre la gelatina?", "a": "Pida el tipo de gelatina y su origen animal y, para productos halal o kosher, los certificados. En medicamentos para la UE, el fabricante debe poder documentar además el control del riesgo de EET de la gelatina."}
+      ]
+    },
+    "pt": {
+      "slug": "fabricacao-capsulas-moles",
+      "title": "Fabricação terceirizada de cápsulas moles (softgels)",
+      "metaTitle": "Fabricação terceirizada de cápsulas moles (softgels)",
+      "description": "Fabricação terceirizada de cápsulas moles: processo de matriz rotativa, invólucros de gelatina ou vegetais, limites do conteúdo, testes e o que enviar.",
+      "lead": "Cápsulas moles levam óleos, soluções e suspensões em um invólucro selado de peça única. A primeira pergunta de qualquer fabricante é se o seu conteúdo é compatível com o invólucro; esta página explica por quê e o que mais ele precisa para cotar.",
+      "body": [
+        {"kind": "h2", "text": "O que é e quando faz sentido"},
+        {"kind": "p", "text": "Cápsula mole (softgel) é um invólucro plastificado, geralmente de gelatina, formado, preenchido e selado em uma única operação contínua. É o formato natural para óleos e outros conteúdos líquidos ou semissólidos: óleos vegetais, triglicerídeos de cadeia média, PEGs de baixo peso molecular, suspensões não aquosas e sistemas autoemulsionáveis sem água. O white paper de um fabricante também a indica para ativos pouco solúveis em formulações lipídicas. Cápsulas estão entre as formas de dose da [definição europeia de suplemento alimentar](https://www.legislation.gov.uk/eudr/2002/46/article/2), e as cápsulas moles também são usadas em medicamentos, que seguem as regras de medicamentos e exigem registro."},
+        {"kind": "h2", "text": "Como é fabricada"},
+        {"kind": "steps", "items": [
+          {"title": "Preparar a massa de gelatina", "text": "Gelatina, plastificante (a glicerina é o mais comum, seguida de sorbitol e propilenoglicol), água e, se for o caso, corante ou opacificante são dissolvidos a quente; a revisão indica aquecimento da solução de gelatina acima de 50 °C."},
+          {"title": "Preparar o conteúdo", "text": "Ativos e excipientes são incorporados ao veículo; suspensões precisam de um estabilizante como cera de abelha, parafina ou PEG de alto peso molecular."},
+          {"title": "Formar as fitas", "text": "A massa é espalhada em tambores de resfriamento, formando duas fitas, lubrificadas com óleo antes das matrizes. Um fabricante cita espessura de fita de 0,6 a 1,1 mm em produção."},
+          {"title": "Encapsular em matriz rotativa", "text": "As fitas passam entre duas matrizes que giram em sentidos opostos; uma bomba injeta o conteúdo nas cavidades e as matrizes selam e cortam cada cápsula com calor e pressão."},
+          {"title": "Lavar e secar", "text": "As cápsulas são lavadas para remover o lubrificante, secas em tambor com ar abaixo de 35 °C e depois em bandejas a 21–24 °C e 20–30% de umidade relativa, por horas a vários dias, até umidade residual abaixo de 8% em peso."},
+          {"title": "Inspecionar, analisar e embalar", "text": "As cápsulas são classificadas, limpas e inspecionadas, analisadas contra a especificação e embaladas, muitas vezes em embalagens com barreira à umidade, como blísteres Alu/Alu ou de Aclar, ou frascos de vidro."}
+        ]},
+        {"kind": "h2", "text": "Restrições de invólucro e conteúdo"},
+        {"kind": "list", "items": [
+          "Água no conteúdo: a revisão estabelece teor de água abaixo de 5% em peso.",
+          "Temperatura: o conteúdo deve fluir bem abaixo de 35 °C, e um fabricante afirma que não deve fundir acima de 35 °C.",
+          "Conteúdos hidrofílicos: componentes hidrossolúveis podem migrar entre conteúdo e invólucro e deixar as cápsulas quebradiças ou pegajosas; conteúdos lipofílicos em geral não interagem com o invólucro.",
+          "Reticulação: aldeídos e outros grupos reativos, além de calor, umidade, luz UV e impurezas, podem reticular a gelatina e retardar a dissolução.",
+          "pH e sais: a gelatina exige uma faixa de pH adequada e o conteúdo não deve ser ácido demais, para limitar sua hidrólise; invólucros de amido toleram melhor conteúdos alcalinos e sais, mas são barreira fraca contra umidade e oxigênio.",
+          "Tamanho: um fabricante cita volumes de enchimento orais de 0,1 mL a 1,2 mL."
+        ]},
+        {"kind": "table", "head": ["Opção de invólucro", "O que dizem as fontes"], "rows": [
+          ["Gelatina bovina ou suína", "Opção padrão; obtida por processo ácido (tipo A) ou alcalino (tipo B) do colágeno; há gelatina com certificação kosher ou halal"],
+          ["Gelatina de peixe", "Alternativa por restrições religiosas ou alimentares, limitada por oferta e custo"],
+          ["Base de HPMC", "Menos higroscópica que a gelatina, o que reduz a transferência de umidade ao conteúdo"],
+          ["Amido / carragenina", "Origem vegetal; compatível com conteúdos alcalinos; barreira mais fraca contra umidade e oxigênio"]
+        ]},
+        {"kind": "note", "text": "Segundo o white paper do fabricante, cápsulas moles sem gelatina ainda são raras no uso farmacêutico. Em medicamentos para a UE, a origem da gelatina também é avaliada quanto ao risco de EET: a nota explicativa da EMA vincula a origem aceitável do osso a categorias de risco por país e ao processo de extração utilizado."},
+        {"kind": "h2", "text": "Testes de qualidade normalmente exigidos"},
+        {"kind": "table", "head": ["Teste", "Referência", "Observação"], "rows": [
+          ["Teste de ruptura", "Método USP citado na revisão: aparelho 2, 50 rpm, 500 mL", "As cápsulas devem romper em até 15 minutos"],
+          ["Dissolução", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (ICH Q4B anexo 7)", "Meios com enzimas, usados para gelatina reticulada, ficam fora do texto harmonizado"],
+          ["Uniformidade de doses unitárias", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (ICH Q4B anexo 6)", "Variação de peso e uniformidade de conteúdo são controles usuais em processo e na liberação"],
+          ["Qualidade microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B anexo 4C)", "Critérios de aceitação para produtos não estéreis"],
+          ["Identidade, pureza, potência, composição", "21 CFR 111.70 para suplementos nos EUA", "Além de limites de contaminantes; com óleos de peixe, pergunte como a oxidação é controlada"]
+        ]},
+        {"kind": "h2", "text": "O que enviar ao fabricante para uma cotação precisa"},
+        {"kind": "list", "items": [
+          "Enquadramento pretendido (suplemento, medicamento ou outro) e países de venda",
+          "Fórmula completa do conteúdo por cápsula: ativos, veículo, antioxidantes e fornecedor ou grau de cada óleo",
+          "Peso ou volume de enchimento por cápsula, tamanho e formato se definidos, e cápsulas por porção",
+          "Preferência de invólucro: gelatina bovina, suína ou de peixe, ou vegetal; exigências halal ou kosher; cor e opacidade",
+          "Sensibilidades conhecidas: oxigênio, luz, calor, água",
+          "Embalagem: tipo de frasco ou blíster, unidades por embalagem",
+          "Quantidade do primeiro pedido e previsão anual por SKU",
+          "Especificações, certificados de análise ou dados de estabilidade existentes",
+          "Certificações exigidas pelo seu canal de venda, prazo desejado e local de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve a cápsula mole; nós identificamos fabricantes terceirizados cujas linhas de encapsulamento, opções de invólucro e autorizações se encaixam e coordenamos as cotações. É gratuito para o comprador: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, dados da empresa ou documentos com nenhum fabricante sem a sua permissão."}
+      ],
+      "faqs": [
+        {"q": "Qualquer líquido pode ir para uma cápsula mole?", "a": "Não. O conteúdo deve ser praticamente anidro (menos de 5% de água na revisão citada), fluir abaixo de 35 °C e evitar componentes que migrem para o invólucro ou o reticulem. Óleos e conteúdos lipofílicos são os mais simples; os hidrofílicos exigem mais desenvolvimento."},
+        {"q": "Existem cápsulas moles de origem vegetal?", "a": "Sim, à base de amido com carragenina ou de HPMC, mas cápsulas moles sem gelatina ainda são raras no uso farmacêutico e a barreira é diferente da gelatina. Peça explicitamente para pré-selecionarmos fabricantes com essa capacidade."},
+        {"q": "Por que a secagem pesa na cotação?", "a": "As cápsulas moles secam em etapas, por horas a vários dias, sob temperatura e umidade controladas, até ficarem abaixo de 8% de umidade residual. Isso ocupa equipamentos e espaço e afeta capacidade e prazo."},
+        {"q": "Cápsulas moles precisam de teste de desintegração?", "a": "Elas podem ser avaliadas por um teste de ruptura: a revisão cita um método USP em que as cápsulas devem romper em até 15 minutos. Conforme o produto e o mercado, a dissolução também pode se aplicar."},
+        {"q": "Que documentação devo esperar sobre a gelatina?", "a": "Peça o tipo de gelatina e a origem animal e, para produtos halal ou kosher, os certificados. Em medicamentos para a UE, o fabricante também deve documentar o controle de risco de EET da gelatina."}
+      ]
+    }
+  }
+}

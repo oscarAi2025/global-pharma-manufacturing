@@ -15,6 +15,7 @@ export function Header({ locale, current }: { locale: Locale; current?: PageDoc 
           {site.name}
         </a>
         <nav aria-label="Principal" className="flex flex-wrap items-center gap-x-5 gap-y-1 text-[0.98rem]">
+          <a className="text-ink no-underline hover:underline" href={href(locale, "directory")}>{L.nav.makers}</a>
           <a className="text-ink no-underline hover:underline" href={href(locale, "how")}>{L.nav.how}</a>
           <a className="btn !px-4 !py-2" href={href(locale, "quote")}>{L.nav.quote}</a>
           <LangSwitch locale={locale} current={current} />

@@ -3,7 +3,7 @@ import type { Locale } from "@/config/site";
 /** Textos de interfaz por idioma. Sin cifras, clientes, años ni certificaciones inventadas. */
 export const ui = {
   es: {
-    nav: { how: "Cómo funciona", markets: "Países", quote: "Pedir presupuesto" },
+    nav: { how: "Cómo funciona", markets: "Países", quote: "Pedir presupuesto", makers: "Fabricantes" },
     skip: "Saltar al contenido",
     search: {
       label: "Describe lo que quieres fabricar",
@@ -19,6 +19,14 @@ export const ui = {
       regions: { europe: "Europa", north_america: "Norteamérica", latin_america: "Latinoamérica", asia: "Asia", middle_east: "Oriente Medio", africa: "África", oceania: "Oceanía" },
       servicesNames: { private_label: "Marca propia", formulation: "Desarrollo de fórmula", packaging: "Envasado", export: "Exportación" },
     },
+    dir: {
+      lead: "Capacidades documentadas de los fabricantes con los que trabajamos. Mostramos qué hacen, no quiénes son: los presentamos cuando hay un presupuesto.",
+      filters: "Filtrar", form: "Forma", any: "Todas", country: "País", anyCountry: "Todos", verifiedOnly: "Solo certificaciones verificadas", capacityOnly: "Con capacidad confirmada", search: "Buscar en capacidades",
+      results: (n: number) => `${n} ${n === 1 ? "fabricante" : "fabricantes"}`, verified: "Verificada", declared: "Declarada", capacity: "Capacidad confirmada", agreement: "Trabaja con nosotros",
+      moq: "Pedido mínimo", request: "Pedir presupuesto", none: "Ningún fabricante coincide con estos filtros.",
+      emptyTitle: "Estamos incorporando fabricantes a la red", emptyText: "Todavía no publicamos perfiles: solo mostraremos fabricantes con capacidades documentadas y acuerdo firmado. Mientras tanto, cuéntanos tu proyecto y buscamos por ti.",
+      related: "Otras formas", makers: "Fabricantes con esta capacidad", seeAll: "Ver todos los fabricantes",
+    },
     explore: { title: "Explora por forma farmacéutica", lead: "Qué hace falta para fabricar cada forma y qué debes enviar para recibir un presupuesto comparable." },
     steps: "Del primer mensaje al contrato",
     markets: { title: "Mercados con normativa revisada", authority: "Autoridad" },
@@ -29,6 +37,7 @@ export const ui = {
       free: "Gratis para ti. Sin registro.",
       formsTitle: "Qué se puede fabricar",
       forms: ["Cápsulas duras", "Comprimidos", "Cápsulas blandas (softgels)", "Gominolas (gummies)", "Polvos y sobres", "Líquidos orales"],
+      formsExtra: { topicals: "Cremas y geles", "private-label": "Suplementos de marca propia" },
       formsNote: "Cada fabricante trabaja unas formas y no otras; confirmamos con él antes de presentarte una propuesta.",
       marketsTitle: "Dónde te ayudamos a vender",
       marketsLead: "Cada país tiene sus propias reglas para poner un suplemento en el mercado. Las explicamos con la norma oficial enlazada.",
@@ -69,7 +78,7 @@ export const ui = {
     country: { regulator: "Autoridad", sources: "Normativa citada", reviewed: "Revisado el", cta: "Pide presupuesto para este país", faqs: "Preguntas frecuentes" },
   },
   pt: {
-    nav: { how: "Como funciona", markets: "Países", quote: "Pedir orçamento" },
+    nav: { how: "Como funciona", markets: "Países", quote: "Pedir orçamento", makers: "Fabricantes" },
     skip: "Pular para o conteúdo",
     search: {
       label: "Descreva o que você quer fabricar",
@@ -85,6 +94,14 @@ export const ui = {
       regions: { europe: "Europa", north_america: "América do Norte", latin_america: "América Latina", asia: "Ásia", middle_east: "Oriente Médio", africa: "África", oceania: "Oceania" },
       servicesNames: { private_label: "Marca própria", formulation: "Desenvolvimento de fórmula", packaging: "Embalagem", export: "Exportação" },
     },
+    dir: {
+      lead: "Capacidades documentadas dos fabricantes com quem trabalhamos. Mostramos o que fazem, não quem são: apresentamos quando há um orçamento.",
+      filters: "Filtrar", form: "Forma", any: "Todas", country: "País", anyCountry: "Todos", verifiedOnly: "Só certificações verificadas", capacityOnly: "Com capacidade confirmada", search: "Buscar nas capacidades",
+      results: (n: number) => `${n} ${n === 1 ? "fabricante" : "fabricantes"}`, verified: "Verificada", declared: "Declarada", capacity: "Capacidade confirmada", agreement: "Trabalha conosco",
+      moq: "Lote mínimo", request: "Pedir orçamento", none: "Nenhum fabricante corresponde a estes filtros.",
+      emptyTitle: "Estamos incorporando fabricantes à rede", emptyText: "Ainda não publicamos perfis: só mostraremos fabricantes com capacidades documentadas e acordo assinado. Enquanto isso, conte seu projeto e buscamos para você.",
+      related: "Outras formas", makers: "Fabricantes com esta capacidade", seeAll: "Ver todos os fabricantes",
+    },
     explore: { title: "Explore por forma farmacêutica", lead: "O que é preciso para fabricar cada forma e o que enviar para receber orçamentos comparáveis." },
     steps: "Da primeira mensagem ao contrato",
     markets: { title: "Mercados com normas revisadas", authority: "Autoridade" },
@@ -95,6 +112,7 @@ export const ui = {
       free: "Gratuito para você. Sem cadastro.",
       formsTitle: "O que pode ser fabricado",
       forms: ["Cápsulas duras", "Comprimidos", "Cápsulas moles (softgels)", "Gomas (gummies)", "Pós e sachês", "Líquidos orais"],
+      formsExtra: { topicals: "Cremes e géis", "private-label": "Suplementos de marca própria" },
       formsNote: "Cada fabricante trabalha algumas formas e não outras; confirmamos com ele antes de apresentar uma proposta.",
       marketsTitle: "Onde ajudamos você a vender",
       marketsLead: "Cada país tem regras próprias para colocar um suplemento no mercado. Explicamos com a norma oficial em link.",
@@ -135,7 +153,7 @@ export const ui = {
     country: { regulator: "Autoridade", sources: "Normas citadas", reviewed: "Revisado em", cta: "Peça orçamento para este país", faqs: "Perguntas frequentes" },
   },
   en: {
-    nav: { how: "How it works", markets: "Markets", quote: "Get quotes" },
+    nav: { how: "How it works", markets: "Markets", quote: "Get quotes", makers: "Manufacturers" },
     skip: "Skip to content",
     search: {
       label: "Describe what you need to manufacture",
@@ -151,6 +169,14 @@ export const ui = {
       regions: { europe: "Europe", north_america: "North America", latin_america: "Latin America", asia: "Asia", middle_east: "Middle East", africa: "Africa", oceania: "Oceania" },
       servicesNames: { private_label: "Private label", formulation: "Formulation", packaging: "Packaging", export: "Export" },
     },
+    dir: {
+      lead: "Documented capabilities of the manufacturers we work with. We show what they do, not who they are: we introduce them once there is a quote.",
+      filters: "Filter", form: "Dosage form", any: "All", country: "Country", anyCountry: "All", verifiedOnly: "Verified certifications only", capacityOnly: "Confirmed capacity", search: "Search capabilities",
+      results: (n: number) => `${n} ${n === 1 ? "manufacturer" : "manufacturers"}`, verified: "Verified", declared: "Declared", capacity: "Capacity confirmed", agreement: "Works with us",
+      moq: "Minimum order", request: "Request a quote", none: "No manufacturer matches these filters.",
+      emptyTitle: "We are onboarding manufacturers", emptyText: "We don't publish profiles yet: we will only show manufacturers with documented capabilities and a signed agreement. Meanwhile, tell us about your project and we'll search for you.",
+      related: "Other dosage forms", makers: "Manufacturers with this capability", seeAll: "See all manufacturers",
+    },
     explore: { title: "Explore by dosage form", lead: "What it takes to manufacture each form, and what to send to receive quotes you can compare." },
     steps: "From first message to contract",
     markets: { title: "Markets with reviewed regulations", authority: "Authority" },
@@ -161,6 +187,7 @@ export const ui = {
       free: "Free for you. No sign-up.",
       formsTitle: "What can be manufactured",
       forms: ["Hard capsules", "Tablets", "Softgels", "Gummies", "Powders and sachets", "Oral liquids"],
+      formsExtra: { topicals: "Creams and gels", "private-label": "Private label supplements" },
       formsNote: "Each manufacturer works with some dosage forms and not others; we confirm with them before presenting a proposal.",
       marketsTitle: "Where we help you sell",
       marketsLead: "Every country has its own rules for placing a supplement on the market. We explain them with the official regulation linked.",

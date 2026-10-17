@@ -12,7 +12,16 @@ const fileSchema = z.object({
   locales: z.object({ en: localeSchema, es: localeSchema, pt: localeSchema }),
 });
 
-const files: unknown[] = [];
+import tablets from "./tablets.json";
+import capsules from "./capsules.json";
+import softgels from "./softgels.json";
+import gummies from "./gummies.json";
+import powders from "./powders.json";
+import liquids from "./liquids.json";
+import topicals from "./topicals.json";
+import privateLabel from "./private-label.json";
+
+const files: unknown[] = [capsules, tablets, softgels, gummies, powders, liquids, topicals, privateLabel];
 
 const PREFIX = { en: "manufacturing", es: "fabricacion", pt: "fabricacao" } as const;
 

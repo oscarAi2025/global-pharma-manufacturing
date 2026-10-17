@@ -120,3 +120,24 @@
 
   .pledge { @apply border-l-4 border-teal pl-6; }
 }
+
+@layer components {
+  .tile-text { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .tile { transition: background-color .15s ease, transform .15s ease; }
+  .tile:hover { transform: translateY(-2px); }
+  .btn:active { transform: translateY(1px); }
+  .dir-empty { @apply flex flex-col items-start gap-6 border border-rule bg-sheet p-8 sm:flex-row; }
+  .dir-filters { @apply self-start border border-rule bg-sheet p-5 lg:sticky lg:top-6; }
+  .dir-input { @apply mt-1 block w-full rounded-[3px] border border-rule bg-paper px-2 py-1.5; }
+  .dir-chip { @apply rounded-full border border-rule bg-paper px-3 py-1 text-sm transition-colors; }
+  .dir-chip[aria-pressed="true"] { @apply border-teal text-ink; background: var(--teal-soft); }
+  .dir-grid { @apply grid gap-4 md:grid-cols-2; }
+  .maker { @apply flex flex-col border border-rule bg-sheet p-5 transition-shadow; border-top: 4px solid var(--teal); }
+  .maker:hover { box-shadow: 0 18px 40px -30px rgba(19, 34, 43, .6); }
+  .maker-code { @apply font-bold; font-stretch: 78%; font-size: 1.2rem; }
+  .maker-country { @apply text-sm text-muted; }
+  .maker-form { @apply flex h-10 w-10 items-center justify-center rounded-full border border-rule bg-sheet; }
+  .maker-badge { @apply rounded-[3px] border border-rule bg-paper px-2 py-0.5 text-xs font-semibold; }
+  .maker-badge.is-verified { @apply border-teal; background: var(--teal-soft); }
+  @media (prefers-reduced-motion: reduce) { .tile:hover { transform: none; } }
+}

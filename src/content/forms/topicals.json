@@ -1,0 +1,192 @@
+{
+  "key": "topicals",
+  "sources": [
+    {"label": "FDA — Is It a Cosmetic, a Drug, or Both? (Or Is It Soap?)", "url": "https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap"},
+    {"label": "Regulation (EC) No 1223/2009 on cosmetic products (EUR-Lex)", "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj?locale=en"},
+    {"label": "Regulation (EC) No 1223/2009, Annex I — Cosmetic product safety report (copy on legislation.gov.uk)", "url": "https://legislation.gov.uk/cy/eur/2009/1223/annex/I?view=plain"},
+    {"label": "ISO 22716:2007 Cosmetics — Good Manufacturing Practices (ISO)", "url": "https://www.iso.org/standard/36437.html"},
+    {"label": "ISO 11930:2019 Cosmetics — Microbiology — Evaluation of the antimicrobial protection of a cosmetic product (ISO)", "url": "https://www.iso.org/standard/75058.html"},
+    {"label": "FDA — Guide to Inspections of Topical Drug Products", "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/topical-drug-products-794"},
+    {"label": "USP <3> Topical and transdermal drug products — product quality tests (USP 38 text, third-party reproduction by DrugFuture)", "url": "https://www.drugfuture.com/Pharmacopoeia/usp38/data/v38332/usp38nf33s2_c3.html"},
+    {"label": "USP <1111> Microbiological examination of nonsterile products: acceptance criteria (USP 35 text, third-party reproduction by DrugFuture)", "url": "https://www.drugfuture.com/Pharmacopoeia/USP35/data/v35300/usp35nf30s0_c1111.html"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "cream-gel-contract-manufacturing",
+      "title": "Cream, ointment and gel contract manufacturing",
+      "metaTitle": "Cream, Ointment & Gel Contract Manufacturing | Quotes",
+      "description": "Contract manufacturing of creams, ointments and gels as cosmetics or medicines: regulatory route, process, preservation, quality tests and quote checklist.",
+      "lead": "A cream can be a cosmetic, a medicine or both, and that decision sets the factory, the documentation and the tests. Start there, then look at process, preservation and what to send for a quote.",
+      "body": [
+        {"kind": "h2", "text": "Cosmetic, medicine or both"},
+        {"kind": "p", "text": "In the US, status depends on intended use, shown by label claims, advertising and even well-known therapeutic ingredients. A product meant to cleanse or beautify is a cosmetic; one meant to treat or prevent disease, or to affect the structure or function of the body, is a drug. Some products are both, such as an antidandruff shampoo or a moisturiser with sun-protection claims, and must meet both sets of rules: the drug side generally needs an approved application or conformity with an OTC monograph, manufacture under 21 CFR parts 210 and 211, and establishment registration and listing ([FDA](https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap))."},
+        {"kind": "p", "text": "In the EU, [Regulation (EC) No 1223/2009](https://eur-lex.europa.eu/eli/reg/2009/1223/oj?locale=en) defines a cosmetic as a substance or mixture intended to be placed in contact with the external parts of the human body for purposes such as cleaning or protecting. Every product needs a responsible person established in the EU, a safety report prepared under Annex I before it is placed on the market, a product information file kept for ten years after the last batch is placed on the market and an electronic notification before launch. Compliance with GMP is presumed when manufacture follows the relevant harmonised standards; [ISO 22716](https://www.iso.org/standard/36437.html) is the international GMP guideline for the production, control, storage and shipment of cosmetics."},
+        {"kind": "h2", "text": "How it is manufactured"},
+        {"kind": "steps", "items": [
+          {"title": "Prepare water and raw materials", "text": "Water quality is a known weak point: FDA notes that deionisers are usually excellent breeding areas for microorganisms and that counts rise as service intervals get longer."},
+          {"title": "Heat and mix as the formula requires", "text": "Heat is often applied to facilitate mixing and filling, and high-energy mixers generate heat themselves; excessive temperatures can degrade the product or change insoluble ingredients."},
+          {"title": "Control uniformity in the vessel", "text": "Mixer walls must be scraped well and dead spots managed, because material left on the walls can make the batch non-uniform."},
+          {"title": "Fill tubes, jars or pumps", "text": "Products with suspended solids often need constant mixing during filling, and the bulk should not drop below the level at which it can still be mixed properly near the end of the run."},
+          {"title": "Test, release and clean", "text": "The batch is tested against its specification before release. Insoluble ingredients make vessels, pipes and hoses hard to clean, so some plants dedicate transfer lines to specific products."}
+        ]},
+        {"kind": "h2", "text": "Formulation and process constraints"},
+        {"kind": "list", "items": [
+          "Preservation: for cosmetics, [ISO 11930](https://www.iso.org/standard/75058.html) sets a preservation efficacy test and the criteria for judging overall antimicrobial protection; it is designed mainly for water-soluble or water-miscible products and does not apply to products shown to be low risk under ISO 29621. The EU safety report must include the results of the preservation challenge test.",
+          "Preservative content: for topical medicines, the specified preservative level must be confirmed before release and preservative effectiveness monitored in the ongoing stability programme (FDA).",
+          "Microbial limits for topical medicines: cutaneous preparations are held to TAMC 10² CFU/g, TYMC 10¹ CFU/g and absence of Staphylococcus aureus and Pseudomonas aeruginosa in 1 g or 1 mL (USP <1111>).",
+          "Particle size: it affects how physically irritating the product can be on application, so suspended solids need a specification.",
+          "Physical stability: semisolids may separate during manufacture, which is why USP <3> includes uniformity in containers and apparent viscosity at release.",
+          "Shelf-life labelling for EU cosmetics: a date of minimum durability is required unless durability exceeds 30 months, in which case the period after opening is shown instead where relevant."
+        ]},
+        {"kind": "h2", "text": "Quality tests typically required"},
+        {"kind": "table", "head": ["Area", "Cosmetic (EU)", "Topical medicine"], "rows": [
+          ["Composition and identity", "Quantitative and qualitative composition (Annex I, item 1)", "Description, identification, stability-indicating assay (USP <3>)"],
+          ["Impurities and packaging", "Impurities, traces and packaging material information (Annex I, item 4)", "Process impurities and synthetic by-products (USP <3>)"],
+          ["Physical and chemical properties", "Physical/chemical characteristics and stability (Annex I, item 2)", "pH and apparent viscosity at release; uniformity in containers; particle size where relevant (USP <3>)"],
+          ["Microbiology", "Microbiological quality, including challenge test results (Annex I, item 3); ISO 11930", "Microbial limits unless the formula is shown to be antimicrobial; preservative and antioxidant content (USP <3>, USP <1111>)"],
+          ["Manufacturing standard", "GMP presumed via harmonised standards (Art. 8); ISO 22716", "21 CFR parts 210 and 211 in the US"]
+        ]},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Intended status (cosmetic, medicine or both) and the countries where it will be sold",
+          "Product type: cream, lotion, ointment or gel, plus the claims you intend to make",
+          "Full formula or a reference product, with any ingredients you want to avoid",
+          "Active ingredients and their concentrations, if any",
+          "Pack: tube, jar, airless pump or other; size; material; decoration",
+          "Quantity for the first order and an annual forecast",
+          "Existing safety report, specifications, stability or challenge test data, if any",
+          "Who will act as responsible person or marketing authorisation holder",
+          "Artwork status and target launch date",
+          "Delivery destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the product; we look for contract manufacturers whose capabilities match it and coordinate their quotes. The service is free for buyers: manufacturers pay us a commission when they win the order. We do not share your formula, company details or documents with any manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "How do I know whether my cream is a cosmetic or a medicine?", "a": "Look at what you claim. In the US, claims to treat or prevent disease or to affect the structure or function of the body make a product a drug even if it is sold as a cosmetic. Under EU law a cosmetic is defined by contact with the external parts of the body and purposes such as cleaning or protecting. When in doubt, decide the claims first and check them with a regulatory adviser in each target market."},
+        {"q": "What is a challenge test?", "a": "A preservation efficacy test: the product is deliberately contaminated with test microorganisms to show that its preservation protects it. For cosmetics, ISO 11930 is the reference method and the EU safety report must include the results. For topical medicines, FDA expects preservative effectiveness to be monitored in the ongoing stability programme."},
+        {"q": "Who is the responsible person in the EU?", "a": "A legal or natural person established in the EU, designated for each cosmetic product. If you import into the EU, the importer is the responsible person for the products it imports. The role carries the safety report, product information file and notification duties."},
+        {"q": "Do I need a period-after-opening symbol?", "a": "Under the EU regulation, products with a minimum durability of 30 months or less carry a date of minimum durability; products that last longer carry the period after opening, where that concept applies."},
+        {"q": "Will manufacturers see my formula before I agree?", "a": "No. We share your brief, formula and documents with a manufacturer only with your permission."}
+      ]
+    },
+    "es": {
+      "slug": "fabricacion-cremas-geles",
+      "title": "Fabricación por contrato de cremas, pomadas y geles",
+      "metaTitle": "Fabricación de cremas, pomadas y geles | Maquila",
+      "description": "Fabricación por contrato de cremas, pomadas y geles como cosméticos o medicamentos: vía regulatoria, proceso, conservación, controles y qué enviar.",
+      "lead": "Una crema puede ser cosmético, medicamento o ambas cosas, y esa decisión determina la fábrica, la documentación y los ensayos. Empieza por ahí y después revisa el proceso, la conservación y qué enviar para cotizar.",
+      "body": [
+        {"kind": "h2", "text": "Cosmético, medicamento o ambos"},
+        {"kind": "p", "text": "En EE. UU., la categoría depende del uso previsto, que se deduce de las declaraciones del etiquetado, la publicidad e incluso de ingredientes terapéuticos conocidos. Un producto para limpiar o embellecer es cosmético; uno para tratar o prevenir enfermedades, o para modificar la estructura o función del cuerpo, es medicamento. Algunos son ambas cosas, como un champú anticaspa o una crema hidratante con declaración de protección solar, y deben cumplir los dos regímenes: la parte de medicamento suele requerir una solicitud aprobada o ajustarse a una monografía OTC, fabricarse según 21 CFR partes 210 y 211, y registrar el establecimiento y listar el producto ([FDA](https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap))."},
+        {"kind": "p", "text": "En la UE, el [Reglamento (CE) n.º 1223/2009](https://eur-lex.europa.eu/eli/reg/2009/1223/oj?locale=en) define el producto cosmético como una sustancia o mezcla destinada a entrar en contacto con las partes externas del cuerpo humano con fines como limpiar o proteger. Cada producto necesita una persona responsable establecida en la UE, un informe de seguridad elaborado según el Anexo I antes de su comercialización, un expediente de información del producto que se conserva diez años después de comercializar el último lote y una notificación electrónica previa al lanzamiento. Se presume el cumplimiento de las buenas prácticas de fabricación cuando se siguen las normas armonizadas pertinentes; [ISO 22716](https://www.iso.org/standard/36437.html) es la guía internacional de GMP para la producción, el control, el almacenamiento y la expedición de cosméticos."},
+        {"kind": "h2", "text": "Cómo se fabrica"},
+        {"kind": "steps", "items": [
+          {"title": "Preparar agua y materias primas", "text": "La calidad del agua es un punto débil conocido: la FDA señala que los desionizadores suelen ser excelentes zonas de proliferación microbiana y que los recuentos aumentan cuanto más se alargan los intervalos de mantenimiento."},
+          {"title": "Calentar y mezclar según la fórmula", "text": "A menudo se aplica calor para facilitar la mezcla y el llenado, y los mezcladores de alta energía también lo generan; las temperaturas excesivas pueden degradar el producto o alterar los ingredientes insolubles."},
+          {"title": "Controlar la uniformidad en el reactor", "text": "Las paredes del mezclador deben rasparse bien y las zonas muertas deben gestionarse, porque el material que queda en las paredes puede hacer que el lote no sea uniforme."},
+          {"title": "Llenar tubos, tarros o dosificadores", "text": "Los productos con sólidos en suspensión suelen necesitar mezcla constante durante el llenado, y al final del lote el granel no debe bajar del nivel en que todavía puede mezclarse correctamente."},
+          {"title": "Analizar, liberar y limpiar", "text": "El lote se analiza frente a su especificación antes de liberarse. Los ingredientes insolubles dificultan la limpieza de reactores, tuberías y mangueras, por lo que algunas plantas dedican líneas de trasvase a productos concretos."}
+        ]},
+        {"kind": "h2", "text": "Limitaciones de formulación y proceso"},
+        {"kind": "list", "items": [
+          "Conservación: en cosméticos, la [ISO 11930](https://www.iso.org/standard/75058.html) establece un ensayo de eficacia de la conservación y los criterios para valorar la protección antimicrobiana global; está pensada sobre todo para productos hidrosolubles o miscibles con agua y no se aplica a productos de bajo riesgo según la ISO 29621. El informe de seguridad de la UE debe incluir los resultados del ensayo de desafío.",
+          "Contenido de conservante: en medicamentos tópicos, el nivel especificado de conservante debe confirmarse antes de liberar y su eficacia vigilarse en el programa de estabilidad continuo (FDA).",
+          "Límites microbianos para medicamentos tópicos: las preparaciones de uso cutáneo deben cumplir TAMC 10² UFC/g, TYMC 10¹ UFC/g y ausencia de Staphylococcus aureus y Pseudomonas aeruginosa en 1 g o 1 mL (USP <1111>).",
+          "Tamaño de partícula: influye en lo irritante que puede resultar el producto al aplicarlo, así que los sólidos en suspensión necesitan especificación.",
+          "Estabilidad física: los semisólidos pueden separarse durante la fabricación; por eso la USP <3> incluye la uniformidad en el envase y la viscosidad aparente al liberar.",
+          "Etiquetado de vida útil en cosméticos de la UE: se exige fecha de duración mínima salvo que esta supere los 30 meses, en cuyo caso se indica el periodo después de apertura cuando procede."
+        ]},
+        {"kind": "h2", "text": "Controles de calidad habituales"},
+        {"kind": "table", "head": ["Ámbito", "Cosmético (UE)", "Medicamento tópico"], "rows": [
+          ["Composición e identidad", "Composición cuantitativa y cualitativa (Anexo I, punto 1)", "Descripción, identificación y valoración indicadora de estabilidad (USP <3>)"],
+          ["Impurezas y envase", "Impurezas, trazas e información sobre el material de envasado (Anexo I, punto 4)", "Impurezas de proceso y subproductos de síntesis (USP <3>)"],
+          ["Propiedades físicas y químicas", "Características fisicoquímicas y estabilidad (Anexo I, punto 2)", "pH y viscosidad aparente al liberar; uniformidad en el envase; tamaño de partícula si procede (USP <3>)"],
+          ["Microbiología", "Calidad microbiológica, incluidos los resultados del ensayo de desafío (Anexo I, punto 3); ISO 11930", "Límites microbianos salvo que se demuestre que la fórmula es antimicrobiana; contenido de conservante y antioxidante (USP <3>, USP <1111>)"],
+          ["Norma de fabricación", "GMP presumidas mediante normas armonizadas (art. 8); ISO 22716", "21 CFR partes 210 y 211 en EE. UU."]
+        ]},
+        {"kind": "h2", "text": "Qué enviar al fabricante para un presupuesto preciso"},
+        {"kind": "list", "items": [
+          "Categoría prevista (cosmético, medicamento o ambos) y países de venta",
+          "Tipo de producto: crema, loción, pomada o gel, y las declaraciones que piensas hacer",
+          "Fórmula completa o producto de referencia, con los ingredientes que quieras evitar",
+          "Principios activos y sus concentraciones, si los hay",
+          "Envase: tubo, tarro, airless u otro; tamaño; material; decoración",
+          "Cantidad del primer pedido y previsión anual",
+          "Informe de seguridad, especificaciones, datos de estabilidad o de ensayo de desafío existentes, si los hay",
+          "Quién actuará como persona responsable o titular de la autorización de comercialización",
+          "Estado de los artes y fecha prevista de lanzamiento",
+          "Destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Tú describes el producto; nosotros buscamos fabricantes por contrato cuyas capacidades encajan y coordinamos sus presupuestos. Para el comprador es gratis: el fabricante nos paga una comisión cuando consigue el pedido. No compartimos tu fórmula, los datos de tu empresa ni tus documentos con ningún fabricante sin tu permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Cómo sé si mi crema es cosmético o medicamento?", "a": "Mira lo que declaras. En EE. UU., declarar que trata o previene una enfermedad o que modifica la estructura o función del cuerpo convierte el producto en medicamento aunque se venda como cosmético. En la UE, el cosmético se define por el contacto con las partes externas del cuerpo y fines como limpiar o proteger. Si hay dudas, decide primero las declaraciones y valídalas con un asesor regulatorio en cada mercado."},
+        {"q": "¿Qué es un ensayo de desafío?", "a": "Un ensayo de eficacia de la conservación: se contamina el producto a propósito con microorganismos de prueba para demostrar que su conservación lo protege. En cosméticos, la referencia es la ISO 11930 y el informe de seguridad de la UE debe incluir los resultados. En medicamentos tópicos, la FDA espera que la eficacia del conservante se vigile en el programa de estabilidad continuo."},
+        {"q": "¿Quién es la persona responsable en la UE?", "a": "Una persona física o jurídica establecida en la UE, designada para cada producto cosmético. Si importas a la UE, el importador es la persona responsable de los productos que importa. La figura asume el informe de seguridad, el expediente de información del producto y la notificación."},
+        {"q": "¿Necesito el símbolo de periodo después de apertura?", "a": "Según el reglamento de la UE, los productos con una duración mínima de 30 meses o menos llevan fecha de duración mínima; los que duran más llevan el periodo después de apertura, cuando ese concepto es aplicable."},
+        {"q": "¿Verán los fabricantes mi fórmula antes de que yo acepte?", "a": "No. Solo compartimos tu solicitud, tu fórmula y tus documentos con un fabricante si tú lo autorizas."}
+      ]
+    },
+    "pt": {
+      "slug": "fabricacao-cremes-geis",
+      "title": "Fabricação terceirizada de cremes, pomadas e géis",
+      "metaTitle": "Fabricação de cremes, pomadas e géis | Terceirização",
+      "description": "Fabricação terceirizada de cremes, pomadas e géis como cosméticos ou medicamentos: rota regulatória, processo, conservação, controles e o que enviar.",
+      "lead": "Um creme pode ser cosmético, medicamento ou os dois, e essa decisão define a fábrica, a documentação e os ensaios. Comece por aí e depois veja processo, conservação e o que enviar para orçamento.",
+      "body": [
+        {"kind": "h2", "text": "Cosmético, medicamento ou ambos"},
+        {"kind": "p", "text": "Nos EUA, a categoria depende do uso pretendido, evidenciado por alegações de rotulagem, publicidade e até por ingredientes terapêuticos conhecidos. Um produto para limpar ou embelezar é cosmético; um para tratar ou prevenir doenças, ou para afetar a estrutura ou função do corpo, é medicamento. Alguns são as duas coisas, como um xampu anticaspa ou um hidratante com alegação de proteção solar, e precisam cumprir os dois regimes: a parte de medicamento em geral exige pedido aprovado ou conformidade com uma monografia OTC, fabricação conforme 21 CFR partes 210 e 211, e registro do estabelecimento e listagem do produto ([FDA](https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap))."},
+        {"kind": "p", "text": "Na UE, o [Regulamento (CE) n.º 1223/2009](https://eur-lex.europa.eu/eli/reg/2009/1223/oj?locale=en) define produto cosmético como substância ou mistura destinada a entrar em contato com as partes externas do corpo humano com finalidades como limpar ou proteger. Cada produto precisa de uma pessoa responsável estabelecida na UE, de um relatório de segurança elaborado conforme o Anexo I antes da colocação no mercado, de um arquivo de informações do produto mantido por dez anos após a colocação do último lote no mercado e de uma notificação eletrônica antes do lançamento. Presume-se o cumprimento das BPF quando a fabricação segue as normas harmonizadas pertinentes; a [ISO 22716](https://www.iso.org/standard/36437.html) é a diretriz internacional de BPF para produção, controle, armazenamento e expedição de cosméticos."},
+        {"kind": "h2", "text": "Como é fabricado"},
+        {"kind": "steps", "items": [
+          {"title": "Preparar água e matérias-primas", "text": "A qualidade da água é um ponto fraco conhecido: a FDA observa que deionizadores costumam ser ótimos locais de proliferação microbiana e que as contagens sobem conforme os intervalos de manutenção aumentam."},
+          {"title": "Aquecer e misturar conforme a fórmula", "text": "O calor é usado com frequência para facilitar mistura e envase, e misturadores de alta energia também geram calor; temperaturas excessivas podem degradar o produto ou alterar ingredientes insolúveis."},
+          {"title": "Controlar a uniformidade no tanque", "text": "As paredes do misturador devem ser bem raspadas e as zonas mortas controladas, porque o material que fica nas paredes pode deixar o lote não uniforme."},
+          {"title": "Envasar em bisnagas, potes ou válvulas", "text": "Produtos com sólidos em suspensão costumam exigir mistura constante durante o envase, e no fim do lote o granel não deve ficar abaixo do nível em que ainda pode ser misturado corretamente."},
+          {"title": "Analisar, liberar e limpar", "text": "O lote é analisado contra sua especificação antes da liberação. Ingredientes insolúveis dificultam a limpeza de tanques, tubulações e mangueiras, por isso algumas plantas dedicam linhas de transferência a produtos específicos."}
+        ]},
+        {"kind": "h2", "text": "Limitações de formulação e processo"},
+        {"kind": "list", "items": [
+          "Conservação: em cosméticos, a [ISO 11930](https://www.iso.org/standard/75058.html) estabelece um teste de eficácia de conservação e os critérios para avaliar a proteção antimicrobiana global; foi pensada sobretudo para produtos hidrossolúveis ou miscíveis em água e não se aplica a produtos de baixo risco pela ISO 29621. O relatório de segurança da UE deve incluir os resultados do teste de desafio.",
+          "Teor de conservante: em medicamentos tópicos, o nível especificado de conservante deve ser confirmado antes da liberação e a eficácia acompanhada no programa contínuo de estabilidade (FDA).",
+          "Limites microbianos para medicamentos tópicos: preparações de uso cutâneo devem atender TAMC 10² UFC/g, TYMC 10¹ UFC/g e ausência de Staphylococcus aureus e Pseudomonas aeruginosa em 1 g ou 1 mL (USP <1111>).",
+          "Tamanho de partícula: influencia o quanto o produto pode irritar fisicamente na aplicação, então sólidos em suspensão precisam de especificação.",
+          "Estabilidade física: semissólidos podem separar durante a fabricação; por isso a USP <3> inclui uniformidade na embalagem e viscosidade aparente na liberação.",
+          "Rotulagem de validade em cosméticos na UE: exige-se data de durabilidade mínima, salvo quando esta passa de 30 meses; nesse caso indica-se o período após abertura, quando aplicável."
+        ]},
+        {"kind": "h2", "text": "Controles de qualidade mais comuns"},
+        {"kind": "table", "head": ["Área", "Cosmético (UE)", "Medicamento tópico"], "rows": [
+          ["Composição e identidade", "Composição quantitativa e qualitativa (Anexo I, item 1)", "Descrição, identificação e doseamento indicativo de estabilidade (USP <3>)"],
+          ["Impurezas e embalagem", "Impurezas, traços e informações sobre o material de embalagem (Anexo I, item 4)", "Impurezas de processo e subprodutos de síntese (USP <3>)"],
+          ["Propriedades físicas e químicas", "Características físico-químicas e estabilidade (Anexo I, item 2)", "pH e viscosidade aparente na liberação; uniformidade na embalagem; tamanho de partícula quando relevante (USP <3>)"],
+          ["Microbiologia", "Qualidade microbiológica, incluindo resultados do teste de desafio (Anexo I, item 3); ISO 11930", "Limites microbianos, salvo se a fórmula se mostrar antimicrobiana; teor de conservante e antioxidante (USP <3>, USP <1111>)"],
+          ["Norma de fabricação", "BPF presumidas por normas harmonizadas (art. 8); ISO 22716", "21 CFR partes 210 e 211 nos EUA"]
+        ]},
+        {"kind": "h2", "text": "O que enviar ao fabricante para um orçamento preciso"},
+        {"kind": "list", "items": [
+          "Categoria pretendida (cosmético, medicamento ou ambos) e países de venda",
+          "Tipo de produto: creme, loção, pomada ou gel, e as alegações que você pretende fazer",
+          "Fórmula completa ou produto de referência, com os ingredientes que deseja evitar",
+          "Ativos e suas concentrações, se houver",
+          "Embalagem: bisnaga, pote, airless ou outra; tamanho; material; decoração",
+          "Quantidade do primeiro pedido e previsão anual",
+          "Relatório de segurança, especificações, dados de estabilidade ou de teste de desafio existentes, se houver",
+          "Quem atuará como pessoa responsável ou detentor do registro",
+          "Situação da arte e data prevista de lançamento",
+          "Destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve o produto; nós procuramos fabricantes terceirizados com capacidade compatível e coordenamos os orçamentos. Para o comprador é gratuito: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, os dados da sua empresa nem seus documentos com nenhum fabricante sem a sua autorização."}
+      ],
+      "faqs": [
+        {"q": "Como sei se meu creme é cosmético ou medicamento?", "a": "Veja o que você alega. Nos EUA, alegar que trata ou previne doença ou que afeta a estrutura ou função do corpo torna o produto medicamento, mesmo vendido como cosmético. Na UE, cosmético é definido pelo contato com as partes externas do corpo e por finalidades como limpar ou proteger. Na dúvida, defina primeiro as alegações e valide-as com um consultor regulatório em cada mercado."},
+        {"q": "O que é teste de desafio?", "a": "Um teste de eficácia de conservação: o produto é contaminado de propósito com microrganismos de teste para mostrar que a conservação o protege. Em cosméticos, a referência é a ISO 11930 e o relatório de segurança da UE deve incluir os resultados. Em medicamentos tópicos, a FDA espera que a eficácia do conservante seja acompanhada no programa contínuo de estabilidade."},
+        {"q": "Quem é a pessoa responsável na UE?", "a": "Uma pessoa física ou jurídica estabelecida na UE, designada para cada produto cosmético. Se você importa para a UE, o importador é a pessoa responsável pelos produtos que importa. O papel envolve o relatório de segurança, o arquivo de informações do produto e a notificação."},
+        {"q": "Preciso do símbolo de período após abertura?", "a": "Pelo regulamento da UE, produtos com durabilidade mínima de 30 meses ou menos trazem data de durabilidade mínima; os que duram mais trazem o período após abertura, quando esse conceito se aplica."},
+        {"q": "Os fabricantes verão minha fórmula antes de eu concordar?", "a": "Não. Só compartilhamos sua solicitação, fórmula e documentos com um fabricante se você autorizar."}
+      ]
+    }
+  }
+}

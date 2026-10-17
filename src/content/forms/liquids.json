@@ -1,0 +1,213 @@
+{
+  "key": "liquids",
+  "sources": [
+    {"label": "FDA — Guide to Inspections: Oral Solutions and Suspensions", "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/oral-solutions-and-suspensions-894"},
+    {"label": "USP <51> Antimicrobial Effectiveness Testing (USP 32 text, third-party reproduction by DrugFuture)", "url": "https://www.drugfuture.com/pharmacopoeia/usp32/pub/data/v32270/usp32nf27s0_c51.html"},
+    {"label": "USP <1111> Microbiological examination of nonsterile products: acceptance criteria (USP 35 text, third-party reproduction by DrugFuture)", "url": "https://www.drugfuture.com/Pharmacopoeia/USP35/data/v35300/usp35nf30s0_c1111.html"},
+    {"label": "FDA — ICH Q4B Annex 4C(R1): microbial acceptance criteria texts (Ph. Eur. 5.1.4, JP, USP <1111>), September 2017", "url": "https://fda.gov/media/71291/download"},
+    {"label": "EMA — ICH Q1A(R2) Stability testing of new drug substances and products", "url": "https://www.ema.europa.eu/system/files/documents/scientific-guideline/wc500002651_en.pdf"},
+    {"label": "RAPS — ICH releases overhauled stability guideline for consultation (April 2025)", "url": "https://www.raps.org/resource/ich-releases-overhauled-stability-guideline-for-co.html"},
+    {"label": "Directive 2002/46/EC on food supplements, Article 2 (copy on legislation.gov.uk)", "url": "https://www.legislation.gov.uk/eudr/2002/46/article/2"},
+    {"label": "FDA — Small Entity Compliance Guide: CGMP for dietary supplements (21 CFR Part 111)", "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-current-good-manufacturing-practice-manufacturing-packaging-labeling"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "oral-liquid-contract-manufacturing",
+      "title": "Oral liquid contract manufacturing: syrups, solutions, drops and shots",
+      "metaTitle": "Oral Liquid Contract Manufacturing | Syrups, Drops, Shots",
+      "description": "Contract manufacturing of syrups, oral solutions, drops and shots: process steps, preservation and microbial limits, stability and what to send for a quote.",
+      "lead": "Oral liquids fail for predictable reasons: ingredients that never fully dissolve, weak preservation, segregation in suspensions or water lost through the pack. Here is how they are made, which tests apply and what a manufacturer needs to quote.",
+      "body": [
+        {"kind": "h2", "text": "What it is and when it fits"},
+        {"kind": "p", "text": "This route covers syrups, oral solutions and suspensions, drops and single-dose shots or vials. In the EU, the food supplement definition in [Directive 2002/46/EC](https://www.legislation.gov.uk/eudr/2002/46/article/2) names ampoules of liquids and drop dispensing bottles as dose forms. Oral solutions and suspensions with a medicinal purpose are medicines and are made under drug GMP. Liquids suit doses that are hard to swallow as a solid or that need flexible volumes, but they bring water, and water brings microbiological and stability risk."},
+        {"kind": "h2", "text": "How it is manufactured"},
+        {"kind": "steps", "items": [
+          {"title": "Qualify water and raw materials", "text": "Aqueous liquids are made up with purified water; the [FDA inspection guide](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/oral-solutions-and-suspensions-894) expects microbiological testing of raw materials, including purified water."},
+          {"title": "Weigh, do not eyeball", "text": "FDA notes these products are formulated on a weight basis and that volumetric methods such as a dip stick or a line on the tank have been found inaccurate."},
+          {"title": "Dissolve actives and preservatives", "text": "Process validation should show that the active ingredients and preservatives are fully dissolved; some additives, such as parabens, are difficult to dissolve and require heat. Some manufacturers also rely on heat during compounding to control microbial levels."},
+          {"title": "Bring to final quantity and mix", "text": "Purified water is added to the final quantity, and batch temperatures during processing are recorded and reviewed."},
+          {"title": "Fill", "text": "Depending on viscosity, suspensions may need continuous or periodic agitation during filling. Bottles from the beginning, middle and end of the run should be tested separately, not composited, to show that no segregation occurred."},
+          {"title": "Close, label and release", "text": "Containers are closed, labelled and coded; the batch is released against its specifications and placed on stability if required."}
+        ]},
+        {"kind": "h2", "text": "Formulation and process constraints"},
+        {"kind": "list", "items": [
+          "Preservation: antimicrobial preservatives are added to non-sterile dosage forms to protect them from microbial growth, and their efficacy is demonstrated with a challenge test. USP <51> places oral products other than antacids in category 3 and states that preservatives should not be used as a substitute for good manufacturing practice.",
+          "pH: FDA notes that pH can affect how well the preservative system works, so pH belongs in the specification.",
+          "Microbial limits for medicines: aqueous oral preparations have tighter limits than non-aqueous ones (table below). Ph. Eur. 5.1.4, JP and USP <1111> are interchangeable in the ICH regions under ICH Q4B Annex 4C.",
+          "Suspensions: any suspension should have a particle size specification, and viscosity matters to minimise segregation during processing.",
+          "Pack and water loss: ICH Q1A(R2) asks that aqueous products in semi-permeable containers be evaluated for water loss; a 5 % loss from the initial value after the equivalent of 3 months at 40 °C / not more than 25 % RH is considered significant. FDA also cites moisture loss through the closure making the remaining contents superpotent.",
+          "Degradation: FDA calls for quantifying both the active and its primary degradant in stability samples."
+        ]},
+        {"kind": "table", "head": ["Preparation (medicines)", "TAMC", "TYMC", "Specified microorganisms"], "rows": [
+          ["Aqueous preparations for oral use", "10² CFU/g or mL", "10¹ CFU/g or mL", "Absence of E. coli (1 g or 1 mL)"],
+          ["Non-aqueous preparations for oral use", "10³ CFU/g or mL", "10² CFU/g or mL", "Absence of E. coli (1 g or 1 mL)"]
+        ]},
+        {"kind": "h2", "text": "Quality tests and stability"},
+        {"kind": "table", "head": ["Test", "Why it matters", "Reference"], "rows": [
+          ["Assay of active and primary degradant", "Strength at release and over shelf life", "FDA oral solutions and suspensions guide"],
+          ["pH", "Product quality and preservative effectiveness", "FDA oral solutions and suspensions guide"],
+          ["Particle size and viscosity (suspensions)", "Dose consistency and resistance to segregation", "FDA oral solutions and suspensions guide"],
+          ["Deliverable volume (unit-dose)", "Unit-dose containers should deliver the label claim within USP limits", "FDA oral solutions and suspensions guide"],
+          ["Microbial enumeration and specified organisms", "Acceptance criteria by route of administration", "Ph. Eur. 5.1.4 / JP / USP <1111>"],
+          ["Preservative efficacy (challenge test)", "Protection of the product against microbial growth", "USP <51>"],
+          ["Stability programme", "Attributes susceptible to change, in the marketed pack", "ICH Q1A(R2)"]
+        ]},
+        {"kind": "p", "text": "For medicines, [ICH Q1A(R2)](https://www.ema.europa.eu/system/files/documents/scientific-guideline/wc500002651_en.pdf) sets the general storage conditions: long term at 25 °C / 60 % RH or 30 °C / 65 % RH with at least 12 months of data at submission, intermediate at 30 °C / 65 % RH for 6 months and accelerated at 40 °C / 75 % RH for 6 months, with long-term testing normally every 3 months in the first year. FDA recommends storing liquid stability samples on their side or inverted so the closure is challenged. ICH published a consolidated revision of its stability guidelines for consultation in April 2025; check the version that applies when you file. For US dietary supplements an expiry date is not mandatory, but a printed date should be supported by data."},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Intended status (food supplement, medicine or other) and the countries where it will be sold",
+          "Formula per dose or per mL: ingredients, amounts and chemical forms",
+          "Liquid type: solution, suspension, syrup, drops or single-dose shot; dose volume",
+          "Taste, colour and sweetener requirements, and any excluded ingredients (for example alcohol or sugar)",
+          "Pack: bottle material and size, dropper or measuring device, vial or shot format, closure",
+          "Preservative preferences or restrictions",
+          "Quantity for the first order and an annual forecast",
+          "Existing specifications, stability or challenge test data, if any",
+          "Artwork status and planned claims",
+          "Target delivery date and destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the product; we look for contract manufacturers whose capabilities match it and coordinate their quotes. The service is free for buyers: manufacturers pay us a commission when they win the order. We do not share your formula, company details or documents with any manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "Does every oral liquid need a preservative?", "a": "Not necessarily, but non-sterile aqueous liquids are exposed to microbial growth, and preservatives are the usual way to protect them. Whether your formula needs one, and which, is a development decision; its efficacy is shown with a challenge test such as USP <51>, and it never replaces GMP."},
+        {"q": "Why does pH appear in every specification?", "a": "Besides product quality, pH can change how well the preservative system works, as FDA notes in its inspection guide. A pH drift on stability can therefore be a microbiological problem as well as a chemical one."},
+        {"q": "Why do suspensions cost more to validate than solutions?", "a": "Suspensions can segregate in the tank and during filling. They need a particle size specification, viscosity control, agitation during filling and testing of bottles from the beginning, middle and end of the run."},
+        {"q": "Can a plastic bottle affect shelf life?", "a": "Yes. ICH Q1A(R2) asks that aqueous products in semi-permeable containers be evaluated for water loss, and FDA notes that moisture loss can make the remaining contents superpotent. Stability must be run in the pack you will sell."},
+        {"q": "Will manufacturers see my formula before I agree?", "a": "No. We share your brief, formula and documents with a manufacturer only with your permission."}
+      ]
+    },
+    "es": {
+      "slug": "fabricacion-liquidos-orales",
+      "title": "Fabricación por contrato de líquidos orales: jarabes, soluciones, gotas y shots",
+      "metaTitle": "Fabricación de líquidos orales | Jarabes, gotas y shots",
+      "description": "Fabricación por contrato de jarabes, soluciones orales, gotas y shots: proceso, conservación y límites microbianos, estabilidad y qué enviar para cotizar.",
+      "lead": "Los líquidos orales fallan por motivos previsibles: ingredientes que no se disuelven del todo, conservación insuficiente, segregación en suspensiones o pérdida de agua a través del envase. Aquí explicamos cómo se fabrican, qué ensayos aplican y qué necesita el fabricante para cotizar.",
+      "body": [
+        {"kind": "h2", "text": "Qué es y cuándo encaja"},
+        {"kind": "p", "text": "Esta vía cubre jarabes, soluciones y suspensiones orales, gotas y shots o viales monodosis. En la UE, la definición de complemento alimenticio de la [Directiva 2002/46/CE](https://www.legislation.gov.uk/eudr/2002/46/article/2) cita las ampollas de líquido y los frascos cuentagotas como formas dosificadas. Las soluciones y suspensiones orales con finalidad medicinal son medicamentos y se fabrican bajo GMP farmacéuticas. Los líquidos encajan cuando la dosis es difícil de tragar en forma sólida o necesita volúmenes flexibles, pero llevan agua, y el agua trae riesgo microbiológico y de estabilidad."},
+        {"kind": "h2", "text": "Cómo se fabrica"},
+        {"kind": "steps", "items": [
+          {"title": "Cualificar agua y materias primas", "text": "Los líquidos acuosos se elaboran con agua purificada; la [guía de inspección de la FDA](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/oral-solutions-and-suspensions-894) espera análisis microbiológico de las materias primas, incluida el agua purificada."},
+          {"title": "Pesar, no estimar", "text": "La FDA indica que estos productos se formulan en peso y que los métodos volumétricos, como una varilla o una marca en el tanque, han resultado inexactos."},
+          {"title": "Disolver activos y conservantes", "text": "La validación del proceso debe demostrar que los activos y los conservantes están completamente disueltos; algunos aditivos, como los parabenos, se disuelven con dificultad y requieren calor. Algunos fabricantes también usan calor durante la preparación para controlar la carga microbiana."},
+          {"title": "Enrasar y mezclar", "text": "Se añade agua purificada hasta la cantidad final, y se registran y revisan las temperaturas del lote durante el proceso."},
+          {"title": "Llenado", "text": "Según la viscosidad, las suspensiones pueden necesitar agitación continua o periódica durante el llenado. Los frascos del inicio, la mitad y el final del llenado deben analizarse por separado, sin mezclar muestras, para demostrar que no hubo segregación."},
+          {"title": "Cerrar, etiquetar y liberar", "text": "Los envases se cierran, etiquetan y codifican; el lote se libera frente a sus especificaciones y entra en estabilidad si corresponde."}
+        ]},
+        {"kind": "h2", "text": "Limitaciones de formulación y proceso"},
+        {"kind": "list", "items": [
+          "Conservación: los conservantes antimicrobianos se añaden a las formas no estériles para protegerlas del crecimiento microbiano, y su eficacia se demuestra con un ensayo de desafío. La USP <51> clasifica los productos orales distintos de antiácidos en la categoría 3 y advierte que los conservantes no sustituyen a las buenas prácticas de fabricación.",
+          "pH: la FDA señala que el pH puede influir en la eficacia del sistema conservante, por lo que debe figurar en la especificación.",
+          "Límites microbianos para medicamentos: las preparaciones orales acuosas tienen límites más estrictos que las no acuosas (tabla siguiente). Ph. Eur. 5.1.4, JP y USP <1111> son intercambiables en las regiones ICH según la ICH Q4B Anexo 4C.",
+          "Suspensiones: toda suspensión debe tener especificación de tamaño de partícula, y la viscosidad es importante para minimizar la segregación durante el proceso.",
+          "Envase y pérdida de agua: la ICH Q1A(R2) pide evaluar la pérdida de agua de los productos acuosos en envases semipermeables; una pérdida del 5 % respecto al valor inicial tras el equivalente a 3 meses a 40 °C / no más del 25 % HR se considera significativa. La FDA cita además la pérdida de humedad por el cierre, que concentra el contenido restante por encima de lo declarado.",
+          "Degradación: la FDA recomienda cuantificar tanto el activo como su degradante principal en las muestras de estabilidad."
+        ]},
+        {"kind": "table", "head": ["Preparación (medicamentos)", "TAMC", "TYMC", "Microorganismos especificados"], "rows": [
+          ["Preparaciones acuosas de uso oral", "10² UFC/g o mL", "10¹ UFC/g o mL", "Ausencia de E. coli (1 g o 1 mL)"],
+          ["Preparaciones no acuosas de uso oral", "10³ UFC/g o mL", "10² UFC/g o mL", "Ausencia de E. coli (1 g o 1 mL)"]
+        ]},
+        {"kind": "h2", "text": "Controles de calidad y estabilidad"},
+        {"kind": "table", "head": ["Ensayo", "Por qué importa", "Referencia"], "rows": [
+          ["Valoración del activo y del degradante principal", "Concentración al liberar y durante la vida útil", "Guía FDA de soluciones y suspensiones orales"],
+          ["pH", "Calidad del producto y eficacia del conservante", "Guía FDA de soluciones y suspensiones orales"],
+          ["Tamaño de partícula y viscosidad (suspensiones)", "Dosis constante y resistencia a la segregación", "Guía FDA de soluciones y suspensiones orales"],
+          ["Volumen extraíble (monodosis)", "Los envases monodosis deben entregar lo declarado dentro de los límites de la USP", "Guía FDA de soluciones y suspensiones orales"],
+          ["Recuento microbiano y microorganismos especificados", "Criterios de aceptación según la vía de administración", "Ph. Eur. 5.1.4 / JP / USP <1111>"],
+          ["Eficacia del conservante (ensayo de desafío)", "Protección del producto frente al crecimiento microbiano", "USP <51>"],
+          ["Programa de estabilidad", "Atributos susceptibles de cambiar, en el envase de venta", "ICH Q1A(R2)"]
+        ]},
+        {"kind": "p", "text": "Para medicamentos, la [ICH Q1A(R2)](https://www.ema.europa.eu/system/files/documents/scientific-guideline/wc500002651_en.pdf) fija las condiciones generales: largo plazo a 25 °C / 60 % HR o 30 °C / 65 % HR con al menos 12 meses de datos al presentar, intermedia a 30 °C / 65 % HR durante 6 meses y acelerada a 40 °C / 75 % HR durante 6 meses, con análisis a largo plazo normalmente cada 3 meses el primer año. La FDA recomienda guardar las muestras líquidas de estabilidad tumbadas o invertidas para poner a prueba el cierre. La ICH publicó en abril de 2025, para consulta, una revisión consolidada de sus guías de estabilidad; comprueba qué versión aplica cuando presentes. En complementos alimenticios en EE. UU. la fecha de caducidad no es obligatoria, pero si se imprime debe estar respaldada por datos."},
+        {"kind": "h2", "text": "Qué enviar al fabricante para un presupuesto preciso"},
+        {"kind": "list", "items": [
+          "Categoría prevista (complemento alimenticio, medicamento u otra) y países de venta",
+          "Fórmula por dosis o por mL: ingredientes, cantidades y formas químicas",
+          "Tipo de líquido: solución, suspensión, jarabe, gotas o shot monodosis; volumen por dosis",
+          "Sabor, color y edulcorante, e ingredientes excluidos (por ejemplo, alcohol o azúcar)",
+          "Envase: material y tamaño del frasco, cuentagotas o dosificador, formato vial o shot, cierre",
+          "Preferencias o restricciones de conservantes",
+          "Cantidad del primer pedido y previsión anual",
+          "Especificaciones, datos de estabilidad o de ensayo de desafío existentes, si los hay",
+          "Estado de los artes y declaraciones previstas",
+          "Fecha y destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Tú describes el producto; nosotros buscamos fabricantes por contrato cuyas capacidades encajan y coordinamos sus presupuestos. Para el comprador es gratis: el fabricante nos paga una comisión cuando consigue el pedido. No compartimos tu fórmula, los datos de tu empresa ni tus documentos con ningún fabricante sin tu permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Todo líquido oral necesita conservante?", "a": "No necesariamente, pero los líquidos acuosos no estériles están expuestos al crecimiento microbiano y los conservantes son la forma habitual de protegerlos. Si tu fórmula lo necesita, y cuál, se decide en el desarrollo; su eficacia se demuestra con un ensayo de desafío como el de la USP <51> y nunca sustituye a las GMP."},
+        {"q": "¿Por qué el pH aparece en todas las especificaciones?", "a": "Además de la calidad del producto, el pH puede cambiar la eficacia del sistema conservante, como señala la FDA en su guía de inspección. Una deriva de pH en estabilidad puede ser, por tanto, un problema microbiológico además de químico."},
+        {"q": "¿Por qué validar una suspensión cuesta más que una solución?", "a": "Las suspensiones pueden segregarse en el tanque y durante el llenado. Necesitan especificación de tamaño de partícula, control de viscosidad, agitación durante el llenado y análisis de frascos del inicio, la mitad y el final del lote."},
+        {"q": "¿Puede un frasco de plástico afectar a la vida útil?", "a": "Sí. La ICH Q1A(R2) pide evaluar la pérdida de agua de los productos acuosos en envases semipermeables, y la FDA advierte que la pérdida de humedad puede dejar el contenido restante por encima de la concentración declarada. La estabilidad debe hacerse en el envase de venta."},
+        {"q": "¿Verán los fabricantes mi fórmula antes de que yo acepte?", "a": "No. Solo compartimos tu solicitud, tu fórmula y tus documentos con un fabricante si tú lo autorizas."}
+      ]
+    },
+    "pt": {
+      "slug": "fabricacao-liquidos-orais",
+      "title": "Fabricação terceirizada de líquidos orais: xaropes, soluções, gotas e shots",
+      "metaTitle": "Fabricação de líquidos orais | Xaropes, gotas e shots",
+      "description": "Fabricação terceirizada de xaropes, soluções orais, gotas e shots: processo, conservação e limites microbianos, estabilidade e o que enviar para orçamento.",
+      "lead": "Líquidos orais falham por motivos previsíveis: ingredientes que não dissolvem por completo, conservação fraca, segregação em suspensões ou perda de água pela embalagem. Aqui explicamos como são fabricados, quais ensaios se aplicam e o que o fabricante precisa para orçar.",
+      "body": [
+        {"kind": "h2", "text": "O que é e quando faz sentido"},
+        {"kind": "p", "text": "Esta rota cobre xaropes, soluções e suspensões orais, gotas e shots ou flaconetes de dose única. Na UE, a definição de suplemento alimentar da [Diretiva 2002/46/CE](https://www.legislation.gov.uk/eudr/2002/46/article/2) cita ampolas de líquido e frascos conta-gotas como formas doseadas. Soluções e suspensões orais com finalidade medicinal são medicamentos e são fabricadas sob BPF farmacêuticas. Líquidos funcionam bem quando a dose é difícil de engolir como sólido ou precisa de volume flexível, mas trazem água, e a água traz risco microbiológico e de estabilidade."},
+        {"kind": "h2", "text": "Como é fabricado"},
+        {"kind": "steps", "items": [
+          {"title": "Qualificar água e matérias-primas", "text": "Líquidos aquosos são preparados com água purificada; o [guia de inspeção da FDA](https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/oral-solutions-and-suspensions-894) espera análise microbiológica das matérias-primas, inclusive da água purificada."},
+          {"title": "Pesar, não estimar", "text": "A FDA observa que esses produtos são formulados em peso e que métodos volumétricos, como régua ou marca no tanque, se mostraram imprecisos."},
+          {"title": "Dissolver ativos e conservantes", "text": "A validação do processo deve mostrar que ativos e conservantes estão totalmente dissolvidos; alguns aditivos, como os parabenos, dissolvem com dificuldade e exigem calor. Alguns fabricantes também usam calor durante a manipulação para controlar a carga microbiana."},
+          {"title": "Completar o volume e misturar", "text": "Adiciona-se água purificada até a quantidade final, e as temperaturas do lote durante o processo são registradas e revisadas."},
+          {"title": "Envase", "text": "Dependendo da viscosidade, suspensões podem exigir agitação contínua ou periódica durante o envase. Frascos do início, do meio e do fim do envase devem ser analisados separadamente, sem compor amostras, para mostrar que não houve segregação."},
+          {"title": "Fechar, rotular e liberar", "text": "As embalagens são fechadas, rotuladas e codificadas; o lote é liberado contra suas especificações e entra em estabilidade quando necessário."}
+        ]},
+        {"kind": "h2", "text": "Limitações de formulação e processo"},
+        {"kind": "list", "items": [
+          "Conservação: conservantes antimicrobianos são adicionados a formas não estéreis para protegê-las do crescimento microbiano, e sua eficácia é demonstrada por teste de desafio. A USP <51> coloca os produtos orais, exceto antiácidos, na categoria 3 e afirma que conservantes não substituem as boas práticas de fabricação.",
+          "pH: a FDA observa que o pH pode afetar a eficácia do sistema conservante, por isso ele deve constar da especificação.",
+          "Limites microbianos para medicamentos: preparações orais aquosas têm limites mais rígidos que as não aquosas (tabela abaixo). Ph. Eur. 5.1.4, JP e USP <1111> são intercambiáveis nas regiões ICH pela ICH Q4B Anexo 4C.",
+          "Suspensões: toda suspensão deve ter especificação de tamanho de partícula, e a viscosidade é importante para minimizar a segregação durante o processo.",
+          "Embalagem e perda de água: a ICH Q1A(R2) pede avaliar a perda de água de produtos aquosos em embalagens semipermeáveis; uma perda de 5 % em relação ao valor inicial após o equivalente a 3 meses a 40 °C / no máximo 25 % UR é considerada significativa. A FDA também cita a perda de umidade pelo fechamento, que deixa o conteúdo restante acima do teor declarado.",
+          "Degradação: a FDA recomenda quantificar tanto o ativo quanto o seu principal produto de degradação nas amostras de estabilidade."
+        ]},
+        {"kind": "table", "head": ["Preparação (medicamentos)", "TAMC", "TYMC", "Microrganismos especificados"], "rows": [
+          ["Preparações aquosas para uso oral", "10² UFC/g ou mL", "10¹ UFC/g ou mL", "Ausência de E. coli (1 g ou 1 mL)"],
+          ["Preparações não aquosas para uso oral", "10³ UFC/g ou mL", "10² UFC/g ou mL", "Ausência de E. coli (1 g ou 1 mL)"]
+        ]},
+        {"kind": "h2", "text": "Controles de qualidade e estabilidade"},
+        {"kind": "table", "head": ["Ensaio", "Por que importa", "Referência"], "rows": [
+          ["Doseamento do ativo e do principal degradante", "Teor na liberação e ao longo da validade", "Guia FDA de soluções e suspensões orais"],
+          ["pH", "Qualidade do produto e eficácia do conservante", "Guia FDA de soluções e suspensões orais"],
+          ["Tamanho de partícula e viscosidade (suspensões)", "Dose constante e resistência à segregação", "Guia FDA de soluções e suspensões orais"],
+          ["Volume entregável (dose única)", "Embalagens de dose única devem entregar o declarado dentro dos limites da USP", "Guia FDA de soluções e suspensões orais"],
+          ["Contagem microbiana e microrganismos especificados", "Critérios de aceitação por via de administração", "Ph. Eur. 5.1.4 / JP / USP <1111>"],
+          ["Eficácia do conservante (teste de desafio)", "Proteção do produto contra crescimento microbiano", "USP <51>"],
+          ["Programa de estabilidade", "Atributos sujeitos a mudança, na embalagem de venda", "ICH Q1A(R2)"]
+        ]},
+        {"kind": "p", "text": "Para medicamentos, a [ICH Q1A(R2)](https://www.ema.europa.eu/system/files/documents/scientific-guideline/wc500002651_en.pdf) define as condições gerais: longa duração a 25 °C / 60 % UR ou 30 °C / 65 % UR com pelo menos 12 meses de dados na submissão, intermediária a 30 °C / 65 % UR por 6 meses e acelerada a 40 °C / 75 % UR por 6 meses, com análises de longa duração normalmente a cada 3 meses no primeiro ano. A FDA recomenda guardar amostras líquidas de estabilidade deitadas ou invertidas para desafiar o fechamento. Em abril de 2025 a ICH publicou, para consulta, uma revisão consolidada de suas diretrizes de estabilidade; confira qual versão se aplica no momento do registro. Para suplementos nos EUA o prazo de validade não é obrigatório, mas uma data impressa deve ser sustentada por dados."},
+        {"kind": "h2", "text": "O que enviar ao fabricante para um orçamento preciso"},
+        {"kind": "list", "items": [
+          "Categoria pretendida (suplemento alimentar, medicamento ou outra) e países de venda",
+          "Fórmula por dose ou por mL: ingredientes, quantidades e formas químicas",
+          "Tipo de líquido: solução, suspensão, xarope, gotas ou shot de dose única; volume por dose",
+          "Sabor, cor e adoçante, e ingredientes excluídos (por exemplo, álcool ou açúcar)",
+          "Embalagem: material e tamanho do frasco, conta-gotas ou dosador, formato flaconete ou shot, tampa",
+          "Preferências ou restrições de conservantes",
+          "Quantidade do primeiro pedido e previsão anual",
+          "Especificações, dados de estabilidade ou de teste de desafio existentes, se houver",
+          "Situação da arte e alegações previstas",
+          "Prazo e destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve o produto; nós procuramos fabricantes terceirizados com capacidade compatível e coordenamos os orçamentos. Para o comprador é gratuito: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, os dados da sua empresa nem seus documentos com nenhum fabricante sem a sua autorização."}
+      ],
+      "faqs": [
+        {"q": "Todo líquido oral precisa de conservante?", "a": "Não necessariamente, mas líquidos aquosos não estéreis estão expostos ao crescimento microbiano e conservantes são a forma usual de protegê-los. Se a sua fórmula precisa, e de qual, é decisão de desenvolvimento; a eficácia é demonstrada por teste de desafio como o da USP <51> e nunca substitui as BPF."},
+        {"q": "Por que o pH aparece em toda especificação?", "a": "Além da qualidade do produto, o pH pode mudar a eficácia do sistema conservante, como observa a FDA no guia de inspeção. Uma variação de pH na estabilidade pode ser um problema microbiológico, não só químico."},
+        {"q": "Por que validar uma suspensão custa mais que uma solução?", "a": "Suspensões podem segregar no tanque e durante o envase. Precisam de especificação de tamanho de partícula, controle de viscosidade, agitação durante o envase e análise de frascos do início, do meio e do fim do lote."},
+        {"q": "Um frasco plástico pode afetar a validade?", "a": "Sim. A ICH Q1A(R2) pede avaliar a perda de água de produtos aquosos em embalagens semipermeáveis, e a FDA observa que a perda de umidade pode deixar o conteúdo restante acima do teor declarado. A estabilidade deve ser feita na embalagem de venda."},
+        {"q": "Os fabricantes verão minha fórmula antes de eu concordar?", "a": "Não. Só compartilhamos sua solicitação, fórmula e documentos com um fabricante se você autorizar."}
+      ]
+    }
+  }
+}

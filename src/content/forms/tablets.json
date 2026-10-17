@@ -1,0 +1,198 @@
+{
+  "key": "tablets",
+  "sources": [
+    {"label": "FDA — Guide to Inspections of Oral Solid Dosage Forms: Pre/Post Approval Issues for Development and Validation (1994)", "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/oral-solid-dosage-forms-prepost-approval-issues-194"},
+    {"label": "Sigma-Aldrich (Merck) — Tablet manufacturing technologies for solid drug formulation (excipient supplier, general process description)", "url": "https://b2b.sigmaaldrich.com/technical-documents/technical-article/pharmaceutical-and-biopharmaceutical-manufacturing/solid-formulation-strategies/tablet-manufacturing-technologies-solid-drug-formulation"},
+    {"label": "eCFR — 21 CFR Part 211, CGMP for finished pharmaceuticals (§ 211.110 in-process controls)", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211"},
+    {"label": "eCFR — 21 CFR Part 111, CGMP for dietary supplements (§ 111.70 specifications, § 111.75 identity testing)", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111"},
+    {"label": "FDA — ICH Q4B Annex 5: Disintegration Test general chapter (Ph. Eur. 2.9.1, JP 6.09, USP <701>)", "url": "https://www.fda.gov/media/71306/download"},
+    {"label": "FDA — ICH Q4B Annex 7(R2): Dissolution Test general chapter (Ph. Eur. 2.9.3, JP 6.10, USP <711>)", "url": "https://fda.gov/media/73122/download"},
+    {"label": "FDA — ICH Q4B Annex 6: Uniformity of Dosage Units general chapter (Ph. Eur. 2.9.40, JP 6.02, USP <905>)", "url": "https://www.fda.gov/files/drugs/published/Q4B-Annex-6--Uniformity-of-Dosage-Units-General-Chapter.pdf"},
+    {"label": "FDA — ICH Q4B Annex 4C: Microbiological examination of non-sterile products, acceptance criteria (Ph. Eur. 5.1.4, JP, USP <1111>)", "url": "https://fda.gov/media/71291/download"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "tablet-contract-manufacturing",
+      "title": "Tablet contract manufacturing",
+      "metaTitle": "Tablet Contract Manufacturing: Process, Tests, Quote",
+      "description": "Contract manufacturing of tablets for supplements and medicines: compression routes, coating, pharmacopoeial tests and what to send for an accurate quote.",
+      "lead": "Tablets are the most process-dependent oral solid: the granulation route, the coating and the test plan all follow from your ingredients. This page explains the choices a manufacturer will make and what it needs from you to quote properly.",
+      "body": [
+        {"kind": "h2", "text": "What it is and when it fits"},
+        {"kind": "p", "text": "A tablet is a compressed unit dose, uncoated or coated, used both for dietary supplements and for medicines. The format is the same; the rules are not. In the US, supplements are made under [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111) and finished medicines under [21 CFR Part 211](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211), and medicines also need a marketing authorisation whose dossier fixes the test methods and acceptance criteria. Coating options also make tablets a fit when taste, protection or delayed release matter."},
+        {"kind": "h2", "text": "How it is manufactured"},
+        {"kind": "steps", "items": [
+          {"title": "Receive and test components", "text": "For supplements, Part 111 requires at least one appropriate test or examination to verify the identity of each dietary ingredient. Particle size and other physical properties matter too: FDA notes they can vary between suppliers of the same substance and affect dissolution and content uniformity."},
+          {"title": "Blend", "text": "Ingredients are weighed and mixed in tumble, ribbon or high-shear equipment. Blend uniformity is checked, because poor mixing or segregation shows up later as uneven content."},
+          {"title": "Granulate, if needed", "text": "Either wet granulation (wetting, wet massing, drying and sizing) or dry granulation by roller compaction (compaction, then milling). Direct compression skips this step."},
+          {"title": "Compress", "text": "The press forms tablets to a target weight and hardness. Individual weights, hardness, moisture and disintegration are typical in-process checks."},
+          {"title": "Coat, if specified", "text": "Aqueous film coating, sugar coating or enteric/delayed-release coating, depending on taste, protection or release needs."},
+          {"title": "Test, pack and release", "text": "The batch is tested against its specification, packed and released by quality control."}
+        ]},
+        {"kind": "h2", "text": "Constraints buyers should know"},
+        {"kind": "table", "head": ["Route", "Steps", "Fits when", "Watch out for"], "rows": [
+          ["Direct compression", "Blend, then compress", "The blend flows and compresses well; the active is sensitive to moisture or heat", "Sensitive to particle size, shape and bulk density; relies on suitable excipient grades"],
+          ["Dry granulation (roller compaction)", "Compact, then mill", "Flow must improve but liquids or heat would degrade the active", "Adds a process step; the source describes it as the gentle option for heat- and moisture-sensitive materials"],
+          ["Wet granulation", "Blend, wet, wet-mass, dry, size", "The active tolerates water and heat; flow and compressibility need help", "Mandatory drying step; residual solvent risk; moisture uniformity depends on the dryer"]
+        ]},
+        {"kind": "list", "items": [
+          "Coating changes performance: FDA's inspection guide flags a shellac undercoat as a source of disintegration and dissolution problems, especially in aged samples.",
+          "Enteric, gastro-resistant and delayed-release tablets fall outside the harmonised disintegration and dissolution texts, so the method and acceptance criteria must be set product by product.",
+          "Milling screen size affects granule size and, through it, dissolution; fluid-bed drying gives fewer moisture uniformity problems than tray drying, according to FDA."
+        ]},
+        {"kind": "h2", "text": "Quality tests usually required"},
+        {"kind": "table", "head": ["Test", "Reference", "What it shows"], "rows": [
+          ["Disintegration", "Ph. Eur. 2.9.1 / USP <701> / JP 6.09 (harmonised, ICH Q4B Annex 5)", "Whether the tablet breaks up within the set time"],
+          ["Dissolution", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (harmonised, ICH Q4B Annex 7)", "Release of the active over time; media, speed and sampling are product-specific"],
+          ["Uniformity of dosage units", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (harmonised, ICH Q4B Annex 6)", "Content uniformity, or mass/weight variation where the 25 mg / 25% threshold allows it"],
+          ["Microbiological quality", "Ph. Eur. 5.1.4 / USP <1111> (harmonised, ICH Q4B Annex 4C)", "Acceptance criteria for non-sterile products"],
+          ["Hardness, friability, weight, moisture", "In-process controls", "Mechanical robustness and process consistency"]
+        ]},
+        {"kind": "note", "text": "For medicines, 21 CFR 211.110 lists tablet weight variation, disintegration time, adequacy of mixing, dissolution and bioburden among in-process controls. For supplements, Part 111 requires specifications for identity, purity, strength and composition, plus limits on contaminants."},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Intended status (supplement, medicine or other) and the countries of sale",
+          "Formula per tablet: each ingredient, amount, chemical form and any required grade or supplier",
+          "Tablet size, shape, colour and whether it should be scored, chewable or swallowed",
+          "Coating requirement: none, film, sugar or enteric, and why",
+          "Packaging: bottle or blister, count per pack, desiccant or barrier needs",
+          "First order quantity and annual forecast per SKU",
+          "Existing specifications, certificates of analysis or stability data",
+          "Certifications your sales channel requires, so the manufacturer can show its own",
+          "Target date and delivery destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the tablet; we identify contract manufacturers whose equipment and authorisations fit it and coordinate their quotes. It is free for buyers: manufacturers pay us a commission when they win the order. We never share your formula, company details or documents with a manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "Direct compression or granulation: who decides?", "a": "The manufacturer proposes the route after seeing your formula. Direct compression has the fewest steps but needs a blend that flows and compresses well; dry granulation helps flow without liquid; wet granulation suits actives that tolerate water and heat."},
+        {"q": "Do supplement tablets need dissolution testing?", "a": "It depends on the market and on the applicable monograph or specification. In the US, Part 111 requires specifications for identity, purity, strength and composition. Whether disintegration or dissolution is part of the specification is a decision to agree with the manufacturer. Ask each manufacturer which tests it runs as standard."},
+        {"q": "Why does coating affect the quote?", "a": "Coating is an extra unit operation with its own materials and controls, and it can change disintegration and dissolution. Enteric or delayed-release coatings also need product-specific test methods."},
+        {"q": "Can one manufacturer make both supplement and medicine tablets?", "a": "Some can, but each route has its own GMP framework and, for medicines, a marketing authorisation. Tell us the intended status so we only approach manufacturers authorised for it."},
+        {"q": "What if my active is sensitive to moisture?", "a": "Say so in the brief. Direct compression or roller compaction avoid adding water, and the pack can include barrier materials or desiccant. Stability data or the active's supplier documentation help the manufacturer choose."}
+      ]
+    },
+    "es": {
+      "slug": "fabricacion-comprimidos",
+      "title": "Fabricación de comprimidos por contrato",
+      "metaTitle": "Fabricación de comprimidos a terceros: proceso y ensayos",
+      "description": "Fabricación por contrato de comprimidos para complementos y medicamentos: vías de compresión, recubrimiento, ensayos de farmacopea y qué enviar para cotizar.",
+      "lead": "El comprimido es la forma sólida que más depende del proceso: la vía de granulación, el recubrimiento y el plan de ensayos se deciden según sus ingredientes. Aquí explicamos qué decidirá el fabricante y qué necesita de usted para cotizar bien.",
+      "body": [
+        {"kind": "h2", "text": "Qué es y cuándo conviene"},
+        {"kind": "p", "text": "Un comprimido es una dosis unitaria obtenida por compresión, con o sin recubrimiento, que se usa tanto en complementos alimenticios como en medicamentos. La forma es la misma; las reglas, no. En EE. UU. los suplementos se fabrican según [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111) y los medicamentos terminados según [21 CFR Part 211](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211); además, el medicamento necesita una autorización de comercialización cuyo expediente fija los métodos y criterios de aceptación. Las opciones de recubrimiento lo hacen útil cuando importan el sabor, la protección o la liberación retardada."},
+        {"kind": "h2", "text": "Cómo se fabrica"},
+        {"kind": "steps", "items": [
+          {"title": "Recepción y análisis de materias primas", "text": "Para suplementos, la Part 111 exige al menos un ensayo o examen adecuado que verifique la identidad de cada ingrediente dietético. Las propiedades físicas también cuentan: la FDA advierte que el tamaño de partícula puede variar entre proveedores de una misma sustancia y afectar a la disolución y a la uniformidad de contenido."},
+          {"title": "Mezcla", "text": "Se pesan los ingredientes y se mezclan en equipos de volteo, de cintas o de alto cizallamiento. Se comprueba la uniformidad de la mezcla, porque una mala mezcla o la segregación aparecen después como contenido irregular."},
+          {"title": "Granulación, si hace falta", "text": "Granulación húmeda (humectación, amasado, secado y calibrado) o granulación seca por compactación con rodillos (compactación y molienda). La compresión directa se salta este paso."},
+          {"title": "Compresión", "text": "La prensa forma los comprimidos con un peso y una dureza objetivo. Los controles en proceso habituales son peso individual, dureza, humedad y disgregación."},
+          {"title": "Recubrimiento, si se especifica", "text": "Película acuosa, grageado con azúcar o recubrimiento entérico o de liberación retardada, según sabor, protección o liberación requeridos."},
+          {"title": "Análisis, envasado y liberación", "text": "El lote se analiza frente a su especificación, se envasa y control de calidad lo libera."}
+        ]},
+        {"kind": "h2", "text": "Limitaciones que conviene conocer"},
+        {"kind": "table", "head": ["Vía", "Pasos", "Conviene cuando", "Puntos de atención"], "rows": [
+          ["Compresión directa", "Mezcla y compresión", "La mezcla fluye y se comprime bien; el activo es sensible a la humedad o al calor", "Sensible al tamaño, forma y densidad aparente de las partículas; depende de excipientes adecuados"],
+          ["Granulación seca (compactación con rodillos)", "Compactación y molienda", "Hay que mejorar el flujo, pero el líquido o el calor degradarían el activo", "Añade un paso; la fuente la describe como la opción suave para materiales sensibles al calor y la humedad"],
+          ["Granulación húmeda", "Mezcla, humectación, amasado, secado y calibrado", "El activo tolera agua y calor; hay que mejorar flujo y compresibilidad", "Secado obligatorio; riesgo de disolvente residual; la uniformidad de humedad depende del secador"]
+        ]},
+        {"kind": "list", "items": [
+          "El recubrimiento cambia el comportamiento: la guía de inspección de la FDA señala la subcapa de goma laca como fuente de problemas de disgregación y disolución, sobre todo en muestras envejecidas.",
+          "Los comprimidos entéricos, gastrorresistentes o de liberación retardada quedan fuera de los textos armonizados de disgregación y disolución, así que método y criterios se fijan producto a producto.",
+          "El tamaño de malla del molino influye en el tamaño del gránulo y, por tanto, en la disolución; según la FDA, el lecho fluido da menos problemas de uniformidad de humedad que el secado en bandejas."
+        ]},
+        {"kind": "h2", "text": "Ensayos de calidad habituales"},
+        {"kind": "table", "head": ["Ensayo", "Referencia", "Qué demuestra"], "rows": [
+          ["Disgregación", "Ph. Eur. 2.9.1 / USP <701> / JP 6.09 (armonizados, ICH Q4B anexo 5)", "Si el comprimido se desintegra en el tiempo fijado"],
+          ["Disolución", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (armonizados, ICH Q4B anexo 7)", "Liberación del activo en el tiempo; medio, velocidad y muestreo son propios del producto"],
+          ["Uniformidad de unidades de dosificación", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (armonizados, ICH Q4B anexo 6)", "Uniformidad de contenido, o variación de masa cuando el umbral de 25 mg / 25 % lo permite"],
+          ["Calidad microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (armonizados, ICH Q4B anexo 4C)", "Criterios de aceptación para productos no estériles"],
+          ["Dureza, friabilidad, peso, humedad", "Controles en proceso", "Robustez mecánica y consistencia del proceso"]
+        ]},
+        {"kind": "note", "text": "Para medicamentos, el 21 CFR 211.110 incluye entre los controles en proceso la variación de peso, el tiempo de disgregación, la idoneidad del mezclado, la disolución y la carga microbiana. Para suplementos, la Part 111 exige especificaciones de identidad, pureza, potencia y composición, y límites de contaminantes."},
+        {"kind": "h2", "text": "Qué enviar al fabricante para una cotización precisa"},
+        {"kind": "list", "items": [
+          "Estatus previsto (complemento, medicamento u otro) y países de venta",
+          "Fórmula por comprimido: cada ingrediente, cantidad, forma química y calidad o proveedor exigidos",
+          "Tamaño, forma y color, y si debe ser ranurado, masticable o para tragar",
+          "Recubrimiento: ninguno, película, azúcar o entérico, y el motivo",
+          "Envase: frasco o blíster, unidades por envase, necesidad de desecante o barrera",
+          "Cantidad del primer pedido y previsión anual por referencia",
+          "Especificaciones, certificados de análisis o datos de estabilidad existentes",
+          "Certificaciones que exige su canal de venta, para que el fabricante acredite las suyas",
+          "Fecha objetivo y destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Usted describe el comprimido; nosotros identificamos fabricantes por contrato cuyos equipos y autorizaciones encajan y coordinamos sus cotizaciones. Para el comprador es gratuito: el fabricante nos paga una comisión cuando gana el pedido. No compartimos su fórmula, los datos de su empresa ni sus documentos con ningún fabricante sin su permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Compresión directa o granulación? ¿Quién lo decide?", "a": "El fabricante propone la vía tras ver la fórmula. La compresión directa tiene menos pasos pero exige una mezcla que fluya y se comprima bien; la granulación seca mejora el flujo sin líquido; la húmeda sirve para activos que toleran agua y calor."},
+        {"q": "¿Los comprimidos de complemento necesitan ensayo de disolución?", "a": "Depende del mercado y de la monografía o especificación aplicable. En EE. UU., la Part 111 exige especificaciones de identidad, pureza, potencia y composición; si la disgregación o la disolución forman parte de la especificación es algo que se acuerda con el fabricante. Pregunte a cada fabricante qué ensayos hace de serie."},
+        {"q": "¿Por qué el recubrimiento cambia el precio?", "a": "Es una operación adicional con materiales y controles propios, y puede modificar la disgregación y la disolución. Los recubrimientos entéricos o de liberación retardada requieren además métodos de ensayo específicos."},
+        {"q": "¿Un mismo fabricante puede hacer comprimidos de complemento y de medicamento?", "a": "Algunos sí, pero cada vía tiene su propio marco de BPF y, en el caso del medicamento, una autorización de comercialización. Indíquenos el estatus previsto para contactar solo a fabricantes autorizados para ello."},
+        {"q": "¿Y si mi activo es sensible a la humedad?", "a": "Indíquelo en la solicitud. La compresión directa o la compactación con rodillos evitan añadir agua, y el envase puede llevar materiales barrera o desecante. Los datos de estabilidad o la documentación del proveedor del activo ayudan al fabricante a decidir."}
+      ]
+    },
+    "pt": {
+      "slug": "fabricacao-comprimidos",
+      "title": "Fabricação terceirizada de comprimidos",
+      "metaTitle": "Fabricação terceirizada de comprimidos: processo e testes",
+      "description": "Fabricação terceirizada de comprimidos para suplementos e medicamentos: rotas de compressão, revestimento, testes farmacopeicos e o que enviar para cotar.",
+      "lead": "O comprimido é a forma sólida que mais depende do processo: a rota de granulação, o revestimento e o plano de testes decorrem dos seus ingredientes. Esta página explica as escolhas que o fabricante fará e o que ele precisa de você para cotar com precisão.",
+      "body": [
+        {"kind": "h2", "text": "O que é e quando faz sentido"},
+        {"kind": "p", "text": "Comprimido é uma dose unitária obtida por compressão, revestida ou não, usada tanto em suplementos alimentares quanto em medicamentos. O formato é o mesmo; as regras, não. Nos EUA, suplementos seguem o [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111) e medicamentos acabados o [21 CFR Part 211](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-C/part-211); o medicamento ainda precisa de registro, cujo dossiê fixa métodos e critérios de aceitação. As opções de revestimento o tornam útil quando sabor, proteção ou liberação retardada importam."},
+        {"kind": "h2", "text": "Como é fabricado"},
+        {"kind": "steps", "items": [
+          {"title": "Recebimento e análise de insumos", "text": "Para suplementos, a Part 111 exige ao menos um teste ou exame adequado para verificar a identidade de cada ingrediente dietético. Propriedades físicas também pesam: a FDA observa que o tamanho de partícula pode variar entre fornecedores da mesma substância e afetar a dissolução e a uniformidade de conteúdo."},
+          {"title": "Mistura", "text": "Os ingredientes são pesados e misturados em equipamentos de tombamento, de fita ou de alto cisalhamento. A uniformidade da mistura é verificada, pois mistura deficiente ou segregação aparecem depois como teor irregular."},
+          {"title": "Granulação, se necessária", "text": "Granulação úmida (umectação, massa úmida, secagem e calibração) ou granulação seca por compactação em rolos (compactação e moagem). A compressão direta dispensa esta etapa."},
+          {"title": "Compressão", "text": "A compressora forma os comprimidos com peso e dureza-alvo. Peso individual, dureza, umidade e desintegração são controles em processo comuns."},
+          {"title": "Revestimento, se especificado", "text": "Revestimento por filme aquoso, drageamento com açúcar ou revestimento entérico/de liberação retardada, conforme sabor, proteção ou perfil de liberação."},
+          {"title": "Análise, embalagem e liberação", "text": "O lote é analisado contra a especificação, embalado e liberado pelo controle de qualidade."}
+        ]},
+        {"kind": "h2", "text": "Restrições que o comprador deve conhecer"},
+        {"kind": "table", "head": ["Rota", "Etapas", "Indicada quando", "Pontos de atenção"], "rows": [
+          ["Compressão direta", "Mistura e compressão", "A mistura flui e se comprime bem; o ativo é sensível à umidade ou ao calor", "Sensível a tamanho, forma e densidade aparente das partículas; depende de excipientes adequados"],
+          ["Granulação seca (compactação em rolos)", "Compactação e moagem", "É preciso melhorar o fluxo, mas líquido ou calor degradariam o ativo", "Acrescenta uma etapa; a fonte a descreve como a opção suave para materiais sensíveis a calor e umidade"],
+          ["Granulação úmida", "Mistura, umectação, massa úmida, secagem e calibração", "O ativo tolera água e calor; fluxo e compressibilidade precisam de ajuda", "Secagem obrigatória; risco de solvente residual; a uniformidade de umidade depende do secador"]
+        ]},
+        {"kind": "list", "items": [
+          "O revestimento muda o desempenho: o guia de inspeção da FDA aponta a subcamada de goma-laca como fonte de problemas de desintegração e dissolução, sobretudo em amostras envelhecidas.",
+          "Comprimidos entéricos, gastrorresistentes ou de liberação retardada ficam fora dos textos harmonizados de desintegração e dissolução; método e critérios são definidos produto a produto.",
+          "A malha do moinho influencia o tamanho do grânulo e, com isso, a dissolução; segundo a FDA, o leito fluidizado gera menos problemas de uniformidade de umidade do que a estufa de bandejas."
+        ]},
+        {"kind": "h2", "text": "Testes de qualidade normalmente exigidos"},
+        {"kind": "table", "head": ["Teste", "Referência", "O que mostra"], "rows": [
+          ["Desintegração", "Ph. Eur. 2.9.1 / USP <701> / JP 6.09 (harmonizados, ICH Q4B anexo 5)", "Se o comprimido se desintegra no tempo definido"],
+          ["Dissolução", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (harmonizados, ICH Q4B anexo 7)", "Liberação do ativo ao longo do tempo; meio, rotação e amostragem são específicos do produto"],
+          ["Uniformidade de doses unitárias", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (harmonizados, ICH Q4B anexo 6)", "Uniformidade de conteúdo, ou variação de peso quando o limiar de 25 mg / 25% permite"],
+          ["Qualidade microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (harmonizados, ICH Q4B anexo 4C)", "Critérios de aceitação para produtos não estéreis"],
+          ["Dureza, friabilidade, peso, umidade", "Controles em processo", "Robustez mecânica e consistência do processo"]
+        ]},
+        {"kind": "note", "text": "Para medicamentos, o 21 CFR 211.110 inclui entre os controles em processo a variação de peso, o tempo de desintegração, a adequação da mistura, a dissolução e a carga microbiana. Para suplementos, a Part 111 exige especificações de identidade, pureza, potência e composição, além de limites de contaminantes."},
+        {"kind": "h2", "text": "O que enviar ao fabricante para uma cotação precisa"},
+        {"kind": "list", "items": [
+          "Enquadramento pretendido (suplemento, medicamento ou outro) e países de venda",
+          "Fórmula por comprimido: cada ingrediente, quantidade, forma química e grau ou fornecedor exigido",
+          "Tamanho, formato e cor, e se deve ser sulcado, mastigável ou para engolir",
+          "Revestimento: nenhum, filme, açúcar ou entérico, e por quê",
+          "Embalagem: frasco ou blíster, unidades por embalagem, necessidade de dessecante ou barreira",
+          "Quantidade do primeiro pedido e previsão anual por SKU",
+          "Especificações, certificados de análise ou dados de estabilidade existentes",
+          "Certificações exigidas pelo seu canal de venda, para que o fabricante comprove as dele",
+          "Prazo desejado e local de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve o comprimido; nós identificamos fabricantes terceirizados cujos equipamentos e autorizações se encaixam e coordenamos as cotações. É gratuito para o comprador: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, dados da empresa ou documentos com nenhum fabricante sem a sua permissão."}
+      ],
+      "faqs": [
+        {"q": "Compressão direta ou granulação: quem decide?", "a": "O fabricante propõe a rota depois de ver a fórmula. A compressão direta tem menos etapas, mas exige uma mistura que flua e se comprima bem; a granulação seca melhora o fluxo sem líquido; a úmida serve para ativos que toleram água e calor."},
+        {"q": "Comprimidos de suplemento precisam de teste de dissolução?", "a": "Depende do mercado e da monografia ou especificação aplicável. Nos EUA, a Part 111 exige especificações de identidade, pureza, potência e composição; se desintegração ou dissolução entram na especificação é algo a combinar com o fabricante. Pergunte a cada fabricante quais testes ele faz por padrão."},
+        {"q": "Por que o revestimento altera a cotação?", "a": "É uma operação adicional, com materiais e controles próprios, e pode mudar a desintegração e a dissolução. Revestimentos entéricos ou de liberação retardada também exigem métodos de teste específicos."},
+        {"q": "O mesmo fabricante pode produzir comprimidos de suplemento e de medicamento?", "a": "Alguns podem, mas cada rota tem seu próprio marco de BPF e, no caso do medicamento, registro. Informe o enquadramento pretendido para contatarmos apenas fabricantes autorizados."},
+        {"q": "E se o meu ativo for sensível à umidade?", "a": "Informe isso no pedido. Compressão direta ou compactação em rolos evitam adicionar água, e a embalagem pode levar material barreira ou dessecante. Dados de estabilidade ou a documentação do fornecedor do ativo ajudam o fabricante a decidir."}
+      ]
+    }
+  }
+}

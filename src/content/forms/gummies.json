@@ -1,0 +1,207 @@
+{
+  "key": "gummies",
+  "sources": [
+    {"label": "FDA — Questions and Answers on Dietary Supplements", "url": "https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements"},
+    {"label": "Davydova N. (USP). Presentation at the FDA public workshop 'Defining Candy-Like Nonprescription Drug Products', 30 Oct 2023 (hosted by UMD CERSI)", "url": "https://cersi.umd.edu/sites/cersi.umd.edu/files/Session_1-1_NataliaDavydovaCandy-Like_Oct30_2023.pdf"},
+    {"label": "Peña-Portillo G.-C. et al. Development and Characterization of Functional Gummies Enriched with País Grape Extract for Presbyphagia. Gels 12(8):674 (2026), peer-reviewed", "url": "https://www.mdpi.com/2310-2861/12/8/674"},
+    {"label": "Vu K. (IFF). Gummies: understanding pectin and its impact on gummy gelation. AgroFOOD Industry Hi Tech 35(1), 2024 (ingredient supplier, author's opinion)", "url": "https://digital.teknoscienze.com/agrofood_industry_hi_tech_35_1_2024/gummies_-_understanding_pectin_and_its_impact_on_gummy_gelation"},
+    {"label": "Baker Perkins — New opportunities for jellies and gummies (equipment manufacturer, general process description)", "url": "https://www.bakerperkins.com/news/blog-new-opportunities-for-jellies-and-gummies/"},
+    {"label": "Chavarría-Rojas M. et al. Gelatin and non-gelatin soft gel capsules: a review. Journal of Excipients and Food Chemicals 12(2):19–29 (2021), peer-reviewed (gelatin origin)", "url": "https://jefc.scholasticahq.com/article/25162.pdf"},
+    {"label": "eCFR — 21 CFR Part 111, CGMP for dietary supplements (§ 111.70 specifications, § 111.75 identity testing)", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111"},
+    {"label": "FDA — ICH Q4B Annex 4C: Microbiological examination of non-sterile products, acceptance criteria (Ph. Eur. 5.1.4, JP, USP <1111>)", "url": "https://fda.gov/media/71291/download"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "gummy-contract-manufacturing",
+      "title": "Gummy contract manufacturing",
+      "metaTitle": "Gummy Contract Manufacturing: Pectin, Gelatin, Tests",
+      "description": "Contract manufacturing of supplement gummies: pectin vs gelatin, cooking and depositing, overage, water activity, quality tests and what to send for a quote.",
+      "lead": "Gummies are a cooked, deposited confection that has to deliver a declared dose. The gelling agent, the heat of the process and the moisture of the finished piece decide whether it does; this page explains each and what a manufacturer needs to quote.",
+      "body": [
+        {"kind": "h2", "text": "What it is and when it fits"},
+        {"kind": "p", "text": "A gummy is a chewable gel made from a gelling agent, sugars or other sweeteners, water, flavours and colours, with the actives mixed in. FDA lists gummies among the forms in which dietary supplements are sold and reminds that it [does not approve supplements before they are marketed](https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements): the company is responsible for safety and for following CGMP. Gummy-type over-the-counter medicines exist too, and in 2023 FDA held a public workshop on defining candy-like nonprescription drug products. Gummies suit consumer products where taste and ease of use matter; they are a poor fit for high doses that would need very large or many pieces."},
+        {"kind": "h2", "text": "How it is manufactured"},
+        {"kind": "steps", "items": [
+          {"title": "Receive and test components", "text": "For US supplements, 21 CFR Part 111 requires at least one appropriate test or examination to verify the identity of each dietary ingredient."},
+          {"title": "Cook the base", "text": "The sugar or polyol syrup is heated and the gelling agent incorporated. In one published process, an isomalt syrup was heated to about 90 °C before adding pectin and gelatin."},
+          {"title": "Cool and add actives", "text": "Heat-sensitive actives are added once the mass has cooled; the same study waited until it was at or below 60 °C to limit thermal degradation of its plant extract."},
+          {"title": "Deposit into moulds", "text": "The mass is deposited into starch beds (starch mogul) or into solid starch-free moulds. An equipment maker states that depositing into solid moulds at final or very high solids gives consistent weight and dose, and avoids long stoving and starch handling."},
+          {"title": "Set, demould and finish", "text": "Pieces set, are demoulded and are usually coated or finished to reduce stickiness, then dried to the target moisture."},
+          {"title": "Test, pack and release", "text": "The batch is tested against its specification, packed and released by quality control."}
+        ]},
+        {"kind": "h2", "text": "Pectin, gelatin and other constraints"},
+        {"kind": "table", "head": ["Gelling agent", "What the sources say"], "rows": [
+          ["Gelatin", "Animal-derived (collagen); gives elasticity and cohesiveness"],
+          ["High-ester pectin", "Plant-based; needs high soluble solids and low pH, typically below 3.5; contributes firmness and water-holding"],
+          ["Low-ester pectin", "Gels through calcium bridging rather than high sugar"],
+          ["Carrageenan", "Suitable for vegetarian and vegan recipes"]
+        ]},
+        {"kind": "list", "items": [
+          "Typical composition in USP's 2023 workshop presentation: gelling agent (gelatin, pectin or agar) 5–8%, water 15–20%, sucrose 28–50% and corn syrup solids 40–55%.",
+          "Rework: pectin gummies cannot be melted down and reworked, according to an ingredient supplier; ask how off-spec batches are handled.",
+          "Overage: manufacturers add extra nutrient to offset losses during storage. USP has said it aims to keep acceptance criteria for chewable gels in line with tablets and capsules except in very well substantiated cases.",
+          "Stability: USP notes that most chewable gel products use stabilised forms of dietary ingredients, and water activity helps predict moisture migration. USP monographs recommend water activity not above 0.75 together with pH not above 4.5.",
+          "Child safety: USP flags a risk of accidental overdose with this format; discuss child-resistant packaging and dose per piece early."
+        ]},
+        {"kind": "h2", "text": "Quality tests usually required"},
+        {"kind": "table", "head": ["Test", "Reference", "Why it matters"], "rows": [
+          ["Weight variation", "USP <2091>", "Each piece carries the dose, so piece weight must be controlled"],
+          ["Dissolution", "USP <2040>", "Recommended by USP for chewable gels because a coating can affect release"],
+          ["Water activity and pH", "USP monographs; pH by USP <791>", "Predict moisture migration and support stability"],
+          ["Assay of each active", "Product specification (21 CFR 111.70 for US supplements)", "Confirms strength over shelf life, including any overage"],
+          ["Microbiological quality", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B Annex 4C)", "Acceptance criteria for non-sterile products"]
+        ]},
+        {"kind": "note", "text": "Gummies are harder to analyse than tablets: the USP presentation describes cryogenic grinding in liquid nitrogen just to prepare samples. Ask each manufacturer which tests it runs in-house and which it sends out."},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Intended status (supplement, medicine or other) and the countries of sale",
+          "Dose per serving and pieces per serving, with each active's amount and chemical form",
+          "Gelling agent preference: pectin, gelatin or other; vegan, halal or kosher needs",
+          "Sugar-free or reduced-sugar requirement and preferred sweeteners",
+          "Flavour, colour, shape, piece weight and coating (sugar-sanded, oil-coated or other) if defined",
+          "Packaging: bottle or pouch, count per pack, child-resistant closure",
+          "First order quantity and annual forecast per SKU",
+          "Target shelf life and any existing stability data",
+          "Certifications your sales channel requires, target date and delivery destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the gummy; we identify contract manufacturers whose depositing lines, gelling systems and authorisations fit it and coordinate their quotes. It is free for buyers: manufacturers pay us a commission when they win the order. We never share your formula, company details or documents with a manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "Pectin or gelatin?", "a": "Gelatin is animal-derived and gives an elastic, chewy texture. Pectin is plant-based and firmer, but needs tight control of solids and pH, or calcium for low-ester grades, and cannot be reworked once set. If you need a vegan claim, pectin or carrageenan are the usual routes."},
+        {"q": "Why do gummy formulas include overages?", "a": "Some nutrients degrade during cooking and storage, so manufacturers add extra to keep the declared amount until the end of shelf life. Ask each manufacturer to justify its overage with stability data."},
+        {"q": "Can heat-sensitive ingredients go into gummies?", "a": "Often, if they are added after the mass cools and the active is in a stabilised form. Published work shows large losses of some plant compounds even with that precaution, so stability testing is essential."},
+        {"q": "How many pieces per serving are realistic?", "a": "It depends on the total amount of actives and the piece weight. Gelling agent, sugars and water make up most of each piece, so high-dose formulas can need several pieces; send the full formula and the manufacturer will propose a piece size."},
+        {"q": "Are gummies regulated as food, supplement or medicine?", "a": "It depends on composition, claims and market. In the US, supplement gummies follow 21 CFR Part 111 and are not pre-approved by FDA, while candy-like medicines follow drug rules. Tell us the intended status so we approach the right manufacturers."}
+      ]
+    },
+    "es": {
+      "slug": "fabricacion-gominolas",
+      "title": "Fabricación de gominolas (gummies) por contrato",
+      "metaTitle": "Fabricación de gominolas (gummies) a terceros",
+      "description": "Fabricación por contrato de gominolas de complemento: pectina o gelatina, cocción y dosificado, sobredosificación, actividad de agua, ensayos y qué enviar.",
+      "lead": "Una gominola es un dulce cocido y dosificado en moldes que, además, tiene que aportar una dosis declarada. El gelificante, el calor del proceso y la humedad de la pieza final deciden si lo consigue; aquí explicamos cada factor y qué necesita el fabricante para cotizar.",
+      "body": [
+        {"kind": "h2", "text": "Qué es y cuándo conviene"},
+        {"kind": "p", "text": "Una gominola es un gel masticable elaborado con un gelificante, azúcares u otros edulcorantes, agua, aromas y colorantes, con los activos incorporados. La FDA incluye las gominolas entre las formas en que se venden los suplementos y recuerda que [no aprueba los suplementos antes de su comercialización](https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements): la empresa responde de la seguridad y de cumplir las BPF. También existen medicamentos sin receta en este formato, y en 2023 la FDA celebró un taller público para definir los medicamentos sin receta de aspecto de golosina. Encajan en productos de consumo donde el sabor y la facilidad de toma importan; encajan mal con dosis altas que exigirían piezas muy grandes o muchas por toma."},
+        {"kind": "h2", "text": "Cómo se fabrica"},
+        {"kind": "steps", "items": [
+          {"title": "Recepción y análisis de materias primas", "text": "Para suplementos en EE. UU., el 21 CFR Part 111 exige al menos un ensayo o examen adecuado que verifique la identidad de cada ingrediente dietético."},
+          {"title": "Cocción de la base", "text": "Se calienta el jarabe de azúcar o poliol y se incorpora el gelificante. En un proceso publicado, un jarabe de isomalt se calentó a unos 90 °C antes de añadir pectina y gelatina."},
+          {"title": "Enfriado y adición de activos", "text": "Los activos sensibles al calor se añaden cuando la masa se ha enfriado; el mismo estudio esperó a que estuviera a 60 °C o menos para limitar la degradación térmica de su extracto vegetal."},
+          {"title": "Dosificado en moldes", "text": "La masa se deposita en lechos de almidón (mogul) o en moldes sólidos sin almidón. Un fabricante de equipos afirma que dosificar en moldes sólidos con sólidos finales o muy altos da peso y dosis constantes y evita largas estufas y la manipulación de almidón."},
+          {"title": "Gelificado, desmoldeo y acabado", "text": "Las piezas gelifican, se desmoldean y suelen recubrirse o acabarse para reducir la pegajosidad; después se secan hasta la humedad objetivo."},
+          {"title": "Análisis, envasado y liberación", "text": "El lote se analiza frente a su especificación, se envasa y control de calidad lo libera."}
+        ]},
+        {"kind": "h2", "text": "Pectina, gelatina y otras limitaciones"},
+        {"kind": "table", "head": ["Gelificante", "Qué dicen las fuentes"], "rows": [
+          ["Gelatina", "Origen animal (colágeno); aporta elasticidad y cohesión"],
+          ["Pectina de alto metoxilo", "Origen vegetal; necesita muchos sólidos solubles y pH bajo, normalmente por debajo de 3,5; aporta firmeza y retención de agua"],
+          ["Pectina de bajo metoxilo", "Gelifica mediante puentes de calcio, no por alto contenido de azúcar"],
+          ["Carragenano", "Apto para recetas vegetarianas y veganas"]
+        ]},
+        {"kind": "list", "items": [
+          "Composición típica según la presentación de la USP en 2023: gelificante (gelatina, pectina o agar) 5–8 %, agua 15–20 %, sacarosa 28–50 % y sólidos de jarabe de maíz 40–55 %.",
+          "Reproceso: las gominolas de pectina no pueden fundirse y reprocesarse, según un proveedor de ingredientes; pregunte cómo se gestionan los lotes fuera de especificación.",
+          "Sobredosificación: los fabricantes añaden nutriente extra para compensar las pérdidas durante el almacenamiento. La USP ha indicado que quiere alinear los criterios de aceptación de los geles masticables con los de comprimidos y cápsulas, salvo casos muy bien justificados.",
+          "Estabilidad: la USP señala que la mayoría de geles masticables usan formas estabilizadas de los ingredientes, y que la actividad de agua ayuda a prever la migración de humedad. Sus monografías recomiendan actividad de agua no superior a 0,75 junto con pH no superior a 4,5.",
+          "Seguridad infantil: la USP advierte del riesgo de sobredosis accidental con este formato; trate pronto el cierre a prueba de niños y la dosis por pieza."
+        ]},
+        {"kind": "h2", "text": "Ensayos de calidad habituales"},
+        {"kind": "table", "head": ["Ensayo", "Referencia", "Por qué importa"], "rows": [
+          ["Variación de peso", "USP <2091>", "Cada pieza lleva la dosis, así que su peso debe estar controlado"],
+          ["Disolución", "USP <2040>", "La USP la recomienda para geles masticables porque un recubrimiento puede afectar a la liberación"],
+          ["Actividad de agua y pH", "Monografías USP; pH según USP <791>", "Prevén la migración de humedad y sostienen la estabilidad"],
+          ["Valoración de cada activo", "Especificación del producto (21 CFR 111.70 para suplementos en EE. UU.)", "Confirma la potencia durante la vida útil, incluida la sobredosificación"],
+          ["Calidad microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B anexo 4C)", "Criterios de aceptación para productos no estériles"]
+        ]},
+        {"kind": "note", "text": "Las gominolas son más difíciles de analizar que los comprimidos: la presentación de la USP describe molienda criogénica en nitrógeno líquido solo para preparar las muestras. Pregunte a cada fabricante qué ensayos hace en su laboratorio y cuáles externaliza."},
+        {"kind": "h2", "text": "Qué enviar al fabricante para una cotización precisa"},
+        {"kind": "list", "items": [
+          "Estatus previsto (complemento, medicamento u otro) y países de venta",
+          "Dosis por toma y piezas por toma, con la cantidad y forma química de cada activo",
+          "Gelificante preferido: pectina, gelatina u otro; requisitos veganos, halal o kosher",
+          "Si debe ser sin azúcar o con azúcar reducido, y edulcorantes preferidos",
+          "Sabor, color, forma, peso de pieza y acabado (azucarado, con aceite u otro) si están definidos",
+          "Envase: frasco o bolsa, unidades por envase, cierre a prueba de niños",
+          "Cantidad del primer pedido y previsión anual por referencia",
+          "Vida útil objetivo y datos de estabilidad existentes",
+          "Certificaciones que exige su canal de venta, fecha objetivo y destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Usted describe la gominola; nosotros identificamos fabricantes por contrato cuyas líneas de dosificado, sistemas gelificantes y autorizaciones encajan y coordinamos sus cotizaciones. Para el comprador es gratuito: el fabricante nos paga una comisión cuando gana el pedido. No compartimos su fórmula, los datos de su empresa ni sus documentos con ningún fabricante sin su permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Pectina o gelatina?", "a": "La gelatina es de origen animal y da una textura elástica y masticable. La pectina es vegetal y más firme, pero exige un control estricto de sólidos y pH, o calcio en las de bajo metoxilo, y no puede reprocesarse una vez gelificada. Si necesita la alegación vegana, la pectina o el carragenano son las vías habituales."},
+        {"q": "¿Por qué las fórmulas de gominolas llevan sobredosificación?", "a": "Algunos nutrientes se degradan durante la cocción y el almacenamiento, así que el fabricante añade un extra para mantener la cantidad declarada hasta el final de la vida útil. Pida a cada fabricante que justifique su sobredosificación con datos de estabilidad."},
+        {"q": "¿Se pueden incluir ingredientes sensibles al calor?", "a": "A menudo sí, si se añaden cuando la masa se ha enfriado y el activo está en forma estabilizada. Hay trabajos publicados con grandes pérdidas de algunos compuestos vegetales incluso con esa precaución, así que el estudio de estabilidad es imprescindible."},
+        {"q": "¿Cuántas piezas por toma son realistas?", "a": "Depende de la cantidad total de activos y del peso de la pieza. Gelificante, azúcares y agua son la mayor parte de cada pieza, por lo que las fórmulas de dosis alta pueden requerir varias; envíe la fórmula completa y el fabricante propondrá un tamaño de pieza."},
+        {"q": "¿Las gominolas se regulan como alimento, complemento o medicamento?", "a": "Depende de la composición, las alegaciones y el mercado. En EE. UU., las gominolas de suplemento siguen el 21 CFR Part 111 y la FDA no las aprueba previamente, mientras que los medicamentos con aspecto de golosina siguen las normas del medicamento. Indíquenos el estatus previsto para contactar a los fabricantes adecuados."}
+      ]
+    },
+    "pt": {
+      "slug": "fabricacao-gomas",
+      "title": "Fabricação terceirizada de gomas (gummies)",
+      "metaTitle": "Fabricação terceirizada de gomas (gummies)",
+      "description": "Fabricação terceirizada de gomas de suplemento: pectina ou gelatina, cozimento e deposição, overage, atividade de água, testes e o que enviar para cotar.",
+      "lead": "A goma é um doce cozido e depositado em moldes que precisa entregar uma dose declarada. O gelificante, o calor do processo e a umidade da peça final decidem se isso acontece; esta página explica cada fator e o que o fabricante precisa para cotar.",
+      "body": [
+        {"kind": "h2", "text": "O que é e quando faz sentido"},
+        {"kind": "p", "text": "Goma é um gel mastigável feito com um gelificante, açúcares ou outros adoçantes, água, aromas e corantes, com os ativos incorporados. A FDA inclui as gomas entre as formas em que suplementos são vendidos e lembra que [não aprova suplementos antes da comercialização](https://www.fda.gov/food/information-consumers-using-dietary-supplements/questions-and-answers-dietary-supplements): a empresa responde pela segurança e pelo cumprimento das BPF. Também existem medicamentos isentos de prescrição nesse formato, e em 2023 a FDA realizou um workshop público para definir medicamentos isentos de prescrição com aparência de doce. As gomas são indicadas para produtos de consumo em que sabor e facilidade de uso importam; combinam mal com doses altas que exigiriam peças muito grandes ou muitas por porção."},
+        {"kind": "h2", "text": "Como é fabricada"},
+        {"kind": "steps", "items": [
+          {"title": "Recebimento e análise de insumos", "text": "Para suplementos nos EUA, o 21 CFR Part 111 exige ao menos um teste ou exame adequado para verificar a identidade de cada ingrediente dietético."},
+          {"title": "Cozimento da base", "text": "O xarope de açúcar ou poliol é aquecido e o gelificante incorporado. Em um processo publicado, um xarope de isomalte foi aquecido a cerca de 90 °C antes da adição de pectina e gelatina."},
+          {"title": "Resfriamento e adição dos ativos", "text": "Ativos sensíveis ao calor entram depois que a massa esfria; o mesmo estudo esperou chegar a 60 °C ou menos para limitar a degradação térmica do extrato vegetal."},
+          {"title": "Deposição em moldes", "text": "A massa é depositada em leitos de amido (mogul) ou em moldes sólidos sem amido. Um fabricante de equipamentos afirma que depositar em moldes sólidos com sólidos finais ou muito altos garante peso e dose consistentes e evita longas estufas e o manuseio de amido."},
+          {"title": "Geleificação, desmoldagem e acabamento", "text": "As peças geleificam, são desmoldadas e normalmente revestidas ou acabadas para reduzir a pegajosidade; depois secam até a umidade-alvo."},
+          {"title": "Análise, embalagem e liberação", "text": "O lote é analisado contra a especificação, embalado e liberado pelo controle de qualidade."}
+        ]},
+        {"kind": "h2", "text": "Pectina, gelatina e outras restrições"},
+        {"kind": "table", "head": ["Gelificante", "O que dizem as fontes"], "rows": [
+          ["Gelatina", "Origem animal (colágeno); confere elasticidade e coesão"],
+          ["Pectina de alto teor de éster", "Origem vegetal; exige muitos sólidos solúveis e pH baixo, normalmente abaixo de 3,5; confere firmeza e retenção de água"],
+          ["Pectina de baixo teor de éster", "Geleifica por pontes de cálcio, não por alto teor de açúcar"],
+          ["Carragenina", "Adequada a receitas vegetarianas e veganas"]
+        ]},
+        {"kind": "list", "items": [
+          "Composição típica segundo a apresentação da USP em 2023: gelificante (gelatina, pectina ou ágar) 5–8%, água 15–20%, sacarose 28–50% e sólidos de xarope de milho 40–55%.",
+          "Reprocesso: gomas de pectina não podem ser refundidas e reprocessadas, segundo um fornecedor de ingredientes; pergunte como lotes fora de especificação são tratados.",
+          "Overage: fabricantes adicionam nutriente extra para compensar perdas no armazenamento. A USP declarou que pretende alinhar os critérios de aceitação de géis mastigáveis aos de comprimidos e cápsulas, salvo casos muito bem fundamentados.",
+          "Estabilidade: a USP observa que a maioria dos géis mastigáveis usa formas estabilizadas dos ingredientes e que a atividade de água ajuda a prever a migração de umidade. Suas monografias recomendam atividade de água não superior a 0,75 junto com pH não superior a 4,5.",
+          "Segurança infantil: a USP alerta para o risco de superdosagem acidental nesse formato; discuta cedo a tampa à prova de crianças e a dose por peça."
+        ]},
+        {"kind": "h2", "text": "Testes de qualidade normalmente exigidos"},
+        {"kind": "table", "head": ["Teste", "Referência", "Por que importa"], "rows": [
+          ["Variação de peso", "USP <2091>", "Cada peça carrega a dose, então o peso precisa ser controlado"],
+          ["Dissolução", "USP <2040>", "Recomendada pela USP para géis mastigáveis porque um revestimento pode afetar a liberação"],
+          ["Atividade de água e pH", "Monografias USP; pH pela USP <791>", "Preveem a migração de umidade e sustentam a estabilidade"],
+          ["Doseamento de cada ativo", "Especificação do produto (21 CFR 111.70 para suplementos nos EUA)", "Confirma a potência ao longo da validade, incluindo o overage"],
+          ["Qualidade microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B anexo 4C)", "Critérios de aceitação para produtos não estéreis"]
+        ]},
+        {"kind": "note", "text": "Gomas são mais difíceis de analisar do que comprimidos: a apresentação da USP descreve moagem criogênica em nitrogênio líquido apenas para preparar as amostras. Pergunte a cada fabricante quais testes ele faz internamente e quais terceiriza."},
+        {"kind": "h2", "text": "O que enviar ao fabricante para uma cotação precisa"},
+        {"kind": "list", "items": [
+          "Enquadramento pretendido (suplemento, medicamento ou outro) e países de venda",
+          "Dose por porção e peças por porção, com quantidade e forma química de cada ativo",
+          "Gelificante preferido: pectina, gelatina ou outro; exigências veganas, halal ou kosher",
+          "Se deve ser sem açúcar ou com açúcar reduzido, e adoçantes preferidos",
+          "Sabor, cor, formato, peso da peça e acabamento (açucarado, com óleo ou outro), se definidos",
+          "Embalagem: frasco ou sachê, unidades por embalagem, tampa à prova de crianças",
+          "Quantidade do primeiro pedido e previsão anual por SKU",
+          "Validade-alvo e dados de estabilidade existentes",
+          "Certificações exigidas pelo seu canal de venda, prazo desejado e local de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve a goma; nós identificamos fabricantes terceirizados cujas linhas de deposição, sistemas gelificantes e autorizações se encaixam e coordenamos as cotações. É gratuito para o comprador: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, dados da empresa ou documentos com nenhum fabricante sem a sua permissão."}
+      ],
+      "faqs": [
+        {"q": "Pectina ou gelatina?", "a": "A gelatina é de origem animal e dá textura elástica e mastigável. A pectina é vegetal e mais firme, mas exige controle rigoroso de sólidos e pH, ou cálcio nas de baixo teor de éster, e não pode ser reprocessada depois de geleificada. Para alegação vegana, pectina ou carragenina são os caminhos usuais."},
+        {"q": "Por que as fórmulas de gomas têm overage?", "a": "Alguns nutrientes se degradam no cozimento e no armazenamento, então o fabricante adiciona um excedente para manter a quantidade declarada até o fim da validade. Peça a cada fabricante que justifique o overage com dados de estabilidade."},
+        {"q": "Ingredientes sensíveis ao calor podem entrar em gomas?", "a": "Muitas vezes sim, se adicionados depois que a massa esfria e se o ativo estiver em forma estabilizada. Há trabalhos publicados com grandes perdas de alguns compostos vegetais mesmo com esse cuidado, por isso o estudo de estabilidade é indispensável."},
+        {"q": "Quantas peças por porção são realistas?", "a": "Depende da quantidade total de ativos e do peso da peça. Gelificante, açúcares e água formam a maior parte de cada peça, então fórmulas de dose alta podem exigir várias; envie a fórmula completa e o fabricante proporá um tamanho de peça."},
+        {"q": "Gomas são reguladas como alimento, suplemento ou medicamento?", "a": "Depende da composição, das alegações e do mercado. Nos EUA, gomas de suplemento seguem o 21 CFR Part 111 e não são aprovadas previamente pela FDA, enquanto medicamentos com aparência de doce seguem as regras de medicamentos. Informe o enquadramento pretendido para contatarmos os fabricantes certos."}
+      ]
+    }
+  }
+}

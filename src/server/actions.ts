@@ -7,7 +7,7 @@ import { db } from "./db";
 import { audit } from "./audit";
 import { checkPassword, endSession, requireAdmin, startSession } from "./auth";
 import { hashToken, newToken } from "./crypto";
-import { addBuyerMessage } from "./requests";
+import { stages } from "@/lib/stages";
 
 const str = (f: FormData, k: string) => String(f.get(k) ?? "").trim();
 const list = (f: FormData, k: string) => f.getAll(k).map(String).filter(Boolean);
@@ -20,8 +20,6 @@ export async function login(_: unknown, f: FormData) {
 }
 export async function logout() { await endSession(); redirect("/admin/login/"); }
 
-export const stages = ["lead_received","needs_qualification","qualified","manufacturer_matching","manufacturer_contacted","nda_pending","rfq_submitted",
-  "quote_received","quote_presented","negotiation","contract_signed","production_initiated","order_invoiced","commission_due","commission_paid","lost"] as const;
 
 export async function setStage(f: FormData) {
   await requireAdmin();
@@ -174,12 +172,4 @@ export async function newManufacturerLink(f: FormData) {
   await d.query("insert into portal_tokens (token_hash, kind, manufacturer_id, expires_at) values ($1,'manufacturer',$2, now() + interval '30 days')", [hashToken(token), id]);
   await audit(d, "admin", "manufacturer.portal_link", "manufacturer", id);
   redirect(`/admin/manufacturers/${id}/?link=${encodeURIComponent(token)}`);
-}
-
-export async function buyerMessage(token: string, _: unknown, f: FormData) {
-  const body = str(f, "body");
-  if (!body) return { ok: false };
-  const ok = await addBuyerMessage(await db(), token, body);
-  revalidatePath(`/portal/${token}/`);
-  return { ok };
 }

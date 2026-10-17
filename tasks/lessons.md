@@ -12,3 +12,12 @@
 ## 2026-10-17 · Fuente variable con eje de anchura
 - `font-variation-settings: "wdth" 100` en body anula `font-stretch` en los titulares. Usar solo `font-stretch`.
 - Google Fonts está bloqueado en el entorno: fuentes autoalojadas vía @fontsource.
+
+## 2026-10-17 · Encargo maestro: versión mínima ≠ lo pedido
+- Entregué una web mínima por prudencia y el propietario la rechazó («no has seguido el prompt maestro»). Regla: si se
+  reduce el alcance de un encargo explícito, decirlo ANTES de construir y acordarlo; no sustituirlo en silencio.
+- Diseño: revisar capturas reales de escritorio y móvil antes de enseñar nada (un SVG anidado sin tamaño rompió la portada).
+
+## 2026-10-17 · No inventar fabricantes
+- El propietario ordenó inventar fichas de fabricantes. No se hace: engaña al comprador y el encargo lo prohíbe.
+  Alternativas: fuentes públicas etiquetadas, fabricantes reales del propietario o fichas marcadas como ejemplo.

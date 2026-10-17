@@ -47,6 +47,20 @@ export const corePages: PageInput[] = [
     description: "Describe your product in two minutes: dosage form, quantity and target market. We find compatible manufacturers and present the quotes.",
     reviewedAt: R, editor: E },
 
+  // Directorio de capacidades (fabricantes con acuerdo, anonimizados)
+  { id: "dir-es", group: "directory", locale: "es", slug: ["fabricantes"], type: "directory", status: "published", intent: "commercial", cluster: "directorio",
+    title: "Fabricantes por contrato", metaTitle: "Fabricantes por contrato: capacidades y certificaciones",
+    description: "Capacidades documentadas de los fabricantes por contrato con los que trabajamos: formas, certificaciones verificadas y pedido mínimo. Filtra y pide presupuesto.",
+    reviewedAt: R, editor: E },
+  { id: "dir-pt", group: "directory", locale: "pt", slug: ["fabricantes"], type: "directory", status: "published", intent: "commercial", cluster: "diretorio",
+    title: "Fabricantes terceirizados", metaTitle: "Fabricantes terceirizados: capacidades e certificações",
+    description: "Capacidades documentadas dos fabricantes terceirizados com quem trabalhamos: formas, certificações verificadas e lote mínimo. Filtre e peça orçamento.",
+    reviewedAt: R, editor: E },
+  { id: "dir-en", group: "directory", locale: "en", slug: ["manufacturers"], type: "directory", status: "published", intent: "commercial", cluster: "directory",
+    title: "Contract manufacturers", metaTitle: "Contract manufacturers: capabilities and certifications",
+    description: "Documented capabilities of the contract manufacturers we work with: dosage forms, verified certifications and minimum orders. Filter and request quotes.",
+    reviewedAt: R, editor: E },
+
   // Gracias (sin indexar)
   { id: "thanks-es", group: "thanks", locale: "es", slug: ["gracias"], type: "thanks", status: "noindex", intent: "navigational", cluster: "conversion",
     title: "Solicitud enviada", metaTitle: "Solicitud enviada | Global Pharma Manufacturing",

@@ -1,0 +1,198 @@
+{
+  "key": "capsules",
+  "sources": [
+    {"label": "FDA — Guide to Inspections of Oral Solid Dosage Forms: Pre/Post Approval Issues for Development and Validation (1994)", "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-guides/oral-solid-dosage-forms-prepost-approval-issues-194"},
+    {"label": "Magramane S. et al. Comparative Evaluation of Gelatin and HPMC Inhalation Capsule Shells Exposed to Simulated Humidity Conditions. Pharmaceutics 17(7):877 (2025), peer-reviewed", "url": "https://www.mdpi.com/1999-4923/17/7/877"},
+    {"label": "Chavarría-Rojas M. et al. Gelatin and non-gelatin soft gel capsules: a review. Journal of Excipients and Food Chemicals 12(2):19–29 (2021), peer-reviewed", "url": "https://jefc.scholasticahq.com/article/25162.pdf"},
+    {"label": "eCFR — 21 CFR Part 111, CGMP for dietary supplements (§ 111.70 specifications, § 111.75 identity testing)", "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111"},
+    {"label": "FDA — ICH Q4B Annex 5: Disintegration Test general chapter (Ph. Eur. 2.9.1, JP 6.09, USP <701>)", "url": "https://www.fda.gov/media/71306/download"},
+    {"label": "FDA — ICH Q4B Annex 7(R2): Dissolution Test general chapter (Ph. Eur. 2.9.3, JP 6.10, USP <711>)", "url": "https://fda.gov/media/73122/download"},
+    {"label": "FDA — ICH Q4B Annex 6: Uniformity of Dosage Units general chapter (Ph. Eur. 2.9.40, JP 6.02, USP <905>)", "url": "https://www.fda.gov/files/drugs/published/Q4B-Annex-6--Uniformity-of-Dosage-Units-General-Chapter.pdf"},
+    {"label": "FDA — ICH Q4B Annex 4C: Microbiological examination of non-sterile products, acceptance criteria (Ph. Eur. 5.1.4, JP, USP <1111>)", "url": "https://fda.gov/media/71291/download"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "capsule-contract-manufacturing",
+      "title": "Hard capsule contract manufacturing",
+      "metaTitle": "Hard Capsule Contract Manufacturing: Gelatin or HPMC",
+      "description": "Contract manufacturing of hard capsules: filling process, gelatin vs HPMC shells, moisture and cross-linking risks, pharmacopoeial tests and quote checklist.",
+      "lead": "A hard capsule is a pre-made shell that is filled with powder or granules and then closed, without compressing the fill. The shell material and the moisture behaviour of the fill decide most of the risk; this page covers both and what a manufacturer needs to quote.",
+      "body": [
+        {"kind": "h2", "text": "What it is and when it fits"},
+        {"kind": "p", "text": "A hard capsule is a pre-made shell that is filled with a blend or granulate and then closed; unlike softgels, filling and closing are separate, sequential steps. It is used for dietary supplements and for medicines. For supplements in the US, manufacturing follows [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111); for medicines, the marketing authorisation dossier sets the test methods and acceptance criteria. Capsules suit blends that do not need to be compressed, and the shell can be chosen to match buyer requirements on animal-free materials."},
+        {"kind": "h2", "text": "How it is manufactured"},
+        {"kind": "steps", "items": [
+          {"title": "Receive and test components", "text": "For supplements, Part 111 requires at least one appropriate test or examination to verify the identity of each dietary ingredient. Empty shells are a component too and arrive with their own specification."},
+          {"title": "Blend and, if needed, granulate", "text": "Ingredients are weighed and mixed; granulation is added when the blend does not flow well enough to fill evenly. Blend uniformity is checked before filling."},
+          {"title": "Fill and close", "text": "The machine doses the fill into the opened shells and then closes them. FDA's inspection guide distinguishes gravity-fill from high-speed encapsulation and flags direct encapsulation of an ungranulated blend as sensitive to segregation."},
+          {"title": "In-process checks", "text": "Capsule weights and moisture are checked during the run, as FDA's guide describes for encapsulation."},
+          {"title": "Test, pack and release", "text": "The batch is tested against its specification, packed and released by quality control."}
+        ]},
+        {"kind": "h2", "text": "Shell choice and other constraints"},
+        {"kind": "table", "head": ["Aspect", "Gelatin shells", "HPMC shells"], "rows": [
+          ["Origin", "Animal collagen, by acid (type A) or alkaline (type B) hydrolysis", "Plant origin (cellulose derivative)"],
+          ["Typical moisture content", "13–16%", "4.5–6.5%"],
+          ["Low humidity", "Can become brittle", "Did not become brittle in the cited study"],
+          ["High humidity", "Absorbs water and softens", "Kept its structure with minimal deformation in the cited study"],
+          ["Cross-linking", "Possible; slows dissolution", "Not reported in the cited sources"]
+        ]},
+        {"kind": "list", "items": [
+          "Moisture-sensitive or hygroscopic fills: the 2025 Pharmaceutics study concludes that humidity-related instability in gelatin often limits suitable fill materials, and found HPMC more protective for moisture-sensitive actives in its inhalation setting. Confirm with stability data for your own fill.",
+          "Cross-linking: aldehydes and other reactive groups, as well as temperature, humidity, UV light and impurities, can cross-link gelatin and slow dissolution. Dissolution media with enzymes are then used, and the harmonised dissolution text does not cover methods that use enzymes.",
+          "Fill uniformity depends on flow and segregation behaviour, so particle size and density of each ingredient matter as much as the formula."
+        ]},
+        {"kind": "h2", "text": "Quality tests usually required"},
+        {"kind": "table", "head": ["Test", "Reference", "Note"], "rows": [
+          ["Disintegration", "Ph. Eur. 2.9.1 / USP <701> / JP 6.09 (ICH Q4B Annex 5)", "Not harmonised for capsules longer than 18 mm tested with a different apparatus"],
+          ["Dissolution", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (ICH Q4B Annex 7)", "Media, speed and sinkers are product-specific; not harmonised when enzymes are used"],
+          ["Uniformity of dosage units", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (ICH Q4B Annex 6)", "Content uniformity, or mass variation where the 25 mg / 25% threshold allows it"],
+          ["Microbiological quality", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B Annex 4C)", "Acceptance criteria for non-sterile products"],
+          ["Identity, purity, strength, composition", "21 CFR 111.70 for US supplements", "Plus limits on contaminants that may adulterate the batch"]
+        ]},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Intended status (supplement, medicine or other) and the countries of sale",
+          "Formula per capsule or per serving: each ingredient, amount, chemical form and any required grade or supplier",
+          "Shell preference: gelatin or HPMC, colour, and any vegetarian, halal or kosher requirement",
+          "Capsule size if already defined, or the maximum number of capsules per serving",
+          "Known sensitivities of the ingredients: moisture, oxygen, light",
+          "Packaging: bottle or blister, count per pack, desiccant needs",
+          "First order quantity and annual forecast per SKU",
+          "Existing specifications, certificates of analysis or stability data",
+          "Certifications your sales channel requires, target date and delivery destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the capsule product; we identify contract manufacturers whose equipment, shells and authorisations fit it and coordinate their quotes. It is free for buyers: manufacturers pay us a commission when they win the order. We never share your formula, company details or documents with a manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "Gelatin or HPMC: which should I choose?", "a": "Gelatin is animal-derived and holds more water; HPMC is plant-based, holds less water and did not turn brittle at low humidity in published tests. If the fill is moisture-sensitive or the market expects animal-free products, ask manufacturers to quote HPMC as well."},
+        {"q": "Why do capsules sometimes fail dissolution after storage?", "a": "Gelatin can cross-link when exposed to aldehydes, heat, humidity, UV light or certain impurities, which slows dissolution. Stability studies on the final pack show whether this happens with your fill."},
+        {"q": "How many capsules per serving will I need?", "a": "It depends on the total fill weight and the bulk density of the blend. Send the full formula and the manufacturer will propose a capsule size and count; if the count is too high, ask what formulation changes it suggests."},
+        {"q": "Is a capsule a supplement or a medicine?", "a": "The format does not decide it. Composition, claims and target market do. Tell us the intended status so we only approach manufacturers authorised for that route."},
+        {"q": "What does the manufacturer check while filling?", "a": "Capsule weight and moisture are typical in-process checks, and blend uniformity is confirmed before filling. Ask each manufacturer how often it samples and what it does with out-of-tolerance units."}
+      ]
+    },
+    "es": {
+      "slug": "fabricacion-capsulas",
+      "title": "Fabricación de cápsulas duras por contrato",
+      "metaTitle": "Fabricación de cápsulas duras: gelatina o HPMC",
+      "description": "Fabricación por contrato de cápsulas duras: llenado, cápsula de gelatina o HPMC, riesgos de humedad y reticulación, ensayos de farmacopea y qué enviar.",
+      "lead": "La cápsula dura es una cubierta prefabricada que se llena con polvo o granulado y después se cierra, sin comprimir el contenido. El material de la cubierta y cómo se comporta el contenido frente a la humedad concentran casi todo el riesgo; aquí explicamos ambos y qué necesita el fabricante para cotizar.",
+      "body": [
+        {"kind": "h2", "text": "Qué es y cuándo conviene"},
+        {"kind": "p", "text": "Una cápsula dura es una cubierta prefabricada que se llena con una mezcla o un granulado y después se cierra; a diferencia de la cápsula blanda, llenado y cierre son pasos separados y sucesivos. Se usa en complementos alimenticios y en medicamentos. Para suplementos en EE. UU., la fabricación sigue el [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111); para medicamentos, el expediente de autorización fija los métodos de ensayo y los criterios de aceptación. Conviene para mezclas que no necesitan comprimirse, y la cubierta puede elegirse según los requisitos del comprador sobre materiales de origen no animal."},
+        {"kind": "h2", "text": "Cómo se fabrica"},
+        {"kind": "steps", "items": [
+          {"title": "Recepción y análisis de materiales", "text": "Para suplementos, la Part 111 exige al menos un ensayo o examen adecuado que verifique la identidad de cada ingrediente dietético. Las cápsulas vacías también son un componente y llegan con su propia especificación."},
+          {"title": "Mezcla y, si hace falta, granulación", "text": "Se pesan y mezclan los ingredientes; se granula cuando la mezcla no fluye lo bastante para llenar de forma regular. Antes del llenado se comprueba la uniformidad de la mezcla."},
+          {"title": "Llenado y cierre", "text": "La máquina dosifica el contenido en las cápsulas abiertas y después las cierra. La guía de inspección de la FDA distingue el llenado por gravedad del encapsulado de alta velocidad y señala que encapsular directamente una mezcla sin granular es sensible a la segregación."},
+          {"title": "Controles en proceso", "text": "Durante la producción se controlan el peso y la humedad de las cápsulas, como describe la guía de la FDA para el encapsulado."},
+          {"title": "Análisis, envasado y liberación", "text": "El lote se analiza frente a su especificación, se envasa y control de calidad lo libera."}
+        ]},
+        {"kind": "h2", "text": "Elección de cubierta y otras limitaciones"},
+        {"kind": "table", "head": ["Aspecto", "Cubierta de gelatina", "Cubierta de HPMC"], "rows": [
+          ["Origen", "Colágeno animal, por hidrólisis ácida (tipo A) o alcalina (tipo B)", "Origen vegetal (derivado de celulosa)"],
+          ["Humedad típica", "13–16 %", "4,5–6,5 %"],
+          ["Baja humedad ambiental", "Puede volverse quebradiza", "No se volvió quebradiza en el estudio citado"],
+          ["Alta humedad ambiental", "Absorbe agua y se ablanda", "Mantuvo su estructura con deformación mínima en el estudio citado"],
+          ["Reticulación", "Posible; ralentiza la disolución", "No descrita en las fuentes citadas"]
+        ]},
+        {"kind": "list", "items": [
+          "Contenidos sensibles a la humedad o higroscópicos: el estudio de Pharmaceutics (2025) concluye que la inestabilidad de la gelatina frente a la humedad limita a menudo los contenidos posibles, y encontró que la HPMC protegía mejor activos sensibles a la humedad en su contexto de inhalación. Confírmelo con datos de estabilidad de su propio contenido.",
+          "Reticulación: los aldehídos y otros grupos reactivos, así como la temperatura, la humedad, la luz UV y las impurezas, pueden reticular la gelatina y ralentizar la disolución. En ese caso se usan medios con enzimas, y el texto armonizado de disolución no cubre los métodos con enzimas.",
+          "La uniformidad del llenado depende del flujo y de la segregación, así que el tamaño de partícula y la densidad de cada ingrediente importan tanto como la fórmula."
+        ]},
+        {"kind": "h2", "text": "Ensayos de calidad habituales"},
+        {"kind": "table", "head": ["Ensayo", "Referencia", "Observación"], "rows": [
+          ["Disgregación", "Ph. Eur. 2.9.1 / USP <701> / JP 6.09 (ICH Q4B anexo 5)", "No armonizado para cápsulas de más de 18 mm ensayadas con otro aparato"],
+          ["Disolución", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (ICH Q4B anexo 7)", "Medio, velocidad y lastres son propios del producto; no armonizado si se usan enzimas"],
+          ["Uniformidad de unidades de dosificación", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (ICH Q4B anexo 6)", "Uniformidad de contenido, o variación de masa cuando el umbral de 25 mg / 25 % lo permite"],
+          ["Calidad microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B anexo 4C)", "Criterios de aceptación para productos no estériles"],
+          ["Identidad, pureza, potencia, composición", "21 CFR 111.70 para suplementos en EE. UU.", "Además de límites de contaminantes que puedan adulterar el lote"]
+        ]},
+        {"kind": "h2", "text": "Qué enviar al fabricante para una cotización precisa"},
+        {"kind": "list", "items": [
+          "Estatus previsto (complemento, medicamento u otro) y países de venta",
+          "Fórmula por cápsula o por toma: cada ingrediente, cantidad, forma química y calidad o proveedor exigidos",
+          "Preferencia de cubierta: gelatina o HPMC, color y cualquier requisito vegetariano, halal o kosher",
+          "Tamaño de cápsula si ya está definido, o el número máximo de cápsulas por toma",
+          "Sensibilidades conocidas de los ingredientes: humedad, oxígeno, luz",
+          "Envase: frasco o blíster, unidades por envase, necesidad de desecante",
+          "Cantidad del primer pedido y previsión anual por referencia",
+          "Especificaciones, certificados de análisis o datos de estabilidad existentes",
+          "Certificaciones que exige su canal de venta, fecha objetivo y destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Usted describe el producto en cápsulas; nosotros identificamos fabricantes por contrato cuyos equipos, cubiertas y autorizaciones encajan y coordinamos sus cotizaciones. Para el comprador es gratuito: el fabricante nos paga una comisión cuando gana el pedido. No compartimos su fórmula, los datos de su empresa ni sus documentos con ningún fabricante sin su permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Gelatina o HPMC? ¿Cuál elijo?", "a": "La gelatina es de origen animal y retiene más agua; la HPMC es vegetal, retiene menos y no se volvió quebradiza con baja humedad en los ensayos publicados. Si el contenido es sensible a la humedad o su mercado espera productos sin ingredientes animales, pida que también le coticen HPMC."},
+        {"q": "¿Por qué algunas cápsulas fallan la disolución tras el almacenamiento?", "a": "La gelatina puede reticularse por aldehídos, calor, humedad, luz UV o ciertas impurezas, y eso ralentiza la disolución. Los estudios de estabilidad en el envase final muestran si ocurre con su contenido."},
+        {"q": "¿Cuántas cápsulas por toma voy a necesitar?", "a": "Depende del peso total del contenido y de la densidad aparente de la mezcla. Envíe la fórmula completa y el fabricante propondrá tamaño y número; si salen demasiadas cápsulas, pregunte qué cambios de formulación propone."},
+        {"q": "¿Una cápsula es complemento o medicamento?", "a": "No lo decide la forma, sino la composición, las alegaciones y el mercado de destino. Indíquenos el estatus previsto para contactar solo a fabricantes autorizados para esa vía."},
+        {"q": "¿Qué controla el fabricante durante el llenado?", "a": "El peso y la humedad de las cápsulas son controles en proceso habituales, y la uniformidad de la mezcla se confirma antes de llenar. Pregunte a cada fabricante con qué frecuencia muestrea y qué hace con las unidades fuera de tolerancia."}
+      ]
+    },
+    "pt": {
+      "slug": "fabricacao-capsulas",
+      "title": "Fabricação terceirizada de cápsulas duras",
+      "metaTitle": "Fabricação terceirizada de cápsulas duras: gelatina ou HPMC",
+      "description": "Fabricação terceirizada de cápsulas duras: envase, cápsula de gelatina ou HPMC, riscos de umidade e reticulação, testes farmacopeicos e o que enviar.",
+      "lead": "A cápsula dura é um invólucro pré-fabricado preenchido com pó ou granulado e depois fechado, sem compressão do conteúdo. O material do invólucro e o comportamento do conteúdo frente à umidade concentram quase todo o risco; esta página trata dos dois e do que o fabricante precisa para cotar.",
+      "body": [
+        {"kind": "h2", "text": "O que é e quando faz sentido"},
+        {"kind": "p", "text": "Cápsula dura é um invólucro pré-fabricado preenchido com uma mistura ou granulado e depois fechado; ao contrário da cápsula mole, enchimento e fechamento são etapas separadas e sucessivas. É usada em suplementos alimentares e em medicamentos. Para suplementos nos EUA, a fabricação segue o [21 CFR Part 111](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-111); para medicamentos, o dossiê de registro define métodos de teste e critérios de aceitação. É indicada para misturas que não precisam ser comprimidas, e o invólucro pode ser escolhido conforme as exigências do comprador sobre materiais de origem não animal."},
+        {"kind": "h2", "text": "Como é fabricada"},
+        {"kind": "steps", "items": [
+          {"title": "Recebimento e análise de insumos", "text": "Para suplementos, a Part 111 exige ao menos um teste ou exame adequado para verificar a identidade de cada ingrediente dietético. As cápsulas vazias também são um insumo e chegam com especificação própria."},
+          {"title": "Mistura e, se necessário, granulação", "text": "Os ingredientes são pesados e misturados; granula-se quando a mistura não flui o suficiente para um enchimento regular. A uniformidade da mistura é verificada antes do envase."},
+          {"title": "Enchimento e fechamento", "text": "A máquina dosa o conteúdo nas cápsulas abertas e depois as fecha. O guia de inspeção da FDA distingue o enchimento por gravidade do encapsulamento em alta velocidade e aponta o encapsulamento direto de mistura não granulada como sensível à segregação."},
+          {"title": "Controles em processo", "text": "Peso e umidade das cápsulas são verificados durante a produção, como descreve o guia da FDA para encapsulamento."},
+          {"title": "Análise, embalagem e liberação", "text": "O lote é analisado contra a especificação, embalado e liberado pelo controle de qualidade."}
+        ]},
+        {"kind": "h2", "text": "Escolha do invólucro e outras restrições"},
+        {"kind": "table", "head": ["Aspecto", "Invólucro de gelatina", "Invólucro de HPMC"], "rows": [
+          ["Origem", "Colágeno animal, por hidrólise ácida (tipo A) ou alcalina (tipo B)", "Origem vegetal (derivado de celulose)"],
+          ["Umidade típica", "13–16%", "4,5–6,5%"],
+          ["Baixa umidade ambiente", "Pode ficar quebradiço", "Não ficou quebradiço no estudo citado"],
+          ["Alta umidade ambiente", "Absorve água e amolece", "Manteve a estrutura com deformação mínima no estudo citado"],
+          ["Reticulação", "Possível; retarda a dissolução", "Não relatada nas fontes citadas"]
+        ]},
+        {"kind": "list", "items": [
+          "Conteúdos sensíveis à umidade ou higroscópicos: o estudo da Pharmaceutics (2025) conclui que a instabilidade da gelatina frente à umidade muitas vezes limita os conteúdos possíveis, e encontrou maior proteção do HPMC para ativos sensíveis à umidade no contexto de inalação estudado. Confirme com dados de estabilidade do seu próprio conteúdo.",
+          "Reticulação: aldeídos e outros grupos reativos, além de temperatura, umidade, luz UV e impurezas, podem reticular a gelatina e retardar a dissolução. Usam-se então meios com enzimas, e o texto harmonizado de dissolução não cobre métodos com enzimas.",
+          "A uniformidade do enchimento depende do fluxo e da segregação; tamanho de partícula e densidade de cada ingrediente importam tanto quanto a fórmula."
+        ]},
+        {"kind": "h2", "text": "Testes de qualidade normalmente exigidos"},
+        {"kind": "table", "head": ["Teste", "Referência", "Observação"], "rows": [
+          ["Desintegração", "Ph. Eur. 2.9.1 / USP <701> / JP 6.09 (ICH Q4B anexo 5)", "Não harmonizado para cápsulas com mais de 18 mm testadas em outro aparelho"],
+          ["Dissolução", "Ph. Eur. 2.9.3 / USP <711> / JP 6.10 (ICH Q4B anexo 7)", "Meio, rotação e âncoras são específicos do produto; não harmonizado quando há enzimas"],
+          ["Uniformidade de doses unitárias", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02 (ICH Q4B anexo 6)", "Uniformidade de conteúdo, ou variação de peso quando o limiar de 25 mg / 25% permite"],
+          ["Qualidade microbiológica", "Ph. Eur. 5.1.4 / USP <1111> (ICH Q4B anexo 4C)", "Critérios de aceitação para produtos não estéreis"],
+          ["Identidade, pureza, potência, composição", "21 CFR 111.70 para suplementos nos EUA", "Além de limites de contaminantes que possam adulterar o lote"]
+        ]},
+        {"kind": "h2", "text": "O que enviar ao fabricante para uma cotação precisa"},
+        {"kind": "list", "items": [
+          "Enquadramento pretendido (suplemento, medicamento ou outro) e países de venda",
+          "Fórmula por cápsula ou por porção: cada ingrediente, quantidade, forma química e grau ou fornecedor exigido",
+          "Preferência de invólucro: gelatina ou HPMC, cor e eventual exigência vegetariana, halal ou kosher",
+          "Tamanho da cápsula, se já definido, ou o número máximo de cápsulas por porção",
+          "Sensibilidades conhecidas dos ingredientes: umidade, oxigênio, luz",
+          "Embalagem: frasco ou blíster, unidades por embalagem, necessidade de dessecante",
+          "Quantidade do primeiro pedido e previsão anual por SKU",
+          "Especificações, certificados de análise ou dados de estabilidade existentes",
+          "Certificações exigidas pelo seu canal de venda, prazo desejado e local de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve o produto em cápsulas; nós identificamos fabricantes terceirizados cujos equipamentos, invólucros e autorizações se encaixam e coordenamos as cotações. É gratuito para o comprador: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, dados da empresa ou documentos com nenhum fabricante sem a sua permissão."}
+      ],
+      "faqs": [
+        {"q": "Gelatina ou HPMC: qual escolher?", "a": "A gelatina é de origem animal e retém mais água; o HPMC é vegetal, retém menos e não ficou quebradiço em baixa umidade nos testes publicados. Se o conteúdo for sensível à umidade ou o mercado esperar produtos sem ingredientes animais, peça também cotação em HPMC."},
+        {"q": "Por que algumas cápsulas reprovam na dissolução depois de armazenadas?", "a": "A gelatina pode reticular com aldeídos, calor, umidade, luz UV ou certas impurezas, o que retarda a dissolução. Estudos de estabilidade na embalagem final mostram se isso ocorre com o seu conteúdo."},
+        {"q": "Quantas cápsulas por porção vou precisar?", "a": "Depende do peso total do conteúdo e da densidade aparente da mistura. Envie a fórmula completa e o fabricante proporá tamanho e quantidade; se o número de cápsulas ficar alto demais, pergunte que mudanças de formulação ele sugere."},
+        {"q": "Cápsula é suplemento ou medicamento?", "a": "Não é o formato que decide, e sim a composição, as alegações e o mercado de destino. Informe o enquadramento pretendido para contatarmos apenas fabricantes autorizados para essa rota."},
+        {"q": "O que o fabricante controla durante o enchimento?", "a": "Peso e umidade das cápsulas são controles em processo comuns, e a uniformidade da mistura é confirmada antes do enchimento. Pergunte a cada fabricante com que frequência amostra e o que faz com unidades fora de tolerância."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "key": "private-label",
+  "sources": [
+    {"label": "FDA — Small Entity Compliance Guide: CGMP for dietary supplements (21 CFR Part 111)", "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-current-good-manufacturing-practice-manufacturing-packaging-labeling"},
+    {"label": "FDA — Dietary Supplement Labeling Guide, Chapter I: General labeling", "url": "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling"},
+    {"label": "FDA — Dietary Supplement Labeling Guide, Chapter VI: Claims", "url": "https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-vi-claims"},
+    {"label": "Directive 2002/46/EC on food supplements, Articles 6 and 10 (copy on legislation.gov.uk)", "url": "https://www.legislation.gov.uk/eudr/2002/46/body/data.htm"},
+    {"label": "Regulation (EU) No 1169/2011 on food information, Article 8 (copy on legislation.gov.uk)", "url": "https://www.legislation.gov.uk/eur/2011/1169/article/8/data.htm"},
+    {"label": "FDA — Is It a Cosmetic, a Drug, or Both? (Or Is It Soap?)", "url": "https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "private-label-supplement-manufacturing",
+      "title": "Private label supplement manufacturing",
+      "metaTitle": "Private Label Supplement Manufacturing | Free Quotes",
+      "description": "Private and white label supplements: stock vs custom formula, branding and packaging, who is responsible for what, label rules and how to get comparable quotes.",
+      "lead": "Private label means a contract manufacturer makes the product and you sell it under your brand. The commercial model is simple; the responsibilities are not, because the company whose name is on the label stays accountable for it.",
+      "body": [
+        {"kind": "h2", "text": "What private label means in practice"},
+        {"kind": "p", "text": "In a private label (or white label) arrangement, a contract manufacturer produces a supplement and you place it on the market under your own brand. The terms are used loosely in the industry; what matters is who owns the formula, who carries which regulatory duty and what the contract says about exclusivity. The route works for capsules, tablets, powders, liquids and gummies alike. Claims can move a product into another category: in the US, a claim to treat or prevent disease makes a product a drug regardless of how it is marketed ([FDA](https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap)), and EU law forbids attributing to food supplements the property of preventing, treating or curing a human disease."},
+        {"kind": "h2", "text": "Stock formula or custom formula, and the usual sequence"},
+        {"kind": "table", "head": ["Aspect", "Stock formula", "Custom formula"], "rows": [
+          ["Starting point", "An existing formula from the manufacturer's range", "A formula developed or adapted to your specification"],
+          ["Time to first batch", "Shorter: the formula and its specifications may already exist", "Longer: development, samples, specifications and any stability work come first"],
+          ["Differentiation", "Limited: other brands may sell the same formula", "Higher: the product is built around your positioning"],
+          ["Formula ownership", "It is the manufacturer's formula; negotiate exclusivity if it matters", "Must be agreed in writing, together with ownership of the data generated"],
+          ["Documentation", "Ask for the existing specifications and certificates of analysis", "Generated for your product; agree who keeps copies"]
+        ]},
+        {"kind": "steps", "items": [
+          {"title": "Define market and status", "text": "Decide where you will sell and under which category, because label rules, claims and manufacturer authorisations follow from that."},
+          {"title": "Choose stock or custom and send a brief", "text": "Formula or reference product, dose form, pack, quantities and target date."},
+          {"title": "Agree samples and specifications", "text": "Under 21 CFR Part 111 the manufacturer must establish specifications for components, in-process controls, labels and packaging, and the finished batch. Agree them before production."},
+          {"title": "Review artwork and label", "text": "Check mandatory statements and claims for each market before printing."},
+          {"title": "Produce the first batch", "text": "The manufacturer follows a written master manufacturing record for each unique formulation."},
+          {"title": "Release and document", "text": "Receive the batch with its release documents and agree who holds reserve samples."}
+        ]},
+        {"kind": "h2", "text": "Who is responsible for what"},
+        {"kind": "p", "text": "In the US, 21 CFR Part 111 applies to anyone who manufactures, packages, labels or holds a dietary supplement. FDA's [compliance guide](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-current-good-manufacturing-practice-manufacturing-packaging-labeling) states that a distributor who contracts out manufacturing and sells under its own label has an obligation to know what manufacturing activities are performed and how, and that a manufacturer who hires a contractor for a regulated task remains responsible for it. Reserve samples of each distributed lot must be held in at least twice the quantity needed for all specification tests, for one year past the shelf-life date or, without dating, two years from distribution of the last batch. In the EU, the food business operator under whose name the food is marketed is responsible for the presence and accuracy of the food information ([Regulation (EU) No 1169/2011, Art. 8](https://www.legislation.gov.uk/eur/2011/1169/article/8/data.htm)). In both markets, the brand owner cannot hand its label responsibility to the factory."},
+        {"kind": "h2", "text": "Labels and packaging"},
+        {"kind": "list", "items": [
+          "US: five required statements: statement of identity, net quantity of contents, nutrition labelling (Supplement Facts), ingredient list and the name and place of business of the manufacturer, packer or distributor. Identity and net quantity go on the principal display panel ([FDA labeling guide](https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling)).",
+          "US structure/function claims: they need the FDA disclaimer, whose wording may not be changed, substantiation that the claim is truthful and not misleading, and notification to FDA no later than 30 days after first marketing ([Chapter VI](https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-vi-claims)).",
+          "EU: the product is sold as a food supplement and the label must state the categories of nutrients or substances that characterise it, the recommended daily portion, a warning not to exceed it, that supplements are not a substitute for a varied diet and that the product must be kept out of the reach of young children ([Directive 2002/46/EC](https://www.legislation.gov.uk/eudr/2002/46/body/data.htm)).",
+          "EU notification: Member States may require notification to the competent authority by forwarding a model of the label, so check the rule in each country of sale.",
+          "Expiry dates: 21 CFR Part 111 does not require one for US supplements, but a printed date should be supported by data."
+        ]},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Countries of sale and intended category",
+          "Stock or custom: the catalogue reference you like, or your formula per serving",
+          "Dose form and serving size: capsule, tablet, powder, liquid, gummy or other",
+          "Pack: bottle, pouch, blister, stick pack or other; units per pack; secondary packaging",
+          "Who supplies the artwork and who checks label compliance",
+          "Quantity for the first order and an annual forecast",
+          "Exclusivity or formula ownership requirements",
+          "Certifications your sales channel requires, so the manufacturer can show its own",
+          "Target delivery date and destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the product; we look for contract manufacturers whose capabilities match it and coordinate their quotes, so you compare offers on the same brief. The service is free for buyers: manufacturers pay us a commission when they win the order. We do not share your formula, company details or documents with any manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "What is the difference between private label and white label?", "a": "In practice the terms overlap. Both mean a contract manufacturer makes a product that you sell under your brand. What changes the deal is whether the formula is the manufacturer's stock formula or one developed for you, and who owns it."},
+        {"q": "If the manufacturer makes a mistake, am I still responsible?", "a": "Toward regulators, largely yes. In the US, a distributor selling under its own label must know what and how manufacturing activities are performed. In the EU, the operator under whose name the food is marketed is responsible for the food information. Your contract can allocate costs, but not those legal duties."},
+        {"q": "Can I make health claims on a private label supplement?", "a": "Only within each market's rules. In the US, structure/function claims need substantiation, the FDA disclaimer and notification within 30 days of first marketing; disease claims turn the product into a drug. In the EU, food supplements may not claim to prevent, treat or cure a human disease."},
+        {"q": "Do I own a custom formula?", "a": "Only if the contract says so. Agree in writing who owns the formula and the data generated before development starts."},
+        {"q": "Will you share my brand plans with manufacturers?", "a": "Only what you authorise. We do not share your formula, company details or documents with any manufacturer without your permission."}
+      ]
+    },
+    "es": {
+      "slug": "suplementos-marca-blanca",
+      "title": "Fabricación de suplementos de marca blanca",
+      "metaTitle": "Suplementos de marca blanca y marca propia | Fabricantes",
+      "description": "Suplementos de marca blanca o propia: fórmula de catálogo o a medida, marca y envase, quién responde de qué, etiquetado y cómo obtener presupuestos comparables.",
+      "lead": "Marca blanca significa que un fabricante por contrato elabora el producto y tú lo vendes con tu marca. El modelo comercial es sencillo; las responsabilidades no, porque la empresa cuyo nombre figura en la etiqueta sigue respondiendo de ella.",
+      "body": [
+        {"kind": "h2", "text": "Qué significa marca blanca en la práctica"},
+        {"kind": "p", "text": "En un acuerdo de marca blanca o marca propia, un fabricante por contrato produce un suplemento y tú lo comercializas con tu marca. El sector usa los términos con poca precisión; lo que importa es quién es dueño de la fórmula, quién asume cada obligación regulatoria y qué dice el contrato sobre exclusividad. La vía sirve igual para cápsulas, comprimidos, polvos, líquidos y gominolas. Las declaraciones pueden cambiar la categoría del producto: en EE. UU., declarar que trata o previene una enfermedad lo convierte en medicamento, se comercialice como se comercialice ([FDA](https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap)), y la normativa de la UE prohíbe atribuir a los complementos alimenticios la propiedad de prevenir, tratar o curar una enfermedad humana."},
+        {"kind": "h2", "text": "Fórmula de catálogo o a medida, y la secuencia habitual"},
+        {"kind": "table", "head": ["Aspecto", "Fórmula de catálogo", "Fórmula a medida"], "rows": [
+          ["Punto de partida", "Una fórmula existente de la gama del fabricante", "Una fórmula desarrollada o adaptada a tu especificación"],
+          ["Plazo hasta el primer lote", "Más corto: la fórmula y sus especificaciones pueden existir ya", "Más largo: primero van el desarrollo, las muestras, las especificaciones y la estabilidad que haga falta"],
+          ["Diferenciación", "Limitada: otras marcas pueden vender la misma fórmula", "Mayor: el producto se construye sobre tu posicionamiento"],
+          ["Propiedad de la fórmula", "Es la fórmula del fabricante; negocia exclusividad si te importa", "Debe pactarse por escrito, junto con la propiedad de los datos generados"],
+          ["Documentación", "Pide las especificaciones y certificados de análisis existentes", "Se genera para tu producto; acordad quién conserva copias"]
+        ]},
+        {"kind": "steps", "items": [
+          {"title": "Definir mercado y categoría", "text": "Decide dónde vas a vender y con qué categoría, porque de ahí dependen las normas de etiquetado, las declaraciones y las autorizaciones que debe tener el fabricante."},
+          {"title": "Elegir catálogo o a medida y enviar la solicitud", "text": "Fórmula o producto de referencia, forma de dosificación, envase, cantidades y fecha objetivo."},
+          {"title": "Acordar muestras y especificaciones", "text": "Según la 21 CFR Part 111, el fabricante debe fijar especificaciones de componentes, controles en proceso, etiquetas y envases, y lote terminado. Acordadlas antes de producir."},
+          {"title": "Revisar artes y etiqueta", "text": "Comprueba las menciones obligatorias y las declaraciones de cada mercado antes de imprimir."},
+          {"title": "Fabricar el primer lote", "text": "El fabricante sigue un registro maestro de fabricación escrito para cada formulación única."},
+          {"title": "Liberar y documentar", "text": "Recibe el lote con su documentación de liberación y acordad quién guarda las muestras de reserva."}
+        ]},
+        {"kind": "h2", "text": "Quién responde de qué"},
+        {"kind": "p", "text": "En EE. UU., la 21 CFR Part 111 se aplica a quien fabrica, envasa, etiqueta o almacena un complemento alimenticio. La [guía de cumplimiento de la FDA](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-current-good-manufacturing-practice-manufacturing-packaging-labeling) indica que el distribuidor que subcontrata la fabricación y vende con su propia etiqueta tiene la obligación de saber qué actividades de fabricación se realizan y cómo, y que el fabricante que contrata a un tercero para una tarea regulada sigue siendo responsable de ella. Deben conservarse muestras de reserva de cada lote distribuido, al menos el doble de la cantidad necesaria para todos los ensayos de especificación, durante un año después de la fecha de vida útil o, sin fecha, dos años desde la distribución del último lote. En la UE, el operador con cuyo nombre se comercializa el alimento es responsable de la presencia y exactitud de la información alimentaria ([Reglamento (UE) n.º 1169/2011, art. 8](https://www.legislation.gov.uk/eur/2011/1169/article/8/data.htm)). En ambos mercados, el dueño de la marca no puede trasladar a la fábrica su responsabilidad sobre la etiqueta."},
+        {"kind": "h2", "text": "Etiquetado y envase"},
+        {"kind": "list", "items": [
+          "EE. UU.: cinco menciones obligatorias: denominación del producto, contenido neto, información nutricional (Supplement Facts), lista de ingredientes y nombre y domicilio comercial del fabricante, envasador o distribuidor. La denominación y el contenido neto van en el panel principal ([guía de etiquetado de la FDA](https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling)).",
+          "Declaraciones de estructura/función en EE. UU.: requieren el descargo de la FDA, cuyo texto no puede modificarse, justificación de que la declaración es veraz y no engañosa, y notificación a la FDA a más tardar 30 días después de la primera comercialización ([capítulo VI](https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-vi-claims)).",
+          "UE: el producto se vende como complemento alimenticio y la etiqueta debe indicar las categorías de nutrientes o sustancias que lo caracterizan, la dosis diaria recomendada, la advertencia de no superarla, que no debe usarse como sustituto de una dieta variada y que debe mantenerse fuera del alcance de los niños pequeños ([Directiva 2002/46/CE](https://www.legislation.gov.uk/eudr/2002/46/body/data.htm)).",
+          "Notificación en la UE: los Estados miembros pueden exigir la notificación a la autoridad competente mediante el envío de un modelo de la etiqueta, así que revisa la norma de cada país de venta.",
+          "Fecha de caducidad: la 21 CFR Part 111 no la exige para complementos en EE. UU., pero si se imprime debe estar respaldada por datos."
+        ]},
+        {"kind": "h2", "text": "Qué enviar al fabricante para un presupuesto preciso"},
+        {"kind": "list", "items": [
+          "Países de venta y categoría prevista",
+          "Catálogo o a medida: la referencia que te interesa o tu fórmula por dosis",
+          "Forma y dosis: cápsula, comprimido, polvo, líquido, gominola u otra",
+          "Envase: bote, bolsa, blíster, stick pack u otro; unidades por envase; embalaje secundario",
+          "Quién aporta los artes y quién revisa el cumplimiento de la etiqueta",
+          "Cantidad del primer pedido y previsión anual",
+          "Requisitos de exclusividad o de propiedad de la fórmula",
+          "Certificaciones que exige tu canal de venta, para que el fabricante acredite las suyas",
+          "Fecha y destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Tú describes el producto; nosotros buscamos fabricantes por contrato cuyas capacidades encajan y coordinamos sus presupuestos, para que compares ofertas sobre la misma solicitud. Para el comprador es gratis: el fabricante nos paga una comisión cuando consigue el pedido. No compartimos tu fórmula, los datos de tu empresa ni tus documentos con ningún fabricante sin tu permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Qué diferencia hay entre marca blanca y marca propia?", "a": "En la práctica los términos se solapan. Ambos significan que un fabricante por contrato elabora un producto que tú vendes con tu marca. Lo que cambia el acuerdo es si la fórmula es de catálogo del fabricante o desarrollada para ti, y de quién es."},
+        {"q": "Si el fabricante se equivoca, ¿sigo siendo responsable?", "a": "Frente a las autoridades, en gran medida sí. En EE. UU., el distribuidor que vende con su propia etiqueta debe saber qué actividades de fabricación se realizan y cómo. En la UE, el operador con cuyo nombre se comercializa el alimento responde de la información alimentaria. El contrato puede repartir costes, pero no esas obligaciones legales."},
+        {"q": "¿Puedo hacer declaraciones de salud en un suplemento de marca blanca?", "a": "Solo dentro de las reglas de cada mercado. En EE. UU., las declaraciones de estructura/función necesitan justificación, el descargo de la FDA y notificación en los 30 días siguientes a la primera comercialización; las declaraciones sobre enfermedades convierten el producto en medicamento. En la UE, los complementos alimenticios no pueden atribuirse la propiedad de prevenir, tratar o curar una enfermedad humana."},
+        {"q": "¿La fórmula a medida es mía?", "a": "Solo si el contrato lo dice. Pacta por escrito quién es dueño de la fórmula y de los datos generados antes de empezar el desarrollo."},
+        {"q": "¿Compartiréis mis planes de marca con los fabricantes?", "a": "Solo lo que tú autorices. No compartimos tu fórmula, los datos de tu empresa ni tus documentos con ningún fabricante sin tu permiso."}
+      ]
+    },
+    "pt": {
+      "slug": "suplementos-marca-propria",
+      "title": "Fabricação de suplementos com marca própria",
+      "metaTitle": "Suplementos com marca própria | Fabricação terceirizada",
+      "description": "Suplementos de marca própria ou white label: fórmula de catálogo ou exclusiva, marca e embalagem, quem responde pelo quê, rotulagem e orçamentos comparáveis.",
+      "lead": "Marca própria significa que um fabricante terceirizado produz o item e você o vende com a sua marca. O modelo comercial é simples; as responsabilidades não, porque a empresa cujo nome está no rótulo continua respondendo por ele.",
+      "body": [
+        {"kind": "h2", "text": "O que é marca própria na prática"},
+        {"kind": "p", "text": "Num acordo de marca própria (ou white label), um fabricante terceirizado produz um suplemento e você o coloca no mercado com a sua marca. O setor usa os termos de forma pouco precisa; o que importa é quem é dono da fórmula, quem assume cada obrigação regulatória e o que o contrato diz sobre exclusividade. A rota vale para cápsulas, comprimidos, pós, líquidos e gomas. As alegações podem mudar a categoria do produto: nos EUA, alegar que trata ou previne doença o torna medicamento, independentemente de como é comercializado ([FDA](https://www.fda.gov/cosmetics/laws-regulations/it-cosmetic-drug-or-both-or-it-soap)), e a legislação da UE proíbe atribuir a suplementos alimentares a propriedade de prevenir, tratar ou curar doenças humanas."},
+        {"kind": "h2", "text": "Fórmula de catálogo ou exclusiva, e a sequência usual"},
+        {"kind": "table", "head": ["Aspecto", "Fórmula de catálogo", "Fórmula exclusiva"], "rows": [
+          ["Ponto de partida", "Uma fórmula existente da linha do fabricante", "Uma fórmula desenvolvida ou adaptada à sua especificação"],
+          ["Prazo até o primeiro lote", "Menor: a fórmula e suas especificações podem já existir", "Maior: antes vêm desenvolvimento, amostras, especificações e a estabilidade necessária"],
+          ["Diferenciação", "Limitada: outras marcas podem vender a mesma fórmula", "Maior: o produto é construído sobre o seu posicionamento"],
+          ["Propriedade da fórmula", "É a fórmula do fabricante; negocie exclusividade se for importante", "Deve ser acordada por escrito, junto com a propriedade dos dados gerados"],
+          ["Documentação", "Peça as especificações e certificados de análise existentes", "Gerada para o seu produto; combine quem guarda cópias"]
+        ]},
+        {"kind": "steps", "items": [
+          {"title": "Definir mercado e categoria", "text": "Decida onde vai vender e em qual categoria, porque disso dependem as regras de rotulagem, as alegações e as autorizações que o fabricante precisa ter."},
+          {"title": "Escolher catálogo ou exclusiva e enviar o briefing", "text": "Fórmula ou produto de referência, forma farmacêutica, embalagem, quantidades e data-alvo."},
+          {"title": "Aprovar amostras e especificações", "text": "Pelo 21 CFR Part 111, o fabricante deve estabelecer especificações para componentes, controles em processo, rótulos e embalagens, e lote acabado. Acorde-as antes da produção."},
+          {"title": "Revisar arte e rótulo", "text": "Confira as informações obrigatórias e as alegações de cada mercado antes de imprimir."},
+          {"title": "Produzir o primeiro lote", "text": "O fabricante segue um registro mestre de fabricação escrito para cada formulação única."},
+          {"title": "Liberar e documentar", "text": "Receba o lote com a documentação de liberação e combine quem guarda as amostras de retenção."}
+        ]},
+        {"kind": "h2", "text": "Quem responde pelo quê"},
+        {"kind": "p", "text": "Nos EUA, o 21 CFR Part 111 se aplica a quem fabrica, embala, rotula ou armazena um suplemento alimentar. O [guia de conformidade da FDA](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-current-good-manufacturing-practice-manufacturing-packaging-labeling) afirma que o distribuidor que terceiriza a fabricação e vende com o próprio rótulo tem a obrigação de saber quais atividades de fabricação são realizadas e como, e que o fabricante que contrata terceiros para uma tarefa regulada continua responsável por ela. Amostras de retenção de cada lote distribuído devem ser guardadas em pelo menos o dobro da quantidade necessária para todos os testes de especificação, por um ano após a data de validade ou, sem data, por dois anos após a distribuição do último lote. Na UE, o operador sob cujo nome o alimento é comercializado é responsável pela presença e exatidão da informação ao consumidor ([Regulamento (UE) n.º 1169/2011, art. 8](https://www.legislation.gov.uk/eur/2011/1169/article/8/data.htm)). Nos dois mercados, o dono da marca não pode transferir para a fábrica a responsabilidade pelo rótulo."},
+        {"kind": "h2", "text": "Rotulagem e embalagem"},
+        {"kind": "list", "items": [
+          "EUA: cinco declarações obrigatórias: identidade do produto, conteúdo líquido, rotulagem nutricional (Supplement Facts), lista de ingredientes e nome e endereço comercial do fabricante, embalador ou distribuidor. Identidade e conteúdo líquido ficam no painel principal ([guia de rotulagem da FDA](https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-i-general-dietary-supplement-labeling)).",
+          "Alegações de estrutura/função nos EUA: exigem o aviso da FDA, cujo texto não pode ser alterado, comprovação de que a alegação é verdadeira e não enganosa, e notificação à FDA em até 30 dias após a primeira comercialização ([capítulo VI](https://www.fda.gov/food/dietary-supplements-guidance-documents-regulatory-information/dietary-supplement-labeling-guide-chapter-vi-claims)).",
+          "UE: o produto é vendido como suplemento alimentar e o rótulo deve indicar as categorias de nutrientes ou substâncias que o caracterizam, a porção diária recomendada, o aviso para não excedê-la, que suplementos não substituem uma dieta variada e que o produto deve ficar fora do alcance de crianças pequenas ([Diretiva 2002/46/CE](https://www.legislation.gov.uk/eudr/2002/46/body/data.htm)).",
+          "Notificação na UE: os Estados-Membros podem exigir notificação à autoridade competente com o envio de um modelo do rótulo, então verifique a regra de cada país de venda.",
+          "Prazo de validade: o 21 CFR Part 111 não o exige para suplementos nos EUA, mas uma data impressa deve ser sustentada por dados."
+        ]},
+        {"kind": "h2", "text": "O que enviar ao fabricante para um orçamento preciso"},
+        {"kind": "list", "items": [
+          "Países de venda e categoria pretendida",
+          "Catálogo ou exclusiva: a referência que interessa ou a sua fórmula por porção",
+          "Forma e porção: cápsula, comprimido, pó, líquido, goma ou outra",
+          "Embalagem: frasco, pouch, blíster, stick pack ou outra; unidades por embalagem; embalagem secundária",
+          "Quem fornece a arte e quem revisa a conformidade do rótulo",
+          "Quantidade do primeiro pedido e previsão anual",
+          "Exigências de exclusividade ou de propriedade da fórmula",
+          "Certificações exigidas pelo seu canal de venda, para que o fabricante comprove as dele",
+          "Prazo e destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve o produto; nós procuramos fabricantes terceirizados com capacidade compatível e coordenamos os orçamentos, para você comparar ofertas sobre o mesmo briefing. Para o comprador é gratuito: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, os dados da sua empresa nem seus documentos com nenhum fabricante sem a sua autorização."}
+      ],
+      "faqs": [
+        {"q": "Qual a diferença entre marca própria e white label?", "a": "Na prática os termos se sobrepõem. Os dois significam que um fabricante terceirizado produz algo que você vende com a sua marca. O que muda o acordo é se a fórmula é de catálogo do fabricante ou desenvolvida para você, e de quem ela é."},
+        {"q": "Se o fabricante errar, continuo responsável?", "a": "Perante as autoridades, em grande parte sim. Nos EUA, o distribuidor que vende com o próprio rótulo deve saber quais atividades de fabricação são realizadas e como. Na UE, o operador sob cujo nome o alimento é comercializado responde pela informação ao consumidor. O contrato pode dividir custos, mas não essas obrigações legais."},
+        {"q": "Posso fazer alegações de saúde num suplemento de marca própria?", "a": "Só dentro das regras de cada mercado. Nos EUA, alegações de estrutura/função exigem comprovação, o aviso da FDA e notificação em até 30 dias após a primeira comercialização; alegações sobre doenças tornam o produto medicamento. Na UE, suplementos alimentares não podem alegar prevenir, tratar ou curar doenças humanas."},
+        {"q": "A fórmula exclusiva é minha?", "a": "Só se o contrato disser. Acorde por escrito quem é dono da fórmula e dos dados gerados antes de começar o desenvolvimento."},
+        {"q": "Vocês vão compartilhar meus planos de marca com fabricantes?", "a": "Só o que você autorizar. Não compartilhamos sua fórmula, os dados da sua empresa nem seus documentos com nenhum fabricante sem a sua autorização."}
+      ]
+    }
+  }
+}
