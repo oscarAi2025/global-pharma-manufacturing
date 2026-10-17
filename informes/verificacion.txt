@@ -1,76 +1,64 @@
-Verificación de https://global-pharma-manufacturing.netlify.app — 2026-10-17T19:54Z — commit 638757e
-401  / | h1:  | canonical:  | robots:  | form: 0
-401  /es/ | h1:  | canonical:  | robots:  | form: 0
-401  /pt/ | h1:  | canonical:  | robots:  | form: 0
-401  /en/ | h1:  | canonical:  | robots:  | form: 0
-401  /es/como-funciona/ | h1:  | canonical:  | robots:  | form: 0
-401  /es/solicitar-presupuesto/ | h1:  | canonical:  | robots:  | form: 0
-401  /pt/solicitar-orcamento/ | h1:  | canonical:  | robots:  | form: 0
-401  /en/request-quote/ | h1:  | canonical:  | robots:  | form: 0
-401  /es/maquila-suplementos/mexico/ | h1:  | canonical:  | robots:  | form: 0
-401  /es/maquila-suplementos/colombia/ | h1:  | canonical:  | robots:  | form: 0
-401  /es/fabricacion-complementos-alimenticios/espana/ | h1:  | canonical:  | robots:  | form: 0
-401  /pt/fabricacao-terceirizada-suplementos/brasil/ | h1:  | canonical:  | robots:  | form: 0
-401  /es/aviso-legal/ | h1:  | canonical:  | robots:  | form: 0
-401  /es/gracias/ | h1:  | canonical:  | robots:  | form: 0
-401  /robots.txt | h1:  | canonical:  | robots:  | form: 0
-401  /sitemap.xml | h1:  | canonical:  | robots:  | form: 0
-401  /no-existe/ | h1:  | canonical:  | robots:  | form: 0
+Verificación de https://global-pharma-manufacturing.netlify.app — 2026-10-17T20:01Z — commit f59cc24
+200  / | h1: Global Pharma Manufacturing | canonical: https://global-pharma-manufacturing.netlify.app/en/ | robots: noindex, follow | form: 0
+200  /es/ | h1: Encuentra quién fabrique tu suplemento, sin buscar a ciegas | canonical: https://global-pharma-manufacturing.netlify.app/es/ | robots: index, follow | form: 0
+200  /pt/ | h1: Encontre quem fabrique o seu suplemento, sem procurar às ceg | canonical: https://global-pharma-manufacturing.netlify.app/pt/ | robots: index, follow | form: 0
+200  /en/ | h1: Find the right manufacturer for your supplement, without sea | canonical: https://global-pharma-manufacturing.netlify.app/en/ | robots: index, follow | form: 0
+200  /es/como-funciona/ | h1: Cómo funciona | canonical: https://global-pharma-manufacturing.netlify.app/es/como-funciona/ | robots: index, follow | form: 0
+200  /es/solicitar-presupuesto/ | h1: Pide presupuesto de fabricación | canonical: https://global-pharma-manufacturing.netlify.app/es/solicitar-presupuesto/ | robots: index, follow | form: 0
+200  /pt/solicitar-orcamento/ | h1: Peça orçamento de fabricação | canonical: https://global-pharma-manufacturing.netlify.app/pt/solicitar-orcamento/ | robots: index, follow | form: 0
+200  /en/request-quote/ | h1: Get manufacturing quotes | canonical: https://global-pharma-manufacturing.netlify.app/en/request-quote/ | robots: index, follow | form: 0
+200  /es/maquila-suplementos/mexico/ | h1: Maquila de suplementos alimenticios en México | canonical: https://global-pharma-manufacturing.netlify.app/es/maquila-suplementos/mexico/ | robots: index, follow | form: 0
+200  /es/maquila-suplementos/colombia/ | h1: Maquila de suplementos dietarios en Colombia | canonical: https://global-pharma-manufacturing.netlify.app/es/maquila-suplementos/colombia/ | robots: index, follow | form: 0
+200  /es/fabricacion-complementos-alimenticios/espana/ | h1: Fabricación de complementos alimenticios con marca propia en | canonical: https://global-pharma-manufacturing.netlify.app/es/fabricacion-complementos-alimenticios/espana/ | robots: index, follow | form: 0
+200  /pt/fabricacao-terceirizada-suplementos/brasil/ | h1: Fabricação terceirizada de suplementos alimentares no Brasil | canonical: https://global-pharma-manufacturing.netlify.app/pt/fabricacao-terceirizada-suplementos/brasil/ | robots: index, follow | form: 0
+200  /es/aviso-legal/ | h1: Aviso legal y privacidad | canonical: https://global-pharma-manufacturing.netlify.app/es/aviso-legal/ | robots: noindex, follow | form: 0
+200  /es/gracias/ | h1: Solicitud enviada | canonical: https://global-pharma-manufacturing.netlify.app/es/gracias/ | robots: noindex, follow | form: 0
+200  /robots.txt | h1:  | canonical:  | robots:  | form: 0
+200  /sitemap.xml | h1:  | canonical:  | robots:  | form: 0
+404  /no-existe/ | h1: 404 | canonical:  | robots: noindex | form: 0
 --- robots.txt
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Login Redirect</title>
-</head>
-<body>
-    <script>
-        window.onload = function() {
-            var fragment = window.location.hash;
-            var url = new URL('https:\/\/app.netlify.com\/edge-access?domain=global-pharma-manufacturing.netlify.app\u0026requested_path=%2Frobots.txt\u0026site_id=14abf36d-5289-4125-9e84-5c8117997e68');
-            if (fragment) {
-                var requestedPath = url.searchParams.get('requested_path');
-                url.searchParams.set('requested_path', requestedPath + fragment);
-            }
-            window.location.href = url.toString();
-        };
-    </script>
+User-Agent: *
+Allow: /
 
-    <noscript>
-        <p>Please enable JavaScript to continue. This login redirect requires JavaScript.</p>
-    </noscript>
-</body>
-</html>
---- sitemap: 0 URLs
+Sitemap: https://global-pharma-manufacturing.netlify.app/sitemap.xml
+
+--- sitemap: 13 URLs
+  https://global-pharma-manufacturing.netlify.app/es/
+  https://global-pharma-manufacturing.netlify.app/pt/
+  https://global-pharma-manufacturing.netlify.app/en/
+  https://global-pharma-manufacturing.netlify.app/es/como-funciona/
+  https://global-pharma-manufacturing.netlify.app/pt/como-funciona/
+  https://global-pharma-manufacturing.netlify.app/en/how-it-works/
+  https://global-pharma-manufacturing.netlify.app/es/solicitar-presupuesto/
+  https://global-pharma-manufacturing.netlify.app/pt/solicitar-orcamento/
+  https://global-pharma-manufacturing.netlify.app/en/request-quote/
+  https://global-pharma-manufacturing.netlify.app/es/fabricacion-complementos-alimenticios/espana/
+  https://global-pharma-manufacturing.netlify.app/es/maquila-suplementos/mexico/
+  https://global-pharma-manufacturing.netlify.app/es/maquila-suplementos/colombia/
+  https://global-pharma-manufacturing.netlify.app/pt/fabricacao-terceirizada-suplementos/brasil/
 --- cabeceras /es/
-content-type: text/html; charset=utf-8
+cache-control: public,max-age=0,must-revalidate
+content-encoding: br
+content-type: text/html; charset=UTF-8
 strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+x-frame-options: DENY
 --- Lighthouse (móvil)
-/es/ { performance: 25, accessibility: 100, 'best-practices': 75, seo: 100 }
-  - first-contentful-paint 0 15.2 s
-  - largest-contentful-paint 0 20.8 s
-  - speed-index 0.01 15.2 s
-  - total-blocking-time 0 6,620 ms
-  - max-potential-fid 0 2,600 ms
-  - errors-in-console 0 
-  - interactive 0 32.7 s
-  - third-party-cookies 0 8 cookies found
-  - valid-source-maps 0 
-  - inspector-issues 0 
+/es/ {
+  performance: 95,
+  accessibility: 100,
+  'best-practices': 100,
+  seo: 100
+}
+  - total-blocking-time 0.89 210 ms
+  - max-potential-fid 0.25 350 ms
   - forced-reflow-insight 0 
   - network-dependency-tree-insight 0 
-/es/maquila-suplementos/mexico/ { performance: 25, accessibility: 100, 'best-practices': 75, seo: 100 }
-  - first-contentful-paint 0 14.5 s
-  - largest-contentful-paint 0 23.3 s
-  - speed-index 0.01 14.5 s
-  - total-blocking-time 0.01 3,830 ms
-  - max-potential-fid 0 1,320 ms
-  - errors-in-console 0 
-  - interactive 0 32.8 s
-  - third-party-cookies 0 8 cookies found
-  - valid-source-maps 0 
-  - inspector-issues 0 
-  - cache-insight 0 Est savings of 838 KiB
-  - duplicated-javascript-insight 0 Est savings of 10 KiB
-  - forced-reflow-insight 0 
-  - legacy-javascript-insight 0 Est savings of 10 KiB
-RESULTADO: FALLOS
+/es/maquila-suplementos/mexico/ {
+  performance: 98,
+  accessibility: 100,
+  'best-practices': 100,
+  seo: 100
+}
+  - network-dependency-tree-insight 0 
+RESULTADO: OK
