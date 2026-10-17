@@ -1,7 +1,8 @@
 name: verificar-web-publicada
 
 # Comprueba la web publicada desde fuera (el entorno de desarrollo no llega a Netlify):
-# estado HTTP de cada página del sitemap, h1, canonical, formulario y Lighthouse de la portada.
+# estado HTTP, h1, canonical, formulario, robots, sitemap, cabeceras y Lighthouse.
+# El informe se guarda en la rama `informes` (informes/verificacion.txt) para poder leerlo con git.
 on:
   push:
     branches: [main]
@@ -9,45 +10,68 @@ on:
     inputs:
       url:
         description: "URL base publicada"
-        required: true
-        default: "https://global-pharma-manufacturing.netlify.app"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verificar-web
+  cancel-in-progress: true
 
 jobs:
   verificar:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
+    env:
+      BASE: ${{ inputs.url || 'https://global-pharma-manufacturing.netlify.app' }}
     steps:
-      - name: Páginas y etiquetas
-        env:
-          BASE: ${{ inputs.url || 'https://global-pharma-manufacturing.netlify.app' }}
-        run: |
-          set -u
-          # Tras un push, Netlify tarda en publicar: se espera antes de comprobar.
-          [ "${{ github.event_name }}" = "push" ] && sleep 150
-          fail=0
-          for p in / /es/ /pt/ /en/ /es/como-funciona/ /es/solicitar-presupuesto/ /pt/solicitar-orcamento/ /en/request-quote/ \
-                   /es/maquila-suplementos/mexico/ /es/maquila-suplementos/colombia/ /es/fabricacion-complementos-alimenticios/espana/ \
-                   /pt/fabricacao-terceirizada-suplementos/brasil/ /es/aviso-legal/ /robots.txt /sitemap.xml /no-existe/; do
-            code=$(curl -s -o /tmp/p.html -w "%{http_code}" "$BASE$p")
-            h1=$(grep -o '<h1[^>]*>[^<]*' /tmp/p.html | head -1 | sed 's/<h1[^>]*>//')
-            canon=$(grep -o '<link rel="canonical" href="[^"]*"' /tmp/p.html | head -1 | sed 's/.*href="//;s/"//')
-            form=$(grep -c 'data-netlify' /tmp/p.html || true)
-            echo "$code  $p  | h1: ${h1:0:60} | canonical: $canon | form: $form"
-            if [ "$p" = "/no-existe/" ]; then [ "$code" = "404" ] || fail=1; else [ "$code" = "200" ] || fail=1; fi
-          done
-          echo "--- robots.txt"; curl -s "$BASE/robots.txt"
-          echo "--- sitemap (primeras líneas)"; curl -s "$BASE/sitemap.xml" | head -12
-          echo "--- cabeceras"; curl -sI "$BASE/es/" | grep -iE "^(content-encoding|strict-transport|x-frame|cache-control|content-type)"
-          exit $fail
+      - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-      - name: Lighthouse (móvil)
-        env:
-          BASE: ${{ inputs.url || 'https://global-pharma-manufacturing.netlify.app' }}
+      - name: Esperar a que Netlify publique
+        if: github.event_name == 'push'
+        run: sleep 150
+      - name: Comprobar
         run: |
-          for p in /es/ /es/maquila-suplementos/mexico/; do
-            npx -y lighthouse@12.8.2 "$BASE$p" --quiet --chrome-flags="--headless=new --no-sandbox" \
-              --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=lh.json
-            node -e "const d=require('./lh.json');console.log('$p',Object.fromEntries(Object.entries(d.categories).map(([k,v])=>[k,Math.round(v.score*100)])));for(const a of Object.values(d.audits)){if(a.score!==null&&a.score<0.9&&['binary','numeric'].includes(a.scoreDisplayMode))console.log('  -',a.id,a.score,a.displayValue||'')}"
-          done
+          set -u
+          R=/tmp/informe.txt
+          fail=0
+          {
+            echo "Verificación de $BASE — $(date -u +%Y-%m-%dT%H:%MZ) — commit ${GITHUB_SHA::7}"
+            for p in / /es/ /pt/ /en/ /es/como-funciona/ /es/solicitar-presupuesto/ /pt/solicitar-orcamento/ /en/request-quote/ \
+                     /es/maquila-suplementos/mexico/ /es/maquila-suplementos/colombia/ /es/fabricacion-complementos-alimenticios/espana/ \
+                     /pt/fabricacao-terceirizada-suplementos/brasil/ /es/aviso-legal/ /es/gracias/ /robots.txt /sitemap.xml /no-existe/; do
+              code=$(curl -s -o /tmp/p.html -w "%{http_code}" "$BASE$p")
+              h1=$(grep -o '<h1[^>]*>[^<]*' /tmp/p.html | head -1 | sed 's/<h1[^>]*>//')
+              canon=$(grep -o '<link rel="canonical" href="[^"]*"' /tmp/p.html | head -1 | sed 's/.*href="//;s/"//')
+              robots=$(grep -o '<meta name="robots" content="[^"]*"' /tmp/p.html | head -1 | sed 's/.*content="//;s/"//')
+              form=$(grep -c 'data-netlify' /tmp/p.html || true)
+              echo "$code  $p | h1: ${h1:0:60} | canonical: $canon | robots: $robots | form: $form"
+              if [ "$p" = "/no-existe/" ]; then [ "$code" = "404" ] || fail=1; else [ "$code" = "200" ] || fail=1; fi
+            done
+            echo "--- robots.txt"; curl -s "$BASE/robots.txt"
+            echo; echo "--- sitemap: $(curl -s "$BASE/sitemap.xml" | grep -c '<loc>') URLs"; curl -s "$BASE/sitemap.xml" | grep -o '<loc>[^<]*' | sed 's/<loc>/  /'
+            echo "--- cabeceras /es/"; curl -sI -H 'Accept-Encoding: br, gzip' "$BASE/es/" | grep -iE "^(content-encoding|strict-transport|x-frame|x-content-type|cache-control|content-type)"
+            echo "--- Lighthouse (móvil)"
+            for p in /es/ /es/maquila-suplementos/mexico/; do
+              npx -y lighthouse@12.8.2 "$BASE$p" --quiet --chrome-flags="--headless=new --no-sandbox" \
+                --only-categories=performance,accessibility,best-practices,seo --output=json --output-path=/tmp/lh.json >/dev/null 2>&1 || echo "lighthouse falló en $p"
+              node -e "const d=require('/tmp/lh.json');console.log('$p',Object.fromEntries(Object.entries(d.categories).map(([k,v])=>[k,Math.round(v.score*100)])));for(const a of Object.values(d.audits)){if(a.score!==null&&a.score<0.9&&['binary','numeric'].includes(a.scoreDisplayMode))console.log('  -',a.id,a.score,a.displayValue||'')}" || true
+            done
+            echo "RESULTADO: $([ $fail = 0 ] && echo OK || echo FALLOS)"
+          } 2>&1 | tee $R
+          echo "$fail" > /tmp/fail
+      - name: Guardar informe en la rama informes
+        if: always()
+        run: |
+          cp /tmp/informe.txt /tmp/informe.keep 2>/dev/null || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin informes || true
+          if git rev-parse --verify origin/informes >/dev/null 2>&1; then git checkout -B informes origin/informes; else git checkout --orphan informes && git rm -rqf .; fi
+          mkdir -p informes && cp /tmp/informe.keep informes/verificacion.txt
+          git add informes && git commit -qm "Informe de verificación ${GITHUB_SHA::7}" && git push -q origin informes
+      - name: Resultado
+        run: exit $(cat /tmp/fail)
