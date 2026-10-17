@@ -18,13 +18,13 @@ sobre el primer pedido **y las recompras** del cliente presentado (objetivo: 24 
 - [x] Búsquedas y saturación en Google (docs/research/seo.md)
 - [x] Normativa por país: México, Colombia, España, Brasil (docs/research/normativa-*.md)
 
-## Hito 2 — Web mínima que capta solicitudes (en curso)
-- [ ] Next.js estático (SSG) + Tailwind; marca configurable en `src/config/site.ts`
-- [ ] Inicio ES / PT / EN, «Cómo funciona», 4 páginas país con normativa citada
-- [ ] Formulario de solicitud progresivo (2 pasos), antispam (honeypot), UTM y página de origen → Netlify Forms
-- [ ] SEO técnico: canonical, hreflang + x-default, sitemap, robots, JSON-LD (Organization, WebSite, Breadcrumb, FAQPage, Service)
-- [ ] Registro de páginas con estado (solo «published» entra en sitemap y build)
-- [ ] Pruebas: unidad (registro de páginas, hreflang, validación), build, enlaces internos, Lighthouse
+## Hito 2 — Web mínima que capta solicitudes (hecho en local; falta publicar)
+- [x] Next.js estático (SSG) + Tailwind; marca configurable en `src/config/site.ts`
+- [x] Inicio ES / PT / EN, «Cómo funciona», 4 páginas país con normativa citada
+- [x] Formulario de solicitud progresivo (2 pasos), antispam (honeypot), UTM y página de origen → Netlify Forms
+- [x] SEO técnico: canonical, hreflang + x-default, sitemap, robots, JSON-LD (Organization, WebSite, Breadcrumb, FAQPage, Service)
+- [x] Registro de páginas con estado (solo «published» entra en sitemap y build)
+- [x] Pruebas: unidad (registro de páginas, hreflang, validación), build, enlaces internos, Lighthouse
 - [ ] Repositorio GitHub (lo crea el propietario) + despliegue Netlify (conecta el propietario)
 
 ## Hito 3 — Operación (cuando entren solicitudes)
@@ -35,3 +35,8 @@ sobre el primer pedido **y las recompras** del cliente presentado (objetivo: 24 
 - Crear el repo vacío `global-pharma-manufacturing` en GitHub
 - Qué sociedad opera la web (para aviso legal y privacidad) y dominio
 - Conectar el repo a Netlify y activar el aviso por correo de Netlify Forms
+
+## Resultados de verificación (17/10/2026)
+- 11 pruebas unitarias, build sin errores, auditoría de 22 páginas (h1, title, canonical, lang, JSON-LD, enlaces).
+- Prueba e2e del formulario: valida campos, pasa de paso, envía 22 campos con UTM.
+- Lighthouse local (sin compresión): accesibilidad 100, buenas prácticas 96, rendimiento 84–85; SEO 66 solo por robots.txt de preproducción. Repetir en Netlify.
