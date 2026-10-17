@@ -6,6 +6,7 @@ export interface PublicManufacturer {
   origin: "partner" | "public";
   source?: { name: string; url: string; retrieved: string };
   areas?: string[];
+  scope?: "supplements" | "medicines" | "both";
   validUntil?: string;
   code: string; country: string; forms: string[]; services: string[]; certifications: { name: string; verified: boolean }[];
   moq: string | null; summary: string; capacity: boolean; verified: boolean; agreement: boolean;
@@ -39,7 +40,7 @@ export function publicSourceManufacturers(): PublicManufacturer[] {
     origin: "public" as const, source: { name: f.source.name, url: f.source.url, retrieved: f.source.retrieved },
     code: `P-${String(++n).padStart(3, "0")}`, country: it.country, forms: it.forms, services: [],
     certifications: it.certificate ? [{ name: it.certificate, verified: true }] : [], moq: null,
-    summary: [it.city, it.region].filter(Boolean).join(", "), capacity: false, verified: true, agreement: false,
+    summary: [...new Set([it.city, it.region].filter(Boolean).map((x) => x!.replace(/\s+/g, " ")))].join(", "), scope: it.scope, capacity: false, verified: true, agreement: false,
     areas: it.areas, validUntil: it.validUntil,
   })));
 }

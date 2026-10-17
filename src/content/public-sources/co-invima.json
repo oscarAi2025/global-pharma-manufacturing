@@ -1,0 +1,1426 @@
+{
+ "source": {
+  "name": "INVIMA · datos.gov.co (BPM)",
+  "url": "https://www.datos.gov.co/resource/xbpm-2jee.json",
+  "retrieved": "2026-10-17"
+ },
+ "items": [
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Cundinamarca",
+   "scope": "supplements",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets"
+   ],
+   "areas": [],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2029-05-29"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Liquidos: soluciones",
+    "Solidos: polvos no efervescentes, capsulas duras de gelatina, tabletas con y sin cubierta"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2029-02-02"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "supplements",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Líquidos: soluciones y suspensiones",
+    "Semisolidos: jaleas",
+    "Solidos: polvos no eferevescentes y capsulas duras de gelatina"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2028-04-11"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "supplements",
+   "forms": [
+    "softgels",
+    "liquids"
+   ],
+   "areas": [
+    "Oligoelementos, minerales, vitaminas hidrosolubles y/o liposolubles y",
+    "Solidos: capsulas blandas de gelatina",
+    "Liquidos: soluciones, jarabes y emulsiones"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2027-10-08"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "supplements",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Componentes principales",
+    "Solidos: polvos no efervescentes, cápsulas duras de gelatina"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2029-01-06"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "tablets",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Liquidos: soluciones",
+    "Semisolidos: geles",
+    "Solidos: tabletas con y sin cubierta, grageas y capsulas duras de gelatina"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2028-05-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "supplements",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Embriones de pato y pollo con vitaminas",
+    "Solidos: liofilizado",
+    "Liquido amniotico de pato y pollo",
+    "Liquidos: soluciones"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2026-10-27"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "supplements",
+   "forms": [
+    "tablets",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Vitaminas, minerales y oligoelementos",
+    "Liquidos: soluciones",
+    "Solidos: granulados no efervescentes, tabletas con y sin cubierta"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2028-04-04"
+  },
+  {
+   "country": "Colombia",
+   "city": "Cali",
+   "region": "Valle Del Cauca",
+   "scope": "supplements",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Solidos: polvos y granulados no efervescentes"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2028-09-11"
+  },
+  {
+   "country": "Colombia",
+   "city": "Funza",
+   "region": "Cundinamarca",
+   "scope": "supplements",
+   "forms": [
+    "softgels"
+   ],
+   "areas": [
+    "Componentes principales",
+    "Oligoelementos, minerales, vitaminas hidrosolubles y/o liposolubles y otros nutrientes",
+    "Capsulas blandas de gelatina"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2028-03-22"
+  },
+  {
+   "country": "Colombia",
+   "city": "Galapa",
+   "region": "Atlantico",
+   "scope": "supplements",
+   "forms": [
+    "powders"
+   ],
+   "areas": [],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2027-01-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Medellin",
+   "region": "Antioquia",
+   "scope": "supplements",
+   "forms": [
+    "capsules"
+   ],
+   "areas": [],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2027-01-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Tocancipa",
+   "region": "Cundinamarca",
+   "scope": "supplements",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Vitaminas y minerales",
+    "Solidos: granulados no efervescentes"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2027-06-21"
+  },
+  {
+   "country": "Colombia",
+   "city": "Yumbo",
+   "region": "Valle Del Cauca",
+   "scope": "supplements",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Vitaminas, minerales, proteinas, oligoelementos y otros nutrientes (fibra)",
+    "Solidos: polvos y granulados no efervescentes"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2028-04-14"
+  },
+  {
+   "country": "Colombia",
+   "city": "Yumbo",
+   "region": "Valle Del Cauca",
+   "scope": "supplements",
+   "forms": [
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Solidos: tabletas sin cubierta, polvos",
+    "Otros probioticos, prebioticos",
+    "Solidos: tabletas sin cubierta, polvos"
+   ],
+   "certificate": "BPM INVIMA (suplementos dietarios)",
+   "validUntil": "2028-04-15"
+  },
+  {
+   "country": "Colombia",
+   "city": "Barranquilla",
+   "region": "Atlantico",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Líquidos: soluciones y suspensiones",
+    "Semisólidos: geles",
+    "Antibioticos no betalactámicos",
+    "Solidos: tabletas con y sin cubierta",
+    "Hormonas de tipo no sexual (corticoides)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-10-15"
+  },
+  {
+   "country": "Colombia",
+   "city": "Barranquilla",
+   "region": "Atlantico",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones y suspensiones",
+    "Semisolidos: cremas, geles, ungüentos y jaleas",
+    "Hormonas de tipo sexual",
+    "Inmunosupresores",
+    "Semisólidos: ungüentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-03-07"
+  },
+  {
+   "country": "Colombia",
+   "city": "Barranquilla",
+   "region": "Atlantico",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones de pequeño volumen oftalmicos en frasco gotero",
+    "Liquidos: soluciones de pequeño volumen oftalmicos en frasco gotero",
+    "Comunes",
+    "Liquidos: soluciones y suspensiones",
+    "Semisolidos: cremas, unguentos y geles"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-03-26"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones y suspensiones orales y nasales",
+    "Semisolidos: cremas",
+    "Hormonas de tipo no sexual",
+    "Liquidos: soluciones y suspensiones orales y nasales",
+    "Semisolidos: cremas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-02-07"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Antibioticos betalactamicos",
+    "Solidos: polvos para reconstituir de pequeño volumen (viales)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-03-31"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, lociones, emulsiones (champú) y suspensiones",
+    "Semisolidos: cremas, supositorios y geles",
+    "Solidos: polvos, tabletas con y sin cubierta, capsulas duras de gelatina y grageas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-10-08"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Solidos: polvos para reconstituir de pequeños volumen (viales)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2026-12-01"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Líquidos: soluciones y suspensiones"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-11-20"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Antibioticos betalactamicos (cefalosporinicos)",
+    "Solidos: tableas sin cubierta, polvos para suspension, capsulas duras de gelatina"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-07-03"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Antibioticos betalactamicos (penicilinicos)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-01-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Líquidos: soluciones, emulsiones y suspensiones",
+    "Semisólidos: cremas, geles, ungüentos y pomadas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2026-12-27"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Solidos: polvos para reconstituir de pequeño volumen (viales de vidrio)",
+    "Antibioticos betalactamicos (penicilinicos)",
+    "Solidos: polvos para reconstituir de pequeño volumen (viales de vidrio)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-02-02"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Liquidos: soluciones",
+    "Semisolidos: geles",
+    "Solidos: tabletas con y sin cubierta, grageas y capsulas duras de gelatina"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-05-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, emulsiones, suspensiones, (soluciones y suspensiones en aerosol)",
+    "Semisolidos: cremas, geles y unguentos",
+    "Solidos: capsulas blandas de gelatina",
+    "Antibioticos no betalactamicos",
+    "Liquidos: emulsiones"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-11-27"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "tablets",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Semisolidos: jaleas",
+    "Comunes",
+    "Liquidos: soluciones",
+    "Semisolidos: cremas, ungüentos, geles, pomadas y jaleas",
+    "Solidos: tabletas sin cubierta"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-10-09"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-05-21"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones y suspensiones",
+    "Semisolidos: cremas, geles y ungüentos",
+    "Solidos: polvos no efervescentes para reconstituir, tabletas con y sin cubierta",
+    "Antibioticos no betalactamicos",
+    "Liquidos: soluciones y suspensiones"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-05-15"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Antibioticos no betalactamicos",
+    "Hormonas de tipo no sexual (corticoides)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-12-30"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Antibióticos betalactámicos (penicilínicos)",
+    "Sólidos: polvos para reconstituir, tabletas sin cubierta y cápsulas duras de gelatina",
+    "Hormonas de tipo no sexual",
+    "Solidos: tabletas sin cubierta",
+    "Liquidos: soluciones y suspensiones",
+    "Antibióticos no betalactámicos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-05-06"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "tablets",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones y emulsiones",
+    "Solidos: tabletas con y sin cubierta, grageas y polvos",
+    "Antibioticos no betalactamicos",
+    "Solidos: tabletas con cubierta"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-06-19"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Comunes",
+    "Solidos: tabletas con o sin cubierta y capsulas duras de gelatina",
+    "Hormonas de tipo no sexual (corticoides)",
+    "Sólidos: tabletas sin cubierta"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-07-07"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Líquidos: soluciones, emulsiones y suspensiones",
+    "Semisólidos: cremas, geles y óvulos",
+    "Antibióticos no betalactámicos",
+    "Semisólidos: cremas",
+    "Hormonas de tipo no sexual (corticoides)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2026-11-07"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Semisolidos: cremas, geles y ungüentos",
+    "Antibioticos no betalactamicos",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Semisolidos: cremas, geles y ungüentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-05-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Soluciones",
+    "Geles",
+    "Toallas medicadas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-03-04"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Antibioticos betalactamicos (penicilinicos e inhibidores de betalactamasa)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-12-03"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones y emulsiones",
+    "Semisólidos: cremas y geles",
+    "Antibioticos no betalactamicos",
+    "Liquidos: emulsiones",
+    "Semisólidos: cremas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-08-13"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets"
+   ],
+   "areas": [
+    "Comunes",
+    "Solidos: tabletas con y sin cubierta y capsulas duras de gelatina"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-09-18"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Antibioticos no betalactamicos",
+    "Corticoides",
+    "Liquidos: suspensiones de pequeño volumen en frasco goteros plasticos",
+    "Comunes",
+    "Liquidos: soluciones y suspensiones"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-09-04"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Comunes",
+    "Hormonas de tipo no sexual",
+    "Antibioticos no betalactamicos",
+    "Fitoterapéuticos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-11-19"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Antibioticos betalactamicos",
+    "(cefalosporinicos)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-12-30"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Semisolidos: gel y ungüentos (tubos colapsibles)",
+    "Antibioticos no betalactamicos",
+    "Semisolidos: ungüentos (tubos colapsibles)",
+    "Hormonas de tipo no sexual (corticoides)",
+    "Semisolidos: ungüentos (tubos colapsibles)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-03-11"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Semisolidos: cremas, geles y ungüentos",
+    "Hormonas de tipo no sexual",
+    "Liquidos: soluciones y emulsiones",
+    "Semisolidos: cremas y ungüentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-06-24"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos soluciones, suspensiones y emulsiones",
+    "Semisolidos cremas, geles y ungüentos",
+    "Hormonas de tipo no sexual. (corticoides)",
+    "Liquidos soluciones, suspensiones y emulsiones",
+    "Semisolidos cremas, geles y ungüentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-09-25"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones y suspensiones",
+    "Solidos: polvos no efervescentes, tabletas con y sin cubierta, capsulas duras de gelatina",
+    "Semisolidos: cremas geles, ungüentos y ovulos",
+    "Pancreatina",
+    "Solidos: tabletas con cubierta"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-06-18"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Semisolidos: pastas, cremas y geles",
+    "Solidos: tabletas con y sin cubierta, capsulas duras, polvos no efervescentes",
+    "Antibioticos no betalactamicos",
+    "Semisolidos: cremas",
+    "Hormonas de tipo no sexual"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-08-01"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, suspensiones, emulsiones",
+    "Semisolidos: cremas, geles, ungüentos y ovulos",
+    "Hormonales de tipo no sexual",
+    "Liquidos: soluciones",
+    "Semisolidos: cremas y ungüentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-05-12"
+  },
+  {
+   "country": "Colombia",
+   "city": "Bogota D.C.",
+   "region": "Bogota D.C.",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Semisolidos: cremas, ungüentos y geles",
+    "Solidos: tabletas con y sin cubierta, capsulas duras de gelatina, polvos no efervescentes",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Hormonas de tipo no sexual (corticoides)",
+    "Semisolidos: cremas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-01-23"
+  },
+  {
+   "country": "Colombia",
+   "city": "Cali",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Solidos: capsulas duras de gelatina",
+    "Semisolidos: cremas",
+    "Liquidos: soluciones",
+    "Antibioticos no betalactamicos",
+    "Solidos: capsulas duras de gelatina"
+   ],
+   "certificate": "BPM INVIMA (medicamentos) · condicionado",
+   "validUntil": "2027-06-27"
+  },
+  {
+   "country": "Colombia",
+   "city": "Cali",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Antibioticos no betalactamicos",
+    "Liquidos: soluciones",
+    "Pancreatina y sales biliares",
+    "Solidos: tabletas con y sin cubierta, capsulas duras de gelatina y grageas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-10-04"
+  },
+  {
+   "country": "Colombia",
+   "city": "Cali",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Comunes",
+    "Sólidos: polvos y granulados no efervescentes y tabletas sin cubierta"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-01-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Cali",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Líquidos: soluciones",
+    "Alcohol antiséptico: soluciones"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-12-20"
+  },
+  {
+   "country": "Colombia",
+   "city": "Copacabana",
+   "region": "Antioquia",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Antibioticos no betalactamicos",
+    "Hormonas de tipo no sexual (corticoides)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-06-27"
+  },
+  {
+   "country": "Colombia",
+   "city": "Funza",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Antibioticos no betalactamicos",
+    "Liquidos: soluciones parenterales de pequeño volumen en ampollas plasticas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-07-09"
+  },
+  {
+   "country": "Colombia",
+   "city": "Funza",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Antibióticos no betalactámicos",
+    "Hormonas de tipo no sexual (corticoides)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-07-16"
+  },
+  {
+   "country": "Colombia",
+   "city": "Galapa",
+   "region": "Atlantico",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones parenterales de pequeño y gran volumen en bolsas de pvc"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-08-08"
+  },
+  {
+   "country": "Colombia",
+   "city": "Guarne",
+   "region": "Antioquia",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Antibioticos no betalactamicos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-02-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Guarne",
+   "region": "Antioquia",
+   "scope": "medicines",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Líquidos: soluciones inyectables de pequeño volumen en carpules de vidrio y plastico"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-01-27"
+  },
+  {
+   "country": "Colombia",
+   "city": "Jamundi",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Antibioticos no betalactamicos",
+    "Hormonas de tipo no sexual",
+    "Hormonas de tipo no sexual (corticoides)",
+    "Solidos: capsulas blandas de gelatina y ovulos",
+    "Pancreatina y sales biliares",
+    "Finasteride"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-01-12"
+  },
+  {
+   "country": "Colombia",
+   "city": "Jamundi",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "tablets",
+    "powders"
+   ],
+   "areas": [
+    "Comunes",
+    "Sólidos: polvos y granulados no efervescentes, tabletas con y sin cubierta"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-03-31"
+  },
+  {
+   "country": "Colombia",
+   "city": "La Estrella",
+   "region": "Antioquia",
+   "scope": "medicines",
+   "forms": [
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones",
+    "Semisolidos: geles"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-10-28"
+  },
+  {
+   "country": "Colombia",
+   "city": "Medellin",
+   "region": "Antioquia",
+   "scope": "medicines",
+   "forms": [
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones",
+    "Semisolidos: cremas y pastas",
+    "Antineoplasicos (5-fluorouracilo)",
+    "Semisolidos: cremas, geles y ungüentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-12-20"
+  },
+  {
+   "country": "Colombia",
+   "city": "Mosquera",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Semisolidos: cremas, geles, unguentos",
+    "Hormonas de tipo no sexual",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Semisolidos: cremas, geles, unguentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-05-17"
+  },
+  {
+   "country": "Colombia",
+   "city": "Rionegro",
+   "region": "Antioquia",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Semisolidos:jaleas y geles",
+    "Antibioticos no betalactamicos",
+    "Liquidos: soluciones, emulsiones y suspensiones",
+    "Solidos: tabletas con y sin cubierta"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-08-12"
+  },
+  {
+   "country": "Colombia",
+   "city": "Sabaneta",
+   "region": "Antioquia",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones y suspensiones",
+    "Semisolidos: cremas y ungüentos",
+    "Solidos: tabletas con y sin cubierta y capsulas duras de gelatina",
+    "Antibioticos no betalactamicos",
+    "Semisolidos: cremas"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-03-01"
+  },
+  {
+   "country": "Colombia",
+   "city": "Sopo",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Comunes",
+    "Solidos: polvos liofilizados (viales)",
+    "Antibioticos no betalactamicos",
+    "Solidos: polvos liofilizados (viales)",
+    "Hormonas de tipo no sexual (corticoides)",
+    "Solidos: polvos liofilizados (viales)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-06-10"
+  },
+  {
+   "country": "Colombia",
+   "city": "Sopo",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Antibioticos betalactamicos: penicilinicos",
+    "Solidos: polvos para reconstituir de pequeño volumen (viales de vidrio)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2026-12-05"
+  },
+  {
+   "country": "Colombia",
+   "city": "Tocancipa",
+   "region": "Cundinamarca",
+   "scope": "medicines",
+   "forms": [
+    "powders"
+   ],
+   "areas": [
+    "Comunes",
+    "Solidos: polvos no efervescentes"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2029-02-10"
+  },
+  {
+   "country": "Colombia",
+   "city": "Villa Rica",
+   "region": "Cauca",
+   "scope": "medicines",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones de pequeño volumen (ampollas de vidrio)",
+    "Antibióticos no betalactamicos",
+    "Liquidos: soluciones de pequeño volumen (ampollas de vidrio)",
+    "Hormonas de tipo no sexual",
+    "Liquidos: soluciones de pequeño volumen (ampollas de vidrio)"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-08-25"
+  },
+  {
+   "country": "Colombia",
+   "city": "Villa Rica",
+   "region": "Cauca",
+   "scope": "medicines",
+   "forms": [
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Antiobiticos no betalactamicos",
+    "Semisolidos: unguentos (tubos colapsibles)",
+    "Hormonas de tipo no sexual",
+    "Semisolidos: unguentos (tubos colapsibles)",
+    "Comunes"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-03-19"
+  },
+  {
+   "country": "Colombia",
+   "city": "Yumbo",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Liquidos: soluciones",
+    "Semisolidos: unguentos, geles",
+    "Solidos: polvos no efervescentes"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2027-10-28"
+  },
+  {
+   "country": "Colombia",
+   "city": "Yumbo",
+   "region": "Valle Del Cauca",
+   "scope": "medicines",
+   "forms": [
+    "topicals"
+   ],
+   "areas": [
+    "Comunes",
+    "Semisolidos: ungüentos"
+   ],
+   "certificate": "BPM INVIMA (medicamentos)",
+   "validUntil": "2028-06-19"
+  }
+ ]
+}

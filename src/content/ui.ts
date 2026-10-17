@@ -20,7 +20,8 @@ export const ui = {
       servicesNames: { private_label: "Marca propia", formulation: "Desarrollo de fórmula", packaging: "Envasado", export: "Exportación" },
     },
     dir: {
-      lead: "Capacidades documentadas de los fabricantes con los que trabajamos. Mostramos qué hacen, no quiénes son: los presentamos cuando hay un presupuesto.",
+      lead: "Fabricantes con certificación oficial de buenas prácticas de fabricación, identificados en registros públicos, y fabricantes que trabajan con nosotros. Mostramos qué hacen, no quiénes son: los presentamos cuando hay un presupuesto.",
+      scopes: { supplements: "Suplementos dietarios", medicines: "Medicamentos", both: "Suplementos y medicamentos" }, scopeLabel: "Tipo", more: "Ver más", official: "Registro oficial",
       filters: "Filtrar", form: "Forma", any: "Todas", country: "País", anyCountry: "Todos", verifiedOnly: "Solo certificaciones verificadas", capacityOnly: "Con capacidad confirmada", search: "Buscar en capacidades",
       results: (n: number) => `${n} ${n === 1 ? "fabricante" : "fabricantes"}`, verified: "Verificada", declared: "Declarada", capacity: "Capacidad confirmada", agreement: "Trabaja con nosotros",
       moq: "Pedido mínimo", request: "Pedir presupuesto", none: "Ningún fabricante coincide con estos filtros.",
@@ -95,7 +96,8 @@ export const ui = {
       servicesNames: { private_label: "Marca própria", formulation: "Desenvolvimento de fórmula", packaging: "Embalagem", export: "Exportação" },
     },
     dir: {
-      lead: "Capacidades documentadas dos fabricantes com quem trabalhamos. Mostramos o que fazem, não quem são: apresentamos quando há um orçamento.",
+      lead: "Fabricantes com certificação oficial de boas práticas de fabricação, identificados em registros públicos, e fabricantes que trabalham conosco. Mostramos o que fazem, não quem são: apresentamos quando há um orçamento.",
+      scopes: { supplements: "Suplementos", medicines: "Medicamentos", both: "Suplementos e medicamentos" }, scopeLabel: "Tipo", more: "Ver mais", official: "Registro oficial",
       filters: "Filtrar", form: "Forma", any: "Todas", country: "País", anyCountry: "Todos", verifiedOnly: "Só certificações verificadas", capacityOnly: "Com capacidade confirmada", search: "Buscar nas capacidades",
       results: (n: number) => `${n} ${n === 1 ? "fabricante" : "fabricantes"}`, verified: "Verificada", declared: "Declarada", capacity: "Capacidade confirmada", agreement: "Trabalha conosco",
       moq: "Lote mínimo", request: "Pedir orçamento", none: "Nenhum fabricante corresponde a estes filtros.",
@@ -170,7 +172,8 @@ export const ui = {
       servicesNames: { private_label: "Private label", formulation: "Formulation", packaging: "Packaging", export: "Export" },
     },
     dir: {
-      lead: "Documented capabilities of the manufacturers we work with. We show what they do, not who they are: we introduce them once there is a quote.",
+      lead: "Manufacturers with official good manufacturing practice certification identified in public registers, and manufacturers that work with us. We show what they do, not who they are: we introduce them once there is a quote.",
+      scopes: { supplements: "Supplements", medicines: "Medicines", both: "Supplements and medicines" }, scopeLabel: "Type", more: "Show more", official: "Official register",
       filters: "Filter", form: "Dosage form", any: "All", country: "Country", anyCountry: "All", verifiedOnly: "Verified certifications only", capacityOnly: "Confirmed capacity", search: "Search capabilities",
       results: (n: number) => `${n} ${n === 1 ? "manufacturer" : "manufacturers"}`, verified: "Verified", declared: "Declared", capacity: "Capacity confirmed", agreement: "Works with us",
       moq: "Minimum order", request: "Request a quote", none: "No manufacturer matches these filters.",

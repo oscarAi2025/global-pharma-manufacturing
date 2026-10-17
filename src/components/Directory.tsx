@@ -17,11 +17,13 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
   const [capacity, setCapacity] = useState(false);
   const [q, setQ] = useState("");
   const [partners, setPartners] = useState(false);
+  const [scope, setScope] = useState("");
+  const [limit, setLimit] = useState(24);
   const countries = [...new Set(items.map((i) => i.country))].sort();
   const shown = useMemo(() => items.filter((m) =>
-    (!form || m.forms.includes(form)) && (!partners || m.origin === "partner") && (!country || m.country === country) && (!capacity || m.capacity) &&
+    (!form || m.forms.includes(form)) && (!partners || m.origin === "partner") && (!scope || m.scope === scope || m.scope === "both") && (!country || m.country === country) && (!capacity || m.capacity) &&
     (!verified || m.certifications.some((c) => c.verified)) &&
-    (!q || `${m.summary} ${(m.areas ?? []).join(" ")} ${m.certifications.map((c) => c.name).join(" ")}`.toLowerCase().includes(q.toLowerCase()))), [items, form, country, verified, capacity, q, partners]);
+    (!q || `${m.summary} ${(m.areas ?? []).join(" ")} ${m.certifications.map((c) => c.name).join(" ")}`.toLowerCase().includes(q.toLowerCase()))), [items, form, country, verified, capacity, q, partners, scope]);
 
   if (!items.length) {
     return (
@@ -43,6 +45,8 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
               <button type="button" aria-pressed={!form} onClick={() => setForm("")} className="dir-chip">{D.any}</button>
               {KEYS.map((k) => <button key={k} type="button" aria-pressed={form === k} onClick={() => setForm(form === k ? "" : k)} className="dir-chip">{names[k]}</button>)}
             </div></fieldset>
+          <label className="mt-4 block text-sm"><span className="text-muted">{D.scopeLabel}</span>
+            <select value={scope} onChange={(e) => setScope(e.target.value)} className="dir-input"><option value="">{D.any}</option>{Object.entries(D.scopes).filter(([k]) => k !== "both").map(([k, v]) => <option key={k} value={k}>{v}</option>)}</select></label>
           <label className="mt-4 block text-sm"><span className="text-muted">{D.country}</span>
             <select value={country} onChange={(e) => setCountry(e.target.value)} className="dir-input"><option value="">{D.anyCountry}</option>{countries.map((c) => <option key={c}>{c}</option>)}</select></label>
           <label className="mt-4 flex items-center gap-2 text-sm"><input type="checkbox" checked={verified} onChange={(e) => setVerified(e.target.checked)} className="accent-teal" />{D.verifiedOnly}</label>
@@ -53,17 +57,17 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
       <div>
         {!compact && <p className="text-sm font-semibold text-muted" aria-live="polite">{D.results(shown.length)}</p>}
         <ul className="dir-grid mt-3">
-          {shown.map((m) => (
+          {shown.slice(0, compact ? 6 : limit).map((m) => (
             <li key={m.code} className={`maker ${m.origin === "public" ? "is-public" : ""}`}>
               <div className="flex items-start justify-between gap-3">
-                <div><p className="maker-code">{m.code}</p><p className="maker-country">{m.country}</p></div>
+                <div><p className="maker-code">{m.code}</p><p className="maker-country">{m.country}{m.scope ? ` · ${D.scopes[m.scope]}` : ""}</p></div>
                 <div className="flex -space-x-2">{m.forms.slice(0, 3).map((f) => <span key={f} className="maker-form" title={names[f] ?? f}><FormIcon form={f} className="h-7 w-7" /></span>)}</div>
               </div>
               <p className={`mt-3 inline-block self-start maker-badge ${m.origin === "partner" ? "is-verified" : ""}`}>{m.origin === "partner" ? D.agreement : D.publicBadge}</p>
               {m.summary && <p className="mt-3 text-[0.97rem]">{m.summary}</p>}
               {m.areas && m.areas.length > 0 && <p className="mt-2 text-sm text-muted">{m.areas.join(" · ")}</p>}
               <ul className="mt-3 flex flex-wrap gap-1.5">
-                {m.certifications.map((c) => <li key={c.name} className={`maker-badge ${c.verified ? "is-verified" : ""}`}>{c.name} · {c.verified ? D.verified : D.declared}</li>)}
+                {m.certifications.map((c) => <li key={c.name} className={`maker-badge ${c.verified ? "is-verified" : ""}`}>{c.name} · {m.origin === "public" ? D.official : c.verified ? D.verified : D.declared}</li>)}
                 {m.capacity && <li className="maker-badge is-verified">{D.capacity}</li>}
               </ul>
               {m.moq && <p className="mt-3 text-sm"><span className="text-muted">{D.moq}:</span> {m.moq}</p>}
@@ -73,6 +77,7 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
             </li>
           ))}
         </ul>
+        {!compact && shown.length > limit && <div className="mt-6"><button type="button" className="btn-quiet border border-rule bg-sheet !px-5" onClick={() => setLimit(limit + 24)}>{D.more} ({shown.length - limit})</button></div>}
         {!shown.length && <p className="mt-4 text-muted">{D.none}</p>}
       </div>
     </div>
