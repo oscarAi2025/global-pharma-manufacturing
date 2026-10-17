@@ -25,6 +25,38 @@ jobs:
           curl -sfS --retry 3 -G "https://www.datos.gov.co/resource/a77s-vxqq.json" --data-urlencode "\$limit=5000" -o /tmp/f/invima/consolidado.json
           python3 -c "import json;[print(f, len(json.load(open('/tmp/f/invima/'+f)))) for f in ['medicamentos.json','consolidado.json']]"
           date -u +%Y-%m-%d > /tmp/f/invima/fecha.txt
+      - name: Descargar RGSEAA (AESAN, España)
+        continue-on-error: true
+        run: |
+          set -e
+          mkdir -p /tmp/f/aesan
+          curl -sfSL --retry 3 -A "Mozilla/5.0" "https://www.aesan.gob.es/registro-sanitario/empresas-alimentarias" -o /tmp/aesan.html
+          url=$(grep -oE '/dam/jcr:[^"]+_Industrias_RGSEAA\.xlsx' /tmp/aesan.html | head -1)
+          echo "Excel: $url"
+          curl -sfSL --retry 3 -A "Mozilla/5.0" "https://www.aesan.gob.es$url" -o /tmp/f/aesan/rgseaa.xlsx
+          echo "https://www.aesan.gob.es$url" > /tmp/f/aesan/url.txt
+          pip install -q openpyxl==3.1.5
+          python3 - <<'PY'
+          import json, openpyxl
+          wb = openpyxl.load_workbook("/tmp/f/aesan/rgseaa.xlsx", read_only=True)
+          out = {}
+          for ws in wb.worksheets:
+              rows = ws.iter_rows(values_only=True)
+              head = None; data = []
+              for r in rows:
+                  if head is None:
+                      if r and sum(1 for c in r if c) >= 3: head = [str(c) if c is not None else "" for c in r]
+                      continue
+                  rec = {head[i]: (str(v) if v is not None else "") for i, v in enumerate(r) if i < len(head)}
+                  blob = " ".join(rec.values())
+                  # Solo clave 26 (complementos alimenticios); el filtro fino de categoría se hace después.
+                  if any(str(v).strip().startswith("26.") or str(v).strip() == "26" for v in rec.values()) or "COMPLEMENTOS ALIMENTICIOS" in blob.upper():
+                      data.append(rec)
+              out[ws.title] = {"columns": head, "rows": data}
+              print(ws.title, head, len(data))
+          json.dump(out, open("/tmp/f/aesan/clave26.json", "w"), ensure_ascii=False)
+          PY
+          rm -f /tmp/f/aesan/rgseaa.xlsx
       - uses: actions/checkout@v4
       - name: Guardar en la rama datos
         run: |
@@ -33,4 +65,5 @@ jobs:
           git fetch origin datos || true
           if git rev-parse --verify origin/datos >/dev/null 2>&1; then git checkout -B datos origin/datos; else git checkout --orphan datos && git rm -rqf .; fi
           mkdir -p fuentes && rm -rf fuentes/invima && cp -r /tmp/f/invima fuentes/invima
+          if [ -d /tmp/f/aesan ]; then rm -rf fuentes/aesan && cp -r /tmp/f/aesan fuentes/aesan; fi
           git add fuentes && (git commit -qm "Fuentes públicas $(date -u +%Y-%m-%d)" || echo "Sin cambios") && git push -q origin datos
