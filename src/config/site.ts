@@ -12,7 +12,7 @@ export const site = {
   operator: {
     legalName: process.env.OPERATOR_LEGAL_NAME ?? "IA DEV INVESTMENTS LLC",
     taxId: process.env.OPERATOR_TAX_ID ?? "",
-    address: process.env.OPERATOR_ADDRESS ?? "1209 Mountain Road Pl NE, Suite R, Albuquerque, NM 87110, Estados Unidos",
+    address: process.env.OPERATOR_ADDRESS ?? "1209 MOUNTAIN ROAD PL NE STE R, ALBUQUERQUE, NM 87110 (sede central en Estados Unidos)",
   },
   // Porcentaje que se registra por defecto en acuerdos nuevos; nunca se muestra como tarifa aceptada.
   defaultCommissionPct: 3,
