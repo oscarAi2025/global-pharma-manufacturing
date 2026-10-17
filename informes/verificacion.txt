@@ -1,4 +1,4 @@
-Verificación de https://global-pharma-manufacturing.netlify.app — 2026-10-17T20:27Z — commit 584164c
+Verificación de https://global-pharma-manufacturing.netlify.app — 2026-10-17T20:30Z — commit 8598f75
 200  / | h1: Global Pharma Manufacturing | canonical: https://global-pharma-manufacturing.netlify.app/en/ | robots: noindex, follow | form: 0
 200  /es/ | h1: Encuentra quién fabrique tu suplemento, sin buscar a ciegas | canonical: https://global-pharma-manufacturing.netlify.app/es/ | robots: index, follow | form: 0
 200  /pt/ | h1: Encontre quem fabrique o seu suplemento, sem procurar às ceg | canonical: https://global-pharma-manufacturing.netlify.app/pt/ | robots: index, follow | form: 0
@@ -44,3 +44,18 @@ strict-transport-security: max-age=31536000; includeSubDomains; preload
 x-content-type-options: nosniff
 x-frame-options: DENY
 --- Lighthouse (móvil)
+/es/ {
+  performance: 98,
+  accessibility: 100,
+  'best-practices': 100,
+  seo: 100
+}
+  - network-dependency-tree-insight 0 
+/es/maquila-suplementos/mexico/ {
+  performance: 98,
+  accessibility: 100,
+  'best-practices': 100,
+  seo: 100
+}
+  - network-dependency-tree-insight 0 
+RESULTADO: OK
