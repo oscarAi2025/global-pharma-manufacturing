@@ -30,7 +30,7 @@ for (const f of files) {
   if (/(solicitar-presupuesto|solicitar-orcamento|request-quote)\//.test(rel) && !/data-netlify="true"/.test(html)) problems.push(`${rel}: falta el formulario`);
 }
 if (process.env.SITE_ENV === "production") {
-  for (const k of ["SITE_URL", "CONTACT_EMAIL", "OPERATOR_LEGAL_NAME", "OPERATOR_TAX_ID", "OPERATOR_ADDRESS"])
+  for (const k of ["SITE_URL", "CONTACT_EMAIL", "OPERATOR_TAX_ID"])
     if (!process.env[k]) problems.push(`Producción: falta la variable ${k}`);
 }
 console.log(`${files.length} páginas revisadas`);

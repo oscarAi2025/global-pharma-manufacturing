@@ -8,11 +8,11 @@ export const site = {
   // Dominio definitivo PENDIENTE. Se usa para canonical, hreflang y sitemap.
   url: (process.env.SITE_URL ?? "https://global-pharma-manufacturing.netlify.app").replace(/\/$/, ""),
   contactEmail: process.env.CONTACT_EMAIL ?? "",
-  // Sociedad que opera la web y trata los datos (aviso legal y privacidad). PENDIENTE de confirmar por el propietario.
+  // Sociedad que opera la web y trata los datos (confirmada por el propietario el 17/10/2026). EIN y correo PENDIENTES.
   operator: {
-    legalName: process.env.OPERATOR_LEGAL_NAME ?? "",
+    legalName: process.env.OPERATOR_LEGAL_NAME ?? "IA DEV INVESTMENTS LLC",
     taxId: process.env.OPERATOR_TAX_ID ?? "",
-    address: process.env.OPERATOR_ADDRESS ?? "",
+    address: process.env.OPERATOR_ADDRESS ?? "1209 Mountain Road Pl NE, Suite R, Albuquerque, NM 87110, Estados Unidos",
   },
   // Porcentaje que se registra por defecto en acuerdos nuevos; nunca se muestra como tarifa aceptada.
   defaultCommissionPct: 3,

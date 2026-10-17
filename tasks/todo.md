@@ -33,7 +33,9 @@ sobre el primer pedido **y las recompras** del cliente presentado (objetivo: 24 
 
 ## Pendiente del propietario
 - Crear el repo vacío `global-pharma-manufacturing` en GitHub
-- Qué sociedad opera la web (para aviso legal y privacidad) y dominio
+- [x] Sociedad: IA DEV INVESTMENTS LLC (EE. UU.); dominio: temporal de Netlify por ahora
+- EIN de la LLC y correo de contacto público (variables OPERATOR_TAX_ID y CONTACT_EMAIL)
+- RGPD art. 27: una LLC de EE. UU. que trata datos de compradores de la UE puede necesitar representante en la UE (revisar con abogado)
 - Conectar el repo a Netlify y activar el aviso por correo de Netlify Forms
 
 ## Resultados de verificación (17/10/2026)
