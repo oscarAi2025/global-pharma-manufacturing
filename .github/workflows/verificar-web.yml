@@ -3,6 +3,8 @@ name: verificar-web-publicada
 # Comprueba la web publicada desde fuera (el entorno de desarrollo no llega a Netlify):
 # estado HTTP de cada página del sitemap, h1, canonical, formulario y Lighthouse de la portada.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
     inputs:
       url:
@@ -17,9 +19,11 @@ jobs:
     steps:
       - name: Páginas y etiquetas
         env:
-          BASE: ${{ inputs.url }}
+          BASE: ${{ inputs.url || 'https://playful-squirrel-a2d50c.netlify.app' }}
         run: |
           set -u
+          # Tras un push, Netlify tarda en publicar: se espera antes de comprobar.
+          [ "${{ github.event_name }}" = "push" ] && sleep 150
           fail=0
           for p in / /es/ /pt/ /en/ /es/como-funciona/ /es/solicitar-presupuesto/ /pt/solicitar-orcamento/ /en/request-quote/ \
                    /es/maquila-suplementos/mexico/ /es/maquila-suplementos/colombia/ /es/fabricacion-complementos-alimenticios/espana/ \
@@ -40,7 +44,7 @@ jobs:
           node-version: "22"
       - name: Lighthouse (móvil)
         env:
-          BASE: ${{ inputs.url }}
+          BASE: ${{ inputs.url || 'https://playful-squirrel-a2d50c.netlify.app' }}
         run: |
           for p in /es/ /es/maquila-suplementos/mexico/; do
             npx -y lighthouse@12.8.2 "$BASE$p" --quiet --chrome-flags="--headless=new --no-sandbox" \
