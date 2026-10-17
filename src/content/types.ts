@@ -22,7 +22,9 @@ export const pageSchema = z.object({
   locale: z.enum(locales),
   /** Segmentos tras el idioma; [] es la portada del idioma. */
   slug: z.array(z.string().regex(/^[a-z0-9-]+$/)),
-  type: z.enum(["home", "country", "how", "quote", "thanks", "legal"]),
+  type: z.enum(["home", "country", "form", "how", "quote", "thanks", "legal"]),
+  /** Clave de forma farmacéutica (páginas de tipo «form»). */
+  form: z.string().optional(),
   status: z.enum(pageStatus),
   title: z.string().min(5),
   metaTitle: z.string().min(10).max(65),

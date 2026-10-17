@@ -16,6 +16,9 @@
   --teal: #0b6e66;
   --teal-deep: #084f4a;
   --amber: #a8620c;
+  --amber-soft: #f1d79a;
+  --teal-soft: #bfe0da;
+  --deep: #0c3a37;
   color-scheme: light;
 }
 
@@ -69,4 +72,51 @@
   .reg-table { @apply w-full border-collapse text-left text-[0.97rem]; }
   .reg-table th { @apply border-b-2 border-ink py-2 pr-4 align-bottom font-semibold; font-stretch: 85%; }
   .reg-table td { @apply border-b border-rule py-2 pr-4 align-top; }
+}
+
+/* ——— Rediseño: portada, buscador, explorador ——— */
+@layer components {
+  .hero { background: linear-gradient(180deg, var(--paper) 0%, #e3ebe9 100%); border-bottom: 1px solid var(--rule); }
+  .hero h1 { font-size: clamp(2.6rem, 6vw, 5rem); font-stretch: 72%; font-weight: 780; letter-spacing: -0.015em; }
+  .hero-plate { filter: drop-shadow(0 30px 40px rgba(19, 34, 43, 0.12)); }
+
+  .need { @apply bg-sheet border border-rule p-5 sm:p-7; border-top: 6px solid var(--teal); box-shadow: 0 30px 60px -40px rgba(19, 34, 43, 0.55); }
+  .need-label { @apply block font-semibold; font-size: 1.15rem; font-stretch: 85%; }
+  .need-box { @apply mt-3 flex flex-col gap-3 md:flex-row md:items-stretch; }
+  .need-box textarea { @apply min-h-[4.5rem] flex-1 resize-none rounded-[3px] border border-rule bg-paper px-4 py-3 text-ink; font-size: 1.15rem; line-height: 1.45; }
+  .need-box textarea:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px var(--teal-soft); }
+  .need-submit { @apply md:w-64 shrink-0 text-center leading-tight; }
+  .need-read { @apply mt-5 border-t border-dashed border-rule pt-4; }
+  .need-read-title { @apply text-sm font-semibold text-muted; }
+  .need-empty { @apply mt-2 text-muted; }
+  .need-chips { @apply mt-3 flex flex-wrap gap-2; }
+  .need-chip { @apply flex items-baseline gap-2 rounded-[3px] border border-teal px-3 py-1.5; background: var(--teal-soft); animation: chip-in .18s ease-out; }
+  .need-chip dt { @apply text-xs font-semibold text-teal-deep; }
+  .need-chip dd { @apply font-semibold; }
+  @keyframes chip-in { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: none; } }
+  .need-examples { @apply mt-5 flex flex-wrap items-center gap-2 text-sm; }
+  .need-examples span { @apply font-semibold text-muted; }
+  .need-examples button { @apply rounded-full border border-rule bg-paper px-3 py-1.5 text-left text-ink transition-colors; }
+  .need-examples button:hover { @apply border-teal; }
+
+  .tiles { @apply grid gap-px border border-rule bg-rule sm:grid-cols-2; }
+  .tile { @apply flex h-full flex-col gap-3 bg-sheet p-6 text-ink no-underline transition-colors; }
+  .tile:hover { background: #f6faf9; }
+  .tile:hover .tile-name { @apply text-teal-deep underline; }
+  .tile-name { @apply font-bold; font-size: 1.15rem; font-stretch: 82%; }
+  .tile-text { @apply text-sm text-muted; }
+
+  .band { background: var(--deep); }
+  .steps { @apply grid gap-10 md:grid-cols-2 lg:grid-cols-4; counter-reset: s; }
+  .steps li { @apply relative border-t border-[#2f6762] pt-6; }
+  .step-n { @apply absolute -top-[1.05rem] left-0 flex h-8 w-8 items-center justify-center rounded-full font-bold text-ink; background: var(--amber-soft); font-stretch: 80%; }
+
+  .markets { @apply grid gap-px border border-rule bg-rule md:grid-cols-2; }
+  .markets a { @apply grid h-full grid-cols-[3.5rem_1fr] gap-x-4 gap-y-1 bg-sheet p-5 text-ink no-underline; }
+  .markets a:hover .markets-title { @apply text-teal-deep underline; }
+  .markets-code { @apply row-span-2 flex h-12 w-12 items-center justify-center border-2 border-ink font-bold; font-stretch: 75%; font-size: 1.1rem; }
+  .markets-title { @apply font-semibold; }
+  .markets-auth { @apply text-sm text-muted; }
+
+  .pledge { @apply border-l-4 border-teal pl-6; }
 }

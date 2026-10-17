@@ -6,11 +6,9 @@ let exe = "/opt/pw-browsers/chromium";
 try { execSync(`test -x ${exe}`); } catch { exe = execSync("ls -d /opt/pw-browsers/chromium-*/chrome-linux/chrome | head -1").toString().trim(); }
 const b = await chromium.launch({ executablePath: exe });
 const pg = await b.newPage();
-let posted = null;
-await pg.route("**/", async (route) => {
-  if (route.request().method() === "POST") { posted = route.request().postData(); return route.fulfill({ status: 200, body: "ok" }); }
-  return route.continue();
-});
+let posted = null, apiBody = null;
+await pg.route("**/api/requests**", async (route) => { apiBody = JSON.parse(route.request().postData()); return route.fulfill({ status: 201, contentType: "application/json", body: JSON.stringify({ ok: true, ref: "GPM-TEST22", portal: "/portal/abc/" }) }); });
+await pg.route("**/__forms.html", async (route) => { posted = route.request().postData(); return route.fulfill({ status: 200, body: "ok" }); });
 const fail = (m) => { console.error("FALLO:", m); process.exit(1); };
 await pg.goto(base + "/es/solicitar-presupuesto/?utm_source=google&utm_campaign=prueba", { waitUntil: "networkidle" });
 const f = pg.locator("main form");
@@ -33,8 +31,10 @@ await f.locator("#email").fill("ana@example.com");
 await f.locator("#consent").check();
 await f.getByRole("button", { name: "Enviar solicitud" }).click();
 await pg.getByText("Solicitud enviada").waitFor({ timeout: 5000 });
+if (!(await pg.getByText("GPM-TEST22").isVisible())) fail("no muestra la referencia");
+if (apiBody?.email !== "ana@example.com" || apiBody?.locale !== "es") fail("la API no recibió los datos");
 const data = Object.fromEntries(new URLSearchParams(posted));
-for (const [k, v] of Object.entries({ "form-name": "solicitud", dosage_form: "gummies", market: "México", email: "ana@example.com", consent: "yes", utm_source: "google", utm_campaign: "prueba", landing_page: "/es/solicitar-presupuesto/", locale: "es" }))
+for (const [k, v] of Object.entries({ "form-name": "solicitud", ref: "GPM-TEST22", dosage_form: "gummies", market: "México", email: "ana@example.com", consent: "yes", utm_source: "google", utm_campaign: "prueba", landing_page: "/es/solicitar-presupuesto/", locale: "es" }))
   if (data[k] !== v) fail(`campo ${k}=${data[k]} (esperado ${v}) :: ${posted}`);
 console.log("formulario ok:", Object.keys(data).length, "campos enviados");
 await b.close();

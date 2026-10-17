@@ -29,6 +29,8 @@ export function QuoteForm({ locale, thanksPath, privacyPath, compact = false }: 
   const [state, setState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [js, setJs] = useState(false);
   const [attr, setAttr] = useState<Record<string, string>>({});
+  const [query, setQuery] = useState("");
+  const [result, setResult] = useState<{ ref: string | null; portal: string | null } | null>(null);
 
   useEffect(() => {
     setJs(true);
@@ -40,6 +42,14 @@ export function QuoteForm({ locale, thanksPath, privacyPath, compact = false }: 
       try { sessionStorage.setItem(ATTR_KEY, JSON.stringify(attr)); } catch { /* sin persistencia */ }
     }
     setAttr(attr);
+    // Datos que llegan del buscador (?q=&form=&type=&market=)
+    const sp = new URLSearchParams(location.search);
+    const f = formRef.current;
+    if (f) {
+      const set = (name: string, v: string | null) => { const el = f.elements.namedItem(name) as HTMLInputElement | HTMLSelectElement | null; if (el && v) el.value = v; };
+      set("dosage_form", sp.get("form")); set("product_type", sp.get("type")); set("market", sp.get("market"));
+      const q = sp.get("q"); if (q) { setQuery(q.slice(0, 600)); set("details", q.slice(0, 600)); }
+    }
   }, []);
 
   const read = (): Record<string, string> => {
@@ -73,12 +83,18 @@ export function QuoteForm({ locale, thanksPath, privacyPath, compact = false }: 
     }
     if (data["bot-field"]) { setState("sent"); return; } // honeypot: se descarta en silencio
     setState("sending");
+    let ref: string | null = null, portal: string | null = null, apiOk = false;
     try {
-      const res = await fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: encodeForm(data) });
-      if (!res.ok) throw new Error(String(res.status));
+      const res = await fetch("/api/requests", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(data) });
+      if (res.ok) { const j = await res.json(); ref = j.ref; portal = j.portal; apiOk = true; }
+    } catch { /* se intenta igualmente el aviso por Netlify Forms */ }
+    try {
+      const res = await fetch("/__forms.html", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: encodeForm({ ...data, ref: ref ?? "" }) });
+      if (!res.ok && !apiOk) throw new Error(String(res.status));
+      setResult({ ref, portal });
       setState("sent");
     } catch {
-      setState("error");
+      if (apiOk) { setResult({ ref, portal }); setState("sent"); } else setState("error");
     }
   };
 
@@ -90,6 +106,8 @@ export function QuoteForm({ locale, thanksPath, privacyPath, compact = false }: 
       <div className="sheet" role="status" aria-live="polite">
         <h2 className="sheet-title">{L.sent}</h2>
         <p className="mt-3 text-muted">{L.sentText}</p>
+        {result?.ref && <p className="mt-4">{L.refLabel} <strong>{result.ref}</strong></p>}
+        {result?.portal && <p className="mt-2"><a href={result.portal}>{L.portalLink}</a> <span className="text-sm text-muted">{L.portalHint}</span></p>}
       </div>
     );
   }
@@ -104,6 +122,7 @@ export function QuoteForm({ locale, thanksPath, privacyPath, compact = false }: 
     >
       <input type="hidden" name="form-name" value={FORM_NAME} />
       <input type="hidden" name="locale" value={locale} />
+      <input type="hidden" name="query" value={query} readOnly />
       {trackingFields.map((k) => <input key={k} type="hidden" name={k} value={attr[k] ?? ""} readOnly />)}
       <p className="hidden" aria-hidden="true"><label>No rellenar <input name="bot-field" tabIndex={-1} autoComplete="off" /></label></p>
 

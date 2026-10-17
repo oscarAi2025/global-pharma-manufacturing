@@ -1,6 +1,7 @@
 import { site, type Locale, defaultLocale } from "@/config/site";
 import { corePages } from "./core-pages";
 import { countryPages } from "./country-pages";
+import { formPages } from "./forms";
 import { pageSchema, type PageDoc, type PageInput } from "./types";
 
 /** Valida el registro completo: falla el build ante páginas inválidas, ids o rutas repetidas, o grupos inconsistentes. */
@@ -22,13 +23,13 @@ export function buildRegistry(input: PageInput[]): PageDoc[] {
     const gl = `${p.group}|${p.locale}`;
     if (groupLocale.has(gl)) throw new Error(`El grupo «${p.group}» tiene dos páginas en ${p.locale}`);
     groupLocale.add(gl);
-    if (p.type === "country" && p.status === "published" && (p.body.length < 6 || p.sources.length < 2))
+    if ((p.type === "country" || p.type === "form") && p.status === "published" && (p.body.length < 6 || p.sources.length < 2))
       throw new Error(`«${p.id}» no tiene contenido o fuentes suficientes para publicarse`);
   }
   return pages;
 }
 
-export const registry: PageDoc[] = buildRegistry([...corePages, ...countryPages]);
+export const registry: PageDoc[] = buildRegistry([...corePages, ...countryPages, ...formPages]);
 
 /** Se generan las publicadas y las noindex (gracias, aviso legal). El resto no existe en el sitio. */
 export const isBuilt = (p: PageDoc) => p.status === "published" || p.status === "noindex";
@@ -65,4 +66,8 @@ export function countriesFor(locale: Locale): PageDoc[] {
   const all = registry.filter((p) => p.type === "country" && isIndexable(p));
   const own = all.filter((p) => p.locale === locale);
   return own.length ? own : all; // en inglés aún no hay páginas por país: se enlazan las de ES/PT
+}
+
+export function formsFor(locale: Locale): PageDoc[] {
+  return registry.filter((p) => p.type === "form" && isIndexable(p) && p.locale === locale);
 }

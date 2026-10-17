@@ -1,0 +1,216 @@
+{
+  "key": "powders",
+  "sources": [
+    {"label": "Directive 2002/46/EC on food supplements, Article 2 (copy on legislation.gov.uk)", "url": "https://www.legislation.gov.uk/eudr/2002/46/article/2"},
+    {"label": "FDA — Small Entity Compliance Guide: CGMP for dietary supplements (21 CFR Part 111)", "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/small-entity-compliance-guide-current-good-manufacturing-practice-manufacturing-packaging-labeling"},
+    {"label": "USP <1174> Powder Flow (USP 35 text, third-party reproduction by DrugFuture)", "url": "https://www.drugfuture.com/Pharmacopoeia/USP35/data/v35300/usp35nf30s0_c1174.html"},
+    {"label": "USP <1111> Microbiological examination of nonsterile products: acceptance criteria (USP 35 text, third-party reproduction by DrugFuture)", "url": "https://www.drugfuture.com/Pharmacopoeia/USP35/data/v35300/usp35nf30s0_c1111.html"},
+    {"label": "FDA — ICH Q4B Annex 6: Uniformity of Dosage Units general chapter (June 2014)", "url": "https://www.fda.gov/files/drugs/published/Q4B-Annex-6--Uniformity-of-Dosage-Units-General-Chapter.pdf"},
+    {"label": "EMA — ICH Q1A(R2) Stability testing of new drug substances and products", "url": "https://www.ema.europa.eu/system/files/documents/scientific-guideline/wc500002651_en.pdf"},
+    {"label": "Zafar U. et al. A review of bulk powder caking. Powder Technology 313 (2017) 389–401 (peer-reviewed)", "url": "https://eprints.whiterose.ac.uk/112336/"},
+    {"label": "Marchesini Group — stick pack filling and closing line for nutraceutical powders (equipment manufacturer, general process description)", "url": "https://www.marchesini.com/en/machines-lines/stickpack-filling-and-closing-line-nutraceutical-powder-products"}
+  ],
+  "locales": {
+    "en": {
+      "slug": "powder-sachet-contract-manufacturing",
+      "title": "Powder, sachet and stick pack contract manufacturing",
+      "metaTitle": "Powder, Sachet & Stick Pack Contract Manufacturing",
+      "description": "Contract manufacturing of powders in sachets and stick packs: process steps, flow and moisture constraints, quality tests and what to send for a quote.",
+      "lead": "Single-dose powders look simple, but flow, moisture and the pack decide whether every stick carries the declared dose. This page explains how they are made, what is tested and what a manufacturer needs from you to quote properly.",
+      "body": [
+        {"kind": "h2", "text": "What it is and when it fits"},
+        {"kind": "p", "text": "This route covers blended powders filled into single-dose sachets or stick packs, and multi-dose powders in tubs. In the EU, the definition of food supplements in [Directive 2002/46/EC](https://www.legislation.gov.uk/eudr/2002/46/article/2) explicitly lists sachets of powder among the dose forms, alongside liquid and powder forms designed to be taken in measured small unit quantities. The same pack format is also used for medicines; in that case the product follows medicines rules, not food rules. The format does not decide the regulatory status: composition, claims and target market do, so define them before asking for quotes."},
+        {"kind": "h2", "text": "How it is manufactured"},
+        {"kind": "steps", "items": [
+          {"title": "Receive and test components", "text": "For US dietary supplements, 21 CFR Part 111 requires at least one appropriate test or examination to verify the identity of each dietary ingredient; other components may be accepted on a certificate of analysis once the supplier is qualified."},
+          {"title": "Dispense and blend", "text": "Ingredients are weighed according to the master manufacturing record, which must list the components and their weights or measures, and blended to a uniform mix."},
+          {"title": "Check the blend", "text": "Flow and other in-process attributes are checked against the specifications set for the product, because the filling line doses by volume or by auger and depends on how the powder behaves."},
+          {"title": "Form, fill and seal", "text": "A vertical machine forms the stick from film, doses the powder and seals it. One equipment maker describes using a long auger doser for a fatty, poorly flowing nutraceutical powder and flushing with nitrogen for oxygen-sensitive products."},
+          {"title": "Check-weigh and pack", "text": "Each stick can be weighed in line and out-of-tolerance units rejected; sticks are then counted into cartons and coded with the batch."},
+          {"title": "Release the batch", "text": "The finished batch is verified against its specifications and documented before release."}
+        ]},
+        {"kind": "h2", "text": "Formulation and process constraints"},
+        {"kind": "list", "items": [
+          "Flowability: dosing accuracy depends on how the blend flows. USP <1174> lists four common methods: angle of repose, compressibility index or Hausner ratio, flow rate through an orifice and shear cell.",
+          "Moisture and caking: temperature and humidity strongly influence caking; amorphous ingredients can become sticky once conditions push them past their glass transition, and caked powder becomes hard to handle and stops production (Zafar et al., 2017).",
+          "Oxygen-sensitive ingredients: modified-atmosphere filling with nitrogen is one available option; ask whether the line offers it.",
+          "Packaging barrier: the film is part of the product. For medicines, ICH Q1A(R2) requires stability testing in the container closure system proposed for marketing; the same logic applies when you choose a laminate for a supplement."
+        ]},
+        {"kind": "table", "head": ["Compressibility index (%)", "Hausner ratio", "Flow character (USP <1174>)"], "rows": [
+          ["≤10", "1.00–1.11", "Excellent"],
+          ["11–15", "1.12–1.18", "Good"],
+          ["16–20", "1.19–1.25", "Fair"],
+          ["21–25", "1.26–1.34", "Passable"],
+          ["26–31", "1.35–1.45", "Poor"],
+          ["32–37", "1.46–1.59", "Very poor"],
+          [">38", ">1.60", "Very, very poor"]
+        ]},
+        {"kind": "h2", "text": "Quality tests typically required"},
+        {"kind": "table", "head": ["Test", "What it checks", "Reference"], "rows": [
+          ["Identity of dietary ingredients", "At least one appropriate test or examination per dietary ingredient", "21 CFR Part 111 (US supplements)"],
+          ["Finished batch specifications", "Product specifications for the finished batch; a subset of batches may be verified with a statistical sampling plan, and a failing batch is rejected unless quality control approves treatment, adjustment or reprocessing", "21 CFR Part 111 (US supplements)"],
+          ["Uniformity of dosage units", "Content uniformity; mass variation only where the 25 mg / 25 % condition is met", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02, interchangeable under ICH Q4B Annex 6 (medicines)"],
+          ["Microbial quality, non-aqueous oral preparations", "TAMC 10³ CFU/g, TYMC 10² CFU/g, absence of E. coli in 1 g", "USP <1111> (medicines)"],
+          ["Stability", "Attributes susceptible to change, tested in the marketed pack", "ICH Q1A(R2) (medicines)"]
+        ]},
+        {"kind": "note", "text": "The pharmacopoeial criteria above are written for medicines. For food supplements the manufacturer sets specifications under the applicable food law (in the US, 21 CFR Part 111), so agree in writing which limits and test methods apply to your product."},
+        {"kind": "h2", "text": "What to send a manufacturer for an accurate quote"},
+        {"kind": "list", "items": [
+          "Intended status (food supplement, medicine or other) and the countries where it will be sold",
+          "Formula per serving: each ingredient, amount, chemical form and any supplier or grade requirement",
+          "Fill weight per stick or sachet, and whether it must dissolve, disperse or be eaten as is",
+          "Pack format: stick pack, sachet or tub; preferred film or barrier needs; units per carton",
+          "Flavour, sweetener and colour choices, or a reference product",
+          "Quantity for the first order and an annual forecast",
+          "Existing specifications, certificates of analysis or stability data, if any",
+          "Status of artwork and the claims you plan to make",
+          "Certifications your sales channel requires, so the manufacturer can show its own",
+          "Target delivery date and destination"
+        ]},
+        {"kind": "h2", "text": "How our service works"},
+        {"kind": "p", "text": "Global Pharma Manufacturing is a sourcing service, not a factory. You describe the product; we look for contract manufacturers whose capabilities match it and coordinate their quotes. The service is free for buyers: manufacturers pay us a commission when they win the order. We do not share your formula, company details or documents with any manufacturer without your permission."}
+      ],
+      "faqs": [
+        {"q": "Is a powder in sachets a supplement or a medicine?", "a": "It depends on composition, claims and market, not on the pack. EU law lists sachets of powder as a food supplement dose form, but the same format is used for medicines, which follow medicines rules. Tell us the target market and intended claims and we will look for manufacturers authorised for that route."},
+        {"q": "Why do manufacturers ask about flowability?", "a": "The line doses each stick by volume or by auger, so a powder that flows poorly is harder to fill at a consistent weight. USP <1174> describes the usual measurements. Lines can be set up for difficult powders, but the manufacturer needs to test your actual blend."},
+        {"q": "Does my powder need an expiry date?", "a": "For US dietary supplements, 21 CFR Part 111 does not require one, but if you print a date you should have data that supports it. Medicines need stability data under ICH Q1A(R2) in the marketed pack. Other markets have their own rules."},
+        {"q": "Can I supply my own ingredients?", "a": "Many manufacturers will discuss it. Under 21 CFR Part 111 the manufacturer still has to verify the identity of each dietary ingredient with at least one appropriate test, so plan for that testing and the documents that go with it."},
+        {"q": "Do you publish minimum order quantities or prices?", "a": "No. Minimums and prices depend on the line, the film and the format, and they differ between plants. We ask each manufacturer to quote against your quantities and forecast so you can compare like for like."}
+      ]
+    },
+    "es": {
+      "slug": "fabricacion-polvos-sobres",
+      "title": "Fabricación por contrato de polvos, sobres y stick packs",
+      "metaTitle": "Fabricación de polvos en sobres y stick packs | Maquila",
+      "description": "Fabricación por contrato de polvos en sobres y stick packs: proceso, fluidez y humedad, controles de calidad y qué enviar al fabricante para cotizar bien.",
+      "lead": "Un polvo monodosis parece sencillo, pero la fluidez, la humedad y el envase deciden si cada sobre lleva la dosis declarada. Aquí explicamos cómo se fabrica, qué se analiza y qué necesita el fabricante para cotizar con precisión.",
+      "body": [
+        {"kind": "h2", "text": "Qué es y cuándo encaja"},
+        {"kind": "p", "text": "Esta vía cubre mezclas de polvo envasadas en sobres monodosis o stick packs, y polvos multidosis en bote. En la UE, la definición de complemento alimenticio de la [Directiva 2002/46/CE](https://www.legislation.gov.uk/eudr/2002/46/article/2) menciona expresamente los sobres de polvo entre las formas dosificadas, junto con formas líquidas y en polvo pensadas para tomarse en pequeñas cantidades unitarias medidas. El mismo formato se usa también para medicamentos, que siguen las normas de medicamentos y no las de alimentos. El envase no decide la categoría: la deciden la composición, las declaraciones y el mercado, así que conviene definirlos antes de pedir presupuesto."},
+        {"kind": "h2", "text": "Cómo se fabrica"},
+        {"kind": "steps", "items": [
+          {"title": "Recepción y análisis de componentes", "text": "Para complementos alimenticios en EE. UU., la norma 21 CFR Part 111 exige al menos una prueba o examen adecuado para verificar la identidad de cada ingrediente dietético; los demás componentes pueden aceptarse con certificado de análisis una vez cualificado el proveedor."},
+          {"title": "Pesada y mezcla", "text": "Los ingredientes se pesan según el registro maestro de fabricación, que debe indicar los componentes y sus pesos o medidas, y se mezclan hasta obtener una mezcla uniforme."},
+          {"title": "Control de la mezcla", "text": "Se comprueban la fluidez y otros atributos en proceso frente a las especificaciones del producto, porque la línea dosifica por volumen o con tornillo sinfín y depende del comportamiento del polvo."},
+          {"title": "Formado, llenado y sellado", "text": "Una máquina vertical forma el stick a partir de la bobina de film, dosifica el polvo y lo sella. Un fabricante de maquinaria describe el uso de un dosificador de sinfín largo para un polvo nutracéutico graso y de mala fluidez, y la inertización con nitrógeno para productos sensibles al oxígeno."},
+          {"title": "Control de peso y encajado", "text": "Cada stick puede pesarse en línea y rechazarse si está fuera de tolerancia; después se cuentan en estuches y se codifican con el lote."},
+          {"title": "Liberación del lote", "text": "El lote terminado se verifica frente a sus especificaciones y se documenta antes de liberarlo."}
+        ]},
+        {"kind": "h2", "text": "Limitaciones de formulación y proceso"},
+        {"kind": "list", "items": [
+          "Fluidez: la exactitud de la dosis depende de cómo fluye la mezcla. La USP <1174> recoge cuatro métodos habituales: ángulo de reposo, índice de compresibilidad o razón de Hausner, velocidad de flujo por orificio y celda de cizalla.",
+          "Humedad y apelmazamiento: la temperatura y la humedad influyen mucho en el apelmazamiento; los ingredientes amorfos pueden volverse pegajosos cuando las condiciones superan su transición vítrea, y el polvo apelmazado es difícil de manejar y detiene la producción (Zafar et al., 2017).",
+          "Ingredientes sensibles al oxígeno: el llenado en atmósfera modificada con nitrógeno es una opción; pregunta si la línea lo ofrece.",
+          "Barrera del envase: el film forma parte del producto. Para medicamentos, la ICH Q1A(R2) exige estudiar la estabilidad en el sistema de envase y cierre propuesto para la comercialización; la misma lógica sirve al elegir el laminado de un complemento."
+        ]},
+        {"kind": "table", "head": ["Índice de compresibilidad (%)", "Razón de Hausner", "Fluidez (USP <1174>)"], "rows": [
+          ["≤10", "1,00–1,11", "Excelente"],
+          ["11–15", "1,12–1,18", "Buena"],
+          ["16–20", "1,19–1,25", "Aceptable"],
+          ["21–25", "1,26–1,34", "Pasable"],
+          ["26–31", "1,35–1,45", "Mala"],
+          ["32–37", "1,46–1,59", "Muy mala"],
+          [">38", ">1,60", "Muy, muy mala"]
+        ]},
+        {"kind": "h2", "text": "Controles de calidad habituales"},
+        {"kind": "table", "head": ["Ensayo", "Qué comprueba", "Referencia"], "rows": [
+          ["Identidad de ingredientes dietéticos", "Al menos una prueba o examen adecuado por ingrediente dietético", "21 CFR Part 111 (complementos, EE. UU.)"],
+          ["Especificaciones del lote terminado", "Especificaciones de producto del lote terminado; puede verificarse un subconjunto de lotes con un plan de muestreo estadístico, y un lote que no cumple se rechaza salvo que control de calidad apruebe un tratamiento, ajuste o reproceso", "21 CFR Part 111 (complementos, EE. UU.)"],
+          ["Uniformidad de unidades de dosificación", "Uniformidad de contenido; variación de masa solo si se cumple la condición de 25 mg / 25 %", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02, intercambiables según ICH Q4B Anexo 6 (medicamentos)"],
+          ["Calidad microbiológica, preparaciones orales no acuosas", "TAMC 10³ UFC/g, TYMC 10² UFC/g, ausencia de E. coli en 1 g", "USP <1111> (medicamentos)"],
+          ["Estabilidad", "Atributos susceptibles de cambiar, ensayados en el envase de venta", "ICH Q1A(R2) (medicamentos)"]
+        ]},
+        {"kind": "note", "text": "Los criterios farmacopeicos anteriores están redactados para medicamentos. En complementos alimenticios el fabricante fija las especificaciones según la normativa alimentaria aplicable (en EE. UU., 21 CFR Part 111), así que acordad por escrito qué límites y métodos se aplican a tu producto."},
+        {"kind": "h2", "text": "Qué enviar al fabricante para un presupuesto preciso"},
+        {"kind": "list", "items": [
+          "Categoría prevista (complemento alimenticio, medicamento u otra) y países de venta",
+          "Fórmula por dosis: cada ingrediente, cantidad, forma química y exigencias de proveedor o calidad",
+          "Peso de llenado por stick o sobre, y si debe disolverse, dispersarse o tomarse directamente",
+          "Formato: stick pack, sobre o bote; film preferido o necesidades de barrera; unidades por estuche",
+          "Sabor, edulcorante y color elegidos, o un producto de referencia",
+          "Cantidad del primer pedido y previsión anual",
+          "Especificaciones, certificados de análisis o datos de estabilidad existentes, si los hay",
+          "Estado de los artes y declaraciones que piensas hacer",
+          "Certificaciones que exige tu canal de venta, para que el fabricante acredite las suyas",
+          "Fecha y destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Cómo funciona nuestro servicio"},
+        {"kind": "p", "text": "Global Pharma Manufacturing es un servicio de búsqueda de fabricantes, no una fábrica. Tú describes el producto; nosotros buscamos fabricantes por contrato cuyas capacidades encajan y coordinamos sus presupuestos. Para el comprador es gratis: el fabricante nos paga una comisión cuando consigue el pedido. No compartimos tu fórmula, los datos de tu empresa ni tus documentos con ningún fabricante sin tu permiso."}
+      ],
+      "faqs": [
+        {"q": "¿Un polvo en sobres es complemento alimenticio o medicamento?", "a": "Depende de la composición, las declaraciones y el mercado, no del envase. La normativa de la UE incluye los sobres de polvo entre las formas de los complementos alimenticios, pero el mismo formato se usa para medicamentos, que siguen sus propias normas. Indícanos el mercado y las declaraciones previstas y buscaremos fabricantes autorizados para esa vía."},
+        {"q": "¿Por qué el fabricante pregunta por la fluidez?", "a": "La línea dosifica cada stick por volumen o con sinfín, así que un polvo que fluye mal es más difícil de llenar con un peso constante. La USP <1174> describe las mediciones habituales. Las líneas pueden ajustarse a polvos difíciles, pero el fabricante tiene que probar tu mezcla real."},
+        {"q": "¿Mi polvo necesita fecha de caducidad?", "a": "Para complementos en EE. UU., la 21 CFR Part 111 no la exige, pero si imprimes una fecha debes tener datos que la respalden. Los medicamentos necesitan datos de estabilidad según la ICH Q1A(R2) en el envase de venta. Otros mercados tienen sus propias reglas."},
+        {"q": "¿Puedo aportar mis propios ingredientes?", "a": "Muchos fabricantes lo aceptan. Según la 21 CFR Part 111, el fabricante debe verificar igualmente la identidad de cada ingrediente dietético con al menos una prueba adecuada, así que cuenta con ese análisis y su documentación."},
+        {"q": "¿Publicáis pedidos mínimos o precios?", "a": "No. Los mínimos y los precios dependen de la línea, el film y el formato, y cambian de una planta a otra. Pedimos a cada fabricante que cotice con tus cantidades y tu previsión para que puedas comparar en igualdad de condiciones."}
+      ]
+    },
+    "pt": {
+      "slug": "fabricacao-pos-saches",
+      "title": "Fabricação terceirizada de pós, sachês e stick packs",
+      "metaTitle": "Fabricação de pós em sachês e stick packs | Terceirização",
+      "description": "Fabricação terceirizada de pós em sachês e stick packs: processo, fluidez e umidade, controles de qualidade e o que enviar ao fabricante para um bom orçamento.",
+      "lead": "Um pó em dose única parece simples, mas fluidez, umidade e embalagem decidem se cada sachê traz a dose declarada. Aqui explicamos como é fabricado, o que é analisado e o que o fabricante precisa de você para orçar direito.",
+      "body": [
+        {"kind": "h2", "text": "O que é e quando faz sentido"},
+        {"kind": "p", "text": "Esta rota cobre misturas em pó envasadas em sachês de dose única ou stick packs, e pós multidose em potes. Na UE, a definição de suplemento alimentar da [Diretiva 2002/46/CE](https://www.legislation.gov.uk/eudr/2002/46/article/2) cita expressamente os sachês de pó entre as formas doseadas, ao lado de formas líquidas e em pó feitas para serem tomadas em pequenas quantidades unitárias medidas. O mesmo formato também é usado em medicamentos, que seguem as regras de medicamentos e não as de alimentos. A embalagem não define a categoria: composição, alegações e mercado definem, então vale fechá-los antes de pedir orçamento."},
+        {"kind": "h2", "text": "Como é fabricado"},
+        {"kind": "steps", "items": [
+          {"title": "Recebimento e análise dos componentes", "text": "Para suplementos nos EUA, o 21 CFR Part 111 exige pelo menos um teste ou exame adequado para verificar a identidade de cada ingrediente dietético; os demais componentes podem ser aceitos com certificado de análise depois de qualificado o fornecedor."},
+          {"title": "Pesagem e mistura", "text": "Os ingredientes são pesados conforme o registro mestre de fabricação, que deve listar os componentes e seus pesos ou medidas, e misturados até uma mistura uniforme."},
+          {"title": "Controle da mistura", "text": "Fluidez e outros atributos em processo são verificados contra as especificações do produto, porque a linha doseia por volume ou por rosca sem-fim e depende do comportamento do pó."},
+          {"title": "Formação, enchimento e selagem", "text": "Uma máquina vertical forma o stick a partir da bobina de filme, doseia o pó e sela. Um fabricante de equipamentos descreve o uso de uma rosca dosadora longa para um pó nutracêutico gorduroso e de baixa fluidez, e a inertização com nitrogênio para produtos sensíveis ao oxigênio."},
+          {"title": "Pesagem e encartuchamento", "text": "Cada stick pode ser pesado em linha e rejeitado se estiver fora da tolerância; depois os sticks são contados em cartuchos e codificados com o lote."},
+          {"title": "Liberação do lote", "text": "O lote acabado é verificado contra suas especificações e documentado antes da liberação."}
+        ]},
+        {"kind": "h2", "text": "Limitações de formulação e processo"},
+        {"kind": "list", "items": [
+          "Fluidez: a exatidão da dose depende de como a mistura flui. A USP <1174> lista quatro métodos usuais: ângulo de repouso, índice de compressibilidade ou razão de Hausner, vazão por orifício e célula de cisalhamento.",
+          "Umidade e empedramento: temperatura e umidade influenciam muito o empedramento; ingredientes amorfos podem ficar pegajosos quando as condições ultrapassam sua transição vítrea, e o pó empedrado fica difícil de manusear e para a produção (Zafar et al., 2017).",
+          "Ingredientes sensíveis ao oxigênio: o envase em atmosfera modificada com nitrogênio é uma opção; pergunte se a linha oferece.",
+          "Barreira da embalagem: o filme faz parte do produto. Para medicamentos, a ICH Q1A(R2) exige estudo de estabilidade no sistema de embalagem e fechamento proposto para comercialização; a mesma lógica vale ao escolher o laminado de um suplemento."
+        ]},
+        {"kind": "table", "head": ["Índice de compressibilidade (%)", "Razão de Hausner", "Fluidez (USP <1174>)"], "rows": [
+          ["≤10", "1,00–1,11", "Excelente"],
+          ["11–15", "1,12–1,18", "Boa"],
+          ["16–20", "1,19–1,25", "Razoável"],
+          ["21–25", "1,26–1,34", "Aceitável"],
+          ["26–31", "1,35–1,45", "Ruim"],
+          ["32–37", "1,46–1,59", "Muito ruim"],
+          [">38", ">1,60", "Extremamente ruim"]
+        ]},
+        {"kind": "h2", "text": "Controles de qualidade mais comuns"},
+        {"kind": "table", "head": ["Ensaio", "O que verifica", "Referência"], "rows": [
+          ["Identidade dos ingredientes dietéticos", "Pelo menos um teste ou exame adequado por ingrediente dietético", "21 CFR Part 111 (suplementos, EUA)"],
+          ["Especificações do lote acabado", "Especificações de produto do lote acabado; um subconjunto de lotes pode ser verificado com plano de amostragem estatística, e um lote reprovado é rejeitado salvo se o controle de qualidade aprovar tratamento, ajuste ou reprocessamento", "21 CFR Part 111 (suplementos, EUA)"],
+          ["Uniformidade de unidades de dosagem", "Uniformidade de conteúdo; variação de massa só quando atendida a condição de 25 mg / 25 %", "Ph. Eur. 2.9.40 / USP <905> / JP 6.02, intercambiáveis pela ICH Q4B Anexo 6 (medicamentos)"],
+          ["Qualidade microbiológica, preparações orais não aquosas", "TAMC 10³ UFC/g, TYMC 10² UFC/g, ausência de E. coli em 1 g", "USP <1111> (medicamentos)"],
+          ["Estabilidade", "Atributos sujeitos a mudança, testados na embalagem de venda", "ICH Q1A(R2) (medicamentos)"]
+        ]},
+        {"kind": "note", "text": "Os critérios farmacopeicos acima foram escritos para medicamentos. Em suplementos alimentares o fabricante define as especificações conforme a legislação de alimentos aplicável (nos EUA, 21 CFR Part 111), então combine por escrito quais limites e métodos valem para o seu produto."},
+        {"kind": "h2", "text": "O que enviar ao fabricante para um orçamento preciso"},
+        {"kind": "list", "items": [
+          "Categoria pretendida (suplemento alimentar, medicamento ou outra) e países de venda",
+          "Fórmula por porção: cada ingrediente, quantidade, forma química e exigências de fornecedor ou grau",
+          "Peso de enchimento por stick ou sachê, e se deve dissolver, dispersar ou ser consumido diretamente",
+          "Formato: stick pack, sachê ou pote; filme preferido ou necessidade de barreira; unidades por cartucho",
+          "Sabor, adoçante e cor escolhidos, ou um produto de referência",
+          "Quantidade do primeiro pedido e previsão anual",
+          "Especificações, certificados de análise ou dados de estabilidade existentes, se houver",
+          "Situação da arte da embalagem e alegações que você pretende fazer",
+          "Certificações exigidas pelo seu canal de venda, para que o fabricante comprove as dele",
+          "Prazo e destino de entrega"
+        ]},
+        {"kind": "h2", "text": "Como funciona o nosso serviço"},
+        {"kind": "p", "text": "A Global Pharma Manufacturing é um serviço de busca de fabricantes, não uma fábrica. Você descreve o produto; nós procuramos fabricantes terceirizados com capacidade compatível e coordenamos os orçamentos. Para o comprador é gratuito: o fabricante nos paga uma comissão quando fecha o pedido. Não compartilhamos sua fórmula, os dados da sua empresa nem seus documentos com nenhum fabricante sem a sua autorização."}
+      ],
+      "faqs": [
+        {"q": "Um pó em sachê é suplemento ou medicamento?", "a": "Depende da composição, das alegações e do mercado, não da embalagem. A legislação da UE inclui os sachês de pó entre as formas de suplemento alimentar, mas o mesmo formato é usado para medicamentos, que seguem regras próprias. Informe o mercado e as alegações pretendidas e buscaremos fabricantes autorizados para essa rota."},
+        {"q": "Por que o fabricante pergunta sobre fluidez?", "a": "A linha doseia cada stick por volume ou por rosca, então um pó que flui mal é mais difícil de envasar com peso constante. A USP <1174> descreve as medições usuais. As linhas podem ser ajustadas para pós difíceis, mas o fabricante precisa testar a sua mistura real."},
+        {"q": "Meu pó precisa de prazo de validade?", "a": "Para suplementos nos EUA, o 21 CFR Part 111 não exige, mas se você imprimir uma data deve ter dados que a sustentem. Medicamentos precisam de dados de estabilidade conforme a ICH Q1A(R2) na embalagem de venda. Outros mercados têm regras próprias."},
+        {"q": "Posso fornecer meus próprios ingredientes?", "a": "Muitos fabricantes aceitam conversar. Pelo 21 CFR Part 111, o fabricante ainda precisa verificar a identidade de cada ingrediente dietético com pelo menos um teste adequado, então considere essa análise e a documentação correspondente."},
+        {"q": "Vocês publicam pedido mínimo ou preços?", "a": "Não. Mínimos e preços dependem da linha, do filme e do formato, e variam de uma planta para outra. Pedimos a cada fabricante que orce com as suas quantidades e previsão para você comparar em pé de igualdade."}
+      ]
+    }
+  }
+}
