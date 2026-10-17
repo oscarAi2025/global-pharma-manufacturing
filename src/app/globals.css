@@ -1,0 +1,72 @@
+@import "@fontsource-variable/archivo/wdth.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Paleta de laboratorio: papel gris verdoso frío, tinta azul pizarra, verde azulado de envase farmacéutico
+ * y ámbar solo como señal (campos con error). Un único elemento memorable: la ficha de solicitud.
+ */
+:root {
+  --paper: #eef2f1;
+  --sheet: #ffffff;
+  --ink: #13222b;
+  --muted: #4b5c65;
+  --rule: #c3cfce;
+  --teal: #0b6e66;
+  --teal-deep: #084f4a;
+  --amber: #a8620c;
+  color-scheme: light;
+}
+
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body { @apply bg-paper text-ink font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
+  h1, h2, h3 { font-stretch: 78%; letter-spacing: -0.01em; line-height: 1.08; }
+  h1 { font-weight: 760; font-size: clamp(2.35rem, 5.4vw, 4.4rem); }
+  h2 { font-weight: 700; font-size: clamp(1.6rem, 3vw, 2.25rem); }
+  h3 { font-weight: 680; font-size: 1.25rem; }
+  a { @apply text-teal-deep underline decoration-1 underline-offset-[3px]; }
+  a:hover { @apply decoration-2; }
+  :focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+}
+
+@layer components {
+  .wrap { @apply mx-auto w-full max-w-[1180px] px-4 sm:px-6 lg:px-8; }
+  .lead { @apply text-muted max-w-prose; font-size: 1.2rem; line-height: 1.55; }
+  .prose-block p, .prose-block ul, .prose-block table { @apply max-w-prose; }
+  .prose-block p + p { @apply mt-4; }
+
+  .btn { @apply inline-flex items-center justify-center rounded-[3px] bg-teal px-5 py-3 font-semibold text-white no-underline transition-colors; font-stretch: 90%; }
+  .btn:hover { @apply bg-teal-deep; }
+  .btn:disabled { @apply opacity-60; }
+  .btn-quiet { @apply inline-flex items-center px-3 py-3 font-semibold text-teal-deep; }
+
+  /* Ficha de solicitud: se lee como una hoja de especificación de producto */
+  .sheet { @apply bg-sheet border border-rule; border-top: 6px solid var(--teal); box-shadow: 0 1px 0 var(--rule), 0 18px 40px -28px rgba(19, 34, 43, 0.45); }
+  .sheet-head { @apply flex flex-wrap items-baseline justify-between gap-2 border-b border-rule px-5 py-4 sm:px-6; }
+  .sheet-title { font-size: 1.35rem; font-weight: 700; font-stretch: 78%; }
+  .sheet-step { @apply text-sm font-semibold; }
+  .sheet-body { @apply m-0 min-w-0 border-0 p-0; }
+  .sheet-body .row, .sheet-body .row-pair { @apply border-b border-rule px-5 py-3 sm:px-6; }
+  .sheet-body .row-pair { @apply grid gap-0 p-0 sm:grid-cols-2; }
+  .sheet-body .row-pair .row { @apply border-b-0 sm:[&:first-child]:border-r; }
+  .sheet-body .row-pair .row:first-child { @apply border-b border-rule sm:border-b-0; }
+  .sheet-body label { @apply block text-sm font-semibold text-muted; }
+  .sheet-body input[type="text"], .sheet-body input[type="email"], .sheet-body input[type="tel"], .sheet-body select, .sheet-body textarea {
+    @apply mt-1 block w-full rounded-[2px] border-0 bg-transparent px-0 py-1 text-ink; font-size: 1.05rem; border-bottom: 1px dashed var(--rule);
+  }
+  .sheet-body input:focus, .sheet-body select:focus, .sheet-body textarea:focus { outline: none; border-bottom: 2px solid var(--teal); }
+  .sheet-body [aria-invalid="true"] { border-bottom: 2px solid var(--amber) !important; }
+  .sheet-body .consent { @apply flex flex-wrap items-start gap-3; }
+  .sheet-body .consent input { @apply mt-1 h-5 w-5 shrink-0 accent-teal; }
+  .sheet-body .consent label { @apply flex-1 font-normal text-ink; font-size: 0.95rem; }
+  .sheet-actions { @apply flex items-center justify-end gap-2 px-5 py-4 sm:px-6; }
+  .field-error { @apply mt-1 basis-full text-sm font-semibold text-amber; }
+
+  .rule-top { @apply border-t border-rule; }
+  .reg-table { @apply w-full border-collapse text-left text-[0.97rem]; }
+  .reg-table th { @apply border-b-2 border-ink py-2 pr-4 align-bottom font-semibold; font-stretch: 85%; }
+  .reg-table td { @apply border-b border-rule py-2 pr-4 align-top; }
+}
