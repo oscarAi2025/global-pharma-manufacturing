@@ -10,7 +10,7 @@ on:
       url:
         description: "URL base publicada"
         required: true
-        default: "https://playful-squirrel-a2d50c.netlify.app"
+        default: "https://global-pharma-manufacturing.netlify.app"
 
 jobs:
   verificar:
@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Páginas y etiquetas
         env:
-          BASE: ${{ inputs.url || 'https://playful-squirrel-a2d50c.netlify.app' }}
+          BASE: ${{ inputs.url || 'https://global-pharma-manufacturing.netlify.app' }}
         run: |
           set -u
           # Tras un push, Netlify tarda en publicar: se espera antes de comprobar.
@@ -44,7 +44,7 @@ jobs:
           node-version: "22"
       - name: Lighthouse (móvil)
         env:
-          BASE: ${{ inputs.url || 'https://playful-squirrel-a2d50c.netlify.app' }}
+          BASE: ${{ inputs.url || 'https://global-pharma-manufacturing.netlify.app' }}
         run: |
           for p in /es/ /es/maquila-suplementos/mexico/; do
             npx -y lighthouse@12.8.2 "$BASE$p" --quiet --chrome-flags="--headless=new --no-sandbox" \
