@@ -1,0 +1,36 @@
+name: descargar-fuentes-publicas
+
+# Descarga registros oficiales de fabricantes (INVIMA en datos.gov.co) y los guarda en la rama `datos`.
+# El entorno de desarrollo no llega a datos.gov.co; GitHub Actions sí.
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/fuentes-publicas.yml", "scripts/fuentes/**"]
+  schedule:
+    - cron: "17 5 * * 1"   # lunes, para mantener vigencias al día
+
+permissions:
+  contents: write
+
+jobs:
+  descargar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Descargar
+        run: |
+          set -e
+          mkdir -p /tmp/f/invima
+          curl -sfS --retry 3 "https://www.datos.gov.co/resource/xbpm-2jee.json?\$limit=5000" -o /tmp/f/invima/medicamentos.json
+          curl -sfS --retry 3 -G "https://www.datos.gov.co/resource/a77s-vxqq.json" --data-urlencode "\$limit=5000" -o /tmp/f/invima/consolidado.json
+          python3 -c "import json;[print(f, len(json.load(open('/tmp/f/invima/'+f)))) for f in ['medicamentos.json','consolidado.json']]"
+          date -u +%Y-%m-%d > /tmp/f/invima/fecha.txt
+      - uses: actions/checkout@v4
+      - name: Guardar en la rama datos
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin datos || true
+          if git rev-parse --verify origin/datos >/dev/null 2>&1; then git checkout -B datos origin/datos; else git checkout --orphan datos && git rm -rqf .; fi
+          mkdir -p fuentes && rm -rf fuentes/invima && cp -r /tmp/f/invima fuentes/invima
+          git add fuentes && (git commit -qm "Fuentes públicas $(date -u +%Y-%m-%d)" || echo "Sin cambios") && git push -q origin datos

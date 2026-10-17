@@ -16,11 +16,12 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
   const [verified, setVerified] = useState(false);
   const [capacity, setCapacity] = useState(false);
   const [q, setQ] = useState("");
+  const [partners, setPartners] = useState(false);
   const countries = [...new Set(items.map((i) => i.country))].sort();
   const shown = useMemo(() => items.filter((m) =>
-    (!form || m.forms.includes(form)) && (!country || m.country === country) && (!capacity || m.capacity) &&
+    (!form || m.forms.includes(form)) && (!partners || m.origin === "partner") && (!country || m.country === country) && (!capacity || m.capacity) &&
     (!verified || m.certifications.some((c) => c.verified)) &&
-    (!q || `${m.summary} ${m.certifications.map((c) => c.name).join(" ")}`.toLowerCase().includes(q.toLowerCase()))), [items, form, country, verified, capacity, q]);
+    (!q || `${m.summary} ${(m.areas ?? []).join(" ")} ${m.certifications.map((c) => c.name).join(" ")}`.toLowerCase().includes(q.toLowerCase()))), [items, form, country, verified, capacity, q, partners]);
 
   if (!items.length) {
     return (
@@ -45,6 +46,7 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
           <label className="mt-4 block text-sm"><span className="text-muted">{D.country}</span>
             <select value={country} onChange={(e) => setCountry(e.target.value)} className="dir-input"><option value="">{D.anyCountry}</option>{countries.map((c) => <option key={c}>{c}</option>)}</select></label>
           <label className="mt-4 flex items-center gap-2 text-sm"><input type="checkbox" checked={verified} onChange={(e) => setVerified(e.target.checked)} className="accent-teal" />{D.verifiedOnly}</label>
+          <label className="mt-2 flex items-center gap-2 text-sm"><input type="checkbox" checked={partners} onChange={(e) => setPartners(e.target.checked)} className="accent-teal" />{D.onlyPartners}</label>
           <label className="mt-2 flex items-center gap-2 text-sm"><input type="checkbox" checked={capacity} onChange={(e) => setCapacity(e.target.checked)} className="accent-teal" />{D.capacityOnly}</label>
         </aside>
       )}
@@ -52,17 +54,21 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
         {!compact && <p className="text-sm font-semibold text-muted" aria-live="polite">{D.results(shown.length)}</p>}
         <ul className="dir-grid mt-3">
           {shown.map((m) => (
-            <li key={m.code} className="maker">
+            <li key={m.code} className={`maker ${m.origin === "public" ? "is-public" : ""}`}>
               <div className="flex items-start justify-between gap-3">
                 <div><p className="maker-code">{m.code}</p><p className="maker-country">{m.country}</p></div>
                 <div className="flex -space-x-2">{m.forms.slice(0, 3).map((f) => <span key={f} className="maker-form" title={names[f] ?? f}><FormIcon form={f} className="h-7 w-7" /></span>)}</div>
               </div>
-              <p className="mt-3 text-[0.97rem]">{m.summary}</p>
+              <p className={`mt-3 inline-block self-start maker-badge ${m.origin === "partner" ? "is-verified" : ""}`}>{m.origin === "partner" ? D.agreement : D.publicBadge}</p>
+              {m.summary && <p className="mt-3 text-[0.97rem]">{m.summary}</p>}
+              {m.areas && m.areas.length > 0 && <p className="mt-2 text-sm text-muted">{m.areas.join(" · ")}</p>}
               <ul className="mt-3 flex flex-wrap gap-1.5">
                 {m.certifications.map((c) => <li key={c.name} className={`maker-badge ${c.verified ? "is-verified" : ""}`}>{c.name} · {c.verified ? D.verified : D.declared}</li>)}
                 {m.capacity && <li className="maker-badge is-verified">{D.capacity}</li>}
               </ul>
               {m.moq && <p className="mt-3 text-sm"><span className="text-muted">{D.moq}:</span> {m.moq}</p>}
+              {m.validUntil && <p className="mt-2 text-sm"><span className="text-muted">{D.validUntil}:</span> {m.validUntil}</p>}
+              {m.source && <p className="mt-2 text-xs text-muted">{D.source}: <a href={m.source.url} rel="noopener" target="_blank">{m.source.name}</a> ({m.source.retrieved})</p>}
               <a className="btn mt-4 !py-2 text-sm" href={`${quotePath}?form=${m.forms[0] ?? ""}`}>{D.request}</a>
             </li>
           ))}

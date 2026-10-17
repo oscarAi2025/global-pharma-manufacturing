@@ -134,10 +134,17 @@
   .dir-grid { @apply grid gap-4 md:grid-cols-2; }
   .maker { @apply flex flex-col border border-rule bg-sheet p-5 transition-shadow; border-top: 4px solid var(--teal); }
   .maker:hover { box-shadow: 0 18px 40px -30px rgba(19, 34, 43, .6); }
+  .maker.is-public { border-top-color: var(--rule); }
   .maker-code { @apply font-bold; font-stretch: 78%; font-size: 1.2rem; }
   .maker-country { @apply text-sm text-muted; }
   .maker-form { @apply flex h-10 w-10 items-center justify-center rounded-full border border-rule bg-sheet; }
   .maker-badge { @apply rounded-[3px] border border-rule bg-paper px-2 py-0.5 text-xs font-semibold; }
   .maker-badge.is-verified { @apply border-teal; background: var(--teal-soft); }
   @media (prefers-reduced-motion: reduce) { .tile:hover { transform: none; } }
+}
+
+@layer components {
+  .tile-dark { background: var(--deep) !important; color: var(--paper); }
+  .tile-dark .tile-name { color: var(--paper); }
+  @media (max-width: 1023px) { .tile-cta { grid-column: auto !important; } }
 }
