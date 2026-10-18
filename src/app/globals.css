@@ -26,7 +26,7 @@
   html { -webkit-text-size-adjust: 100%; }
   body { @apply bg-paper text-ink font-sans antialiased; font-size: 1.0625rem; line-height: 1.6; }
   h1, h2, h3 { font-stretch: 78%; letter-spacing: -0.01em; line-height: 1.08; }
-  h1 { font-weight: 760; font-size: clamp(2.35rem, 5.4vw, 4.4rem); }
+  h1 { font-weight: 760; font-size: clamp(2.1rem, 5.4vw, 4.4rem); }
   h2 { font-weight: 700; font-size: clamp(1.6rem, 3vw, 2.25rem); }
   h3 { font-weight: 680; font-size: 1.25rem; }
   a { @apply text-teal-deep underline decoration-1 underline-offset-[3px]; }
@@ -147,4 +147,26 @@
   .tile-dark { background: var(--deep) !important; color: var(--paper); }
   .tile-dark .tile-name { color: var(--paper); }
   @media (max-width: 1023px) { .tile-cta { grid-column: auto !important; } }
+}
+
+@layer components {
+  h1 { overflow-wrap: break-word; hyphens: auto; }
+  .menu { position: relative; }
+  .menu summary { @apply flex h-10 w-10 cursor-pointer list-none flex-col items-center justify-center gap-1 rounded-[3px] border border-rule bg-sheet; }
+  .menu summary::-webkit-details-marker { display: none; }
+  .menu summary span { @apply block h-0.5 w-5 bg-ink transition-transform; }
+  .menu[open] summary span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+  .menu[open] summary span:nth-child(2) { opacity: 0; }
+  .menu[open] summary span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+  .menu-panel { @apply absolute right-0 top-12 z-20 flex w-56 flex-col gap-3 border border-rule bg-sheet p-4 shadow-lg; animation: chip-in .15s ease-out; }
+  .menu-panel a { @apply text-ink; }
+  .dir-filters summary { @apply cursor-pointer list-none; }
+  .dir-filters summary::-webkit-details-marker { display: none; }
+  .dir-filters summary::after { content: "▾"; @apply ml-2 text-muted lg:hidden; }
+}
+
+@layer components {
+  .brand { font-stretch: 72%; font-weight: 780; font-size: 1.1rem; letter-spacing: -0.01em; line-height: 1.1; white-space: nowrap; }
+  @media (min-width: 768px) { .brand { font-size: 1.3rem; } }
+  @media (min-width: 768px) { .need-box textarea { min-height: 4.5rem; } }
 }

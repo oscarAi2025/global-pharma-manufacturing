@@ -10,16 +10,27 @@ export function Header({ locale, current }: { locale: Locale; current?: PageDoc 
   return (
     <header className="border-b border-rule bg-paper">
       <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-2 focus:bg-sheet focus:p-2">{L.skip}</a>
-      <div className="wrap flex flex-wrap items-center justify-between gap-x-6 gap-y-2 py-4">
-        <a href={href(locale, "home")} className="text-ink no-underline" style={{ fontStretch: "72%", fontWeight: 780, fontSize: "1.3rem", letterSpacing: "-0.01em" }}>
+      <div className="wrap flex items-center justify-between gap-4 py-3 md:py-4">
+        <a href={href(locale, "home")} className="brand text-ink no-underline">
           {site.name}
         </a>
-        <nav aria-label="Principal" className="flex flex-wrap items-center gap-x-5 gap-y-1 text-[0.98rem]">
+        <nav aria-label="Principal" className="hidden items-center gap-x-5 text-[0.98rem] md:flex">
           <a className="text-ink no-underline hover:underline" href={href(locale, "directory")}>{L.nav.makers}</a>
           <a className="text-ink no-underline hover:underline" href={href(locale, "how")}>{L.nav.how}</a>
           <a className="btn !px-4 !py-2" href={href(locale, "quote")}>{L.nav.quote}</a>
           <LangSwitch locale={locale} current={current} />
         </nav>
+        <div className="flex items-center gap-2 md:hidden">
+          <a className="btn whitespace-nowrap !px-3 !py-2 text-sm" href={href(locale, "quote")}>{L.nav.quoteShort}</a>
+          <details className="menu">
+            <summary aria-label="Menú"><span /><span /><span /></summary>
+            <div className="menu-panel">
+              <a href={href(locale, "directory")}>{L.nav.makers}</a>
+              <a href={href(locale, "how")}>{L.nav.how}</a>
+              <LangSwitch locale={locale} current={current} />
+            </div>
+          </details>
+        </div>
       </div>
     </header>
   );

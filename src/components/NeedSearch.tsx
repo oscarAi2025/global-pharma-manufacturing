@@ -45,7 +45,7 @@ export function NeedSearch({ locale, quotePath }: { locale: Locale; quotePath: s
     <form className="need" action={quotePath} method="get" onSubmit={(e) => { e.preventDefault(); location.href = href(); }} role="search">
       <label htmlFor="need-q" className="need-label">{S.label}</label>
       <div className="need-box">
-        <textarea id="need-q" name="q" rows={2} value={q} onChange={(e) => setQ(e.target.value)} placeholder={S.placeholder} maxLength={600}
+        <textarea id="need-q" name="q" rows={3} value={q} onChange={(e) => setQ(e.target.value)} placeholder={S.placeholder} maxLength={600}
           onKeyDown={(e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); (e.currentTarget.form as HTMLFormElement).requestSubmit(); } }} />
         <button type="submit" className="btn need-submit">{S.submit}</button>
       </div>

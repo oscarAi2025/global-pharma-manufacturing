@@ -11,9 +11,10 @@ export function Quote({ page }: { page: PageDoc }) {
       <div>
         <h1 className="max-w-[14ch]">{page.title}</h1>
         <p className="lead mt-6">{L.form.lead}</p>
-        <p className="mt-6 max-w-prose text-muted">{L.home.model}</p>
+        <p className="mt-6 hidden max-w-prose text-muted lg:block">{L.home.model}</p>
       </div>
       <QuoteForm locale={page.locale} thanksPath={thanks ? pathOf(thanks) : "/"} privacyPath={legal ? pathOf(legal) : "/"} />
+      <p className="max-w-prose text-muted lg:hidden">{L.home.model}</p>
     </div>
   );
 }

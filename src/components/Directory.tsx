@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Locale } from "@/config/site";
 import { t } from "@/content/ui";
 import type { PublicManufacturer } from "@/server/public";
@@ -19,6 +19,7 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
   const [partners, setPartners] = useState(false);
   const [scope, setScope] = useState("");
   const [limit, setLimit] = useState(24);
+  useEffect(() => { if (window.matchMedia("(max-width: 1023px)").matches) document.querySelectorAll<HTMLDetailsElement>("details.dir-filters").forEach((d) => (d.open = false)); }, []);
   const countries = [...new Set(items.map((i) => i.country))].sort();
   const shown = useMemo(() => items.filter((m) =>
     (!form || m.forms.includes(form)) && (!partners || m.origin === "partner") && (!scope || m.scope === scope || m.scope === "both") && (!country || m.country === country) && (!capacity || m.capacity) &&
@@ -37,8 +38,8 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
   return (
     <div className={compact ? "" : "grid gap-8 lg:grid-cols-[260px_1fr]"}>
       {!compact && (
-        <aside className="dir-filters" aria-label={D.filters}>
-          <p className="font-semibold">{D.filters}</p>
+        <details className="dir-filters" open aria-label={D.filters}>
+          <summary className="font-semibold">{D.filters}</summary>
           <label className="mt-4 block text-sm"><span className="text-muted">{D.search}</span><input value={q} onChange={(e) => setQ(e.target.value)} className="dir-input" /></label>
           <fieldset className="mt-4"><legend className="text-sm text-muted">{D.form}</legend>
             <div className="mt-2 flex flex-wrap gap-2">
@@ -52,7 +53,7 @@ export function Directory({ locale, items, quotePath, initialForm, compact = fal
           <label className="mt-4 flex items-center gap-2 text-sm"><input type="checkbox" checked={verified} onChange={(e) => setVerified(e.target.checked)} className="accent-teal" />{D.verifiedOnly}</label>
           <label className="mt-2 flex items-center gap-2 text-sm"><input type="checkbox" checked={partners} onChange={(e) => setPartners(e.target.checked)} className="accent-teal" />{D.onlyPartners}</label>
           <label className="mt-2 flex items-center gap-2 text-sm"><input type="checkbox" checked={capacity} onChange={(e) => setCapacity(e.target.checked)} className="accent-teal" />{D.capacityOnly}</label>
-        </aside>
+        </details>
       )}
       <div>
         {!compact && <p className="text-sm font-semibold text-muted" aria-live="polite">{D.results(shown.length)}</p>}

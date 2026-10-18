@@ -3,7 +3,7 @@ import type { Locale } from "@/config/site";
 /** Textos de interfaz por idioma. Sin cifras, clientes, años ni certificaciones inventadas. */
 export const ui = {
   es: {
-    nav: { how: "Cómo funciona", markets: "Países", quote: "Pedir presupuesto", makers: "Fabricantes" },
+    nav: { how: "Cómo funciona", markets: "Países", quote: "Pedir presupuesto", quoteShort: "Presupuesto", makers: "Fabricantes" },
     skip: "Saltar al contenido",
     search: {
       label: "Describe lo que quieres fabricar",
@@ -79,7 +79,7 @@ export const ui = {
     country: { regulator: "Autoridad", sources: "Normativa citada", reviewed: "Revisado el", cta: "Pide presupuesto para este país", faqs: "Preguntas frecuentes" },
   },
   pt: {
-    nav: { how: "Como funciona", markets: "Países", quote: "Pedir orçamento", makers: "Fabricantes" },
+    nav: { how: "Como funciona", markets: "Países", quote: "Pedir orçamento", quoteShort: "Orçamento", makers: "Fabricantes" },
     skip: "Pular para o conteúdo",
     search: {
       label: "Descreva o que você quer fabricar",
@@ -155,7 +155,7 @@ export const ui = {
     country: { regulator: "Autoridade", sources: "Normas citadas", reviewed: "Revisado em", cta: "Peça orçamento para este país", faqs: "Perguntas frequentes" },
   },
   en: {
-    nav: { how: "How it works", markets: "Markets", quote: "Get quotes", makers: "Manufacturers" },
+    nav: { how: "How it works", markets: "Markets", quote: "Get quotes", quoteShort: "Get quotes", makers: "Manufacturers" },
     skip: "Skip to content",
     search: {
       label: "Describe what you need to manufacture",

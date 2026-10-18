@@ -30,7 +30,7 @@ export function Home({ locale }: { locale: Locale }) {
             <p className="lead mt-6">{L.home.lead}</p>
             <p className="mt-5 font-semibold text-teal-deep">{L.home.free}</p>
           </div>
-          <div className="hero-plate">
+          <div className="hero-plate hidden md:block">
             <SpecPlate labels={BASIC.map((_, i) => L.home.forms[i])} />
           </div>
         </div>
