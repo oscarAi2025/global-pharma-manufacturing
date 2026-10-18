@@ -1,0 +1,169 @@
+{
+ "source": {
+  "name": "RGSEAA (AESAN) + web del fabricante",
+  "url": "https://www.aesan.gob.es/registro-sanitario/empresas-alimentarias",
+  "retrieved": "2026-10-18",
+  "publisherDate": "2026-09-01"
+ },
+ "items": [
+  {
+   "country": "Spain",
+   "city": "Cajíz (Pol. Ind. Los Puertas)",
+   "region": "Málaga",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "tablets",
+    "softgels",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Castellón de la Plana",
+   "region": "Castellón",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "gummies"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Granada (Parque Tecnológico de la Salud)",
+   "region": "Granada",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "gummies"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Alcoy",
+   "region": "Alicante",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Leganés",
+   "region": "Madrid",
+   "scope": "supplements",
+   "forms": [
+    "liquids"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Colmenar Viejo",
+   "region": "Madrid",
+   "scope": "supplements",
+   "forms": [
+    "softgels",
+    "capsules",
+    "tablets",
+    "powders",
+    "liquids",
+    "topicals"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Cartagena",
+   "region": "Murcia",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "softgels",
+    "tablets",
+    "liquids",
+    "powders"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Alhaurín de la Torre",
+   "region": "Málaga",
+   "scope": "supplements",
+   "forms": [
+    "capsules"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Sant Just Desvern (C/ Narcís Monturiol 37, 08960)",
+   "region": "Barcelona",
+   "scope": "supplements",
+   "forms": [
+    "tablets",
+    "capsules",
+    "powders",
+    "liquids"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  },
+  {
+   "country": "Spain",
+   "city": "Consuegra",
+   "region": "Toledo",
+   "scope": "supplements",
+   "forms": [
+    "capsules",
+    "powders",
+    "tablets",
+    "liquids"
+   ],
+   "areas": [
+    "Fabricación a terceros (según su web)"
+   ],
+   "certificate": "RGSEAA (AESAN) · clave 26"
+  }
+ ]
+}

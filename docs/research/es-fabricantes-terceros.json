@@ -1,0 +1,243 @@
+[
+ {
+  "razon_social": "COREXNAT, S.L.",
+  "marca": "Corexnat",
+  "web": "https://corexnat.com/",
+  "evidence_url": "https://corexnat.com/fabricacion-a-terceros/",
+  "evidence_quote": "nos encargamos de la fabricación a terceros de Complementos alimenticios",
+  "provincia": "Málaga",
+  "localidad": "Cajíz (Pol. Ind. Los Puertas)",
+  "rgseaa": null,
+  "formas": [
+   "capsules",
+   "tablets",
+   "softgels",
+   "powders",
+   "liquids"
+  ],
+  "certificaciones": [
+   "IFS Progress Food",
+   "GMP"
+  ],
+  "moq_text": null,
+  "rgseaa_match": [
+   "26.12048/MA"
+  ],
+  "rgseaa_provincia": "Málaga"
+ },
+ {
+  "razon_social": "Koelan Labs SLU",
+  "marca": "Koelan Labs",
+  "web": "https://koelanlabs.com/",
+  "evidence_url": "https://koelanlabs.com/fabricacion-a-terceros-complementos-alimenticios/",
+  "evidence_quote": "Koelan Labs SLU está especializada en la fabricación a terceros de complementos alimenticios",
+  "provincia": "Castellón",
+  "localidad": "Castellón de la Plana",
+  "rgseaa": null,
+  "formas": [
+   "capsules",
+   "tablets",
+   "powders",
+   "liquids",
+   "gummies"
+  ],
+  "certificaciones": [],
+  "moq_text": "Fabricamos desde 300 unidades",
+  "rgseaa_match": [
+   "26.023195/CS"
+  ],
+  "rgseaa_provincia": "Castellón"
+ },
+ {
+  "razon_social": "IF3LAB S.L.",
+  "marca": "Barosa Labs",
+  "web": "https://barosalabs.com/",
+  "evidence_url": "https://barosalabs.com/",
+  "evidence_quote": "En nuestro laboratorio desarrollamos y fabricamos suplementos a medida para terceros",
+  "provincia": "Granada",
+  "localidad": "Granada (Parque Tecnológico de la Salud)",
+  "rgseaa": null,
+  "formas": [
+   "capsules",
+   "tablets",
+   "powders",
+   "liquids",
+   "gummies"
+  ],
+  "certificaciones": [
+   "GMP (SGS)"
+  ],
+  "moq_text": "suele estar en un rango de algunos cientos a unos pocos miles de unidades por referencia",
+  "rgseaa_match": [
+   "26.020030/GR"
+  ],
+  "rgseaa_provincia": "Granada"
+ },
+ {
+  "razon_social": "KOROTT S.L.U.",
+  "marca": "Korott",
+  "web": "https://www.korott.com/",
+  "evidence_url": "https://www.korott.com/",
+  "evidence_quote": "Expertos en formulación y fabricación de complementos alimenticios y nutracéuticos para terceros",
+  "provincia": "Alicante",
+  "localidad": "Alcoy",
+  "rgseaa": null,
+  "formas": [
+   "capsules",
+   "powders",
+   "liquids"
+  ],
+  "certificaciones": [],
+  "moq_text": null,
+  "rgseaa_match": [
+   "26.03099/A",
+   "26.018195/A"
+  ],
+  "rgseaa_provincia": "Alicante"
+ },
+ {
+  "razon_social": "LABORATORIOS YNSADIET S.A.",
+  "marca": "Ynsadiet",
+  "web": "https://www.ynsadiet.com/",
+  "evidence_url": "https://www.ynsadiet.com/blog/2017/07/fabricacion-de-calidad-tambien-para-terceros/",
+  "evidence_quote": "para otras empresas que confían en nosotros para la fabricación bajo su propia marca",
+  "provincia": "Madrid",
+  "localidad": "Leganés",
+  "rgseaa": null,
+  "formas": [
+   "liquids"
+  ],
+  "certificaciones": [
+   "GMP (NQA)",
+   "IFS Food",
+   "FSSC 22000"
+  ],
+  "moq_text": null,
+  "rgseaa_match": [
+   "26.00553/M"
+  ],
+  "rgseaa_provincia": "Madrid"
+ },
+ {
+  "razon_social": "Triconatura SL",
+  "marca": "Triconatura",
+  "web": "https://triconatura.es/",
+  "evidence_url": "https://triconatura.es/",
+  "evidence_quote": "Fabricación de cosmética y complementos alimenticios a terceros.",
+  "provincia": null,
+  "localidad": "Colmenar Viejo",
+  "rgseaa": null,
+  "formas": [
+   "softgels",
+   "capsules",
+   "tablets",
+   "powders",
+   "liquids",
+   "topicals"
+  ],
+  "certificaciones": [],
+  "moq_text": null,
+  "rgseaa_match": [
+   "26.07089/M"
+  ],
+  "rgseaa_provincia": "Madrid"
+ },
+ {
+  "razon_social": "MARTÍNEZ NIETO, S.A.",
+  "marca": "Marnys / Martínez Nieto",
+  "web": "https://www.martineznieto.com/",
+  "evidence_url": "https://www.martineznieto.com/",
+  "evidence_quote": "Launch your own brand with formulas already developed and proven by Martínez Nieto since 1968.",
+  "provincia": null,
+  "localidad": "Cartagena",
+  "rgseaa": null,
+  "formas": [
+   "capsules",
+   "softgels",
+   "tablets",
+   "liquids",
+   "powders"
+  ],
+  "certificaciones": [
+   "ISO 9001:2015",
+   "ISO 14001:2015",
+   "IFS Food",
+   "Halal",
+   "GMP"
+  ],
+  "moq_text": "Reasonable minimum order quantities.",
+  "rgseaa_match": [
+   "26.00861/MU"
+  ],
+  "rgseaa_provincia": "Murcia"
+ },
+ {
+  "razon_social": "Mondial Pack Europe S.L.",
+  "marca": "Mondial Pack",
+  "web": "https://mondialpack.es/",
+  "evidence_url": "https://mondialpack.es/",
+  "evidence_quote": "Mondial Pack es una fábrica de encapsulado a terceros en Alhaurín de la Torre, Málaga.",
+  "provincia": "Málaga",
+  "localidad": "Alhaurín de la Torre",
+  "rgseaa": null,
+  "formas": [
+   "capsules"
+  ],
+  "certificaciones": [],
+  "moq_text": "el mínimo se fija por proyecto y se confirma en el presupuesto (sin cifra publicada)",
+  "rgseaa_match": [
+   "26.025711/MA"
+  ],
+  "rgseaa_provincia": "Málaga"
+ },
+ {
+  "razon_social": "Masenz Danya Group SL",
+  "marca": "Masenz Group",
+  "web": "https://www.masenz.com/",
+  "evidence_url": "https://www.masenz.com/",
+  "evidence_quote": "Branding and production of food supplements for third parties",
+  "provincia": "Barcelona",
+  "localidad": "Sant Just Desvern (C/ Narcís Monturiol 37, 08960)",
+  "rgseaa": null,
+  "formas": [
+   "tablets",
+   "capsules",
+   "powders",
+   "liquids"
+  ],
+  "certificaciones": [
+   "GMP",
+   "ISO2000 (sic, as written on site)"
+  ],
+  "moq_text": null,
+  "rgseaa_match": [
+   "26.018334/B",
+   "26.014258/A"
+  ],
+  "rgseaa_provincia": "Barcelona"
+ },
+ {
+  "razon_social": "Natucap S.A.",
+  "marca": "Natucap",
+  "web": "https://www.natucapsa.com/",
+  "evidence_url": "https://www.natucapsa.com/en",
+  "evidence_quote": "a manufacturer specialized in the production of natural food supplements for third parties.",
+  "provincia": "Toledo",
+  "localidad": "Consuegra",
+  "rgseaa": null,
+  "formas": [
+   "capsules",
+   "powders",
+   "tablets",
+   "liquids"
+  ],
+  "certificaciones": [
+   "GMP"
+  ],
+  "moq_text": "we can manufacture from 300 to 1,000 units per SKU",
+  "rgseaa_match": [
+   "26.020912/TO"
+  ],
+  "rgseaa_provincia": "Toledo"
+ }
+]

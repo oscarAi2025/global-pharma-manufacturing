@@ -17,6 +17,7 @@ export const sourceFileSchema = z.object({
 export type SourceFile = z.infer<typeof sourceFileSchema>;
 
 import coInvima from "./co-invima.json";
+import esRgseaa from "./es-rgseaa.json";
 
-const files: unknown[] = [coInvima];
+const files: unknown[] = [esRgseaa, coInvima];
 export const publicSources: SourceFile[] = files.map((f) => sourceFileSchema.parse(f));
